@@ -1,0 +1,6 @@
+<fonts>
+    <font id="Text" filename="Roboto_Text.fnt" antialias="true" />
+    <font id="Clock" filename="Roboto_Clock.fnt" antialias="true" />
+    <font id="Date" filename="Roboto_Date.fnt" antialias="true" />
+    <font id="Icons" filename="Icons.fnt" antialias="true" />
+</fonts>

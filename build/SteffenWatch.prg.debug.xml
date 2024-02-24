@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="1" lineNum="7" parent="globals/Rez" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="2" lineNum="5" parent="globals/WFApp" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="3" lineNum="20" parent="globals/WFApp" pc="268435500" symbol="onStart"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="3" lineNum="22" parent="globals/WFApp" pc="268435502" symbol="onStart"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="3" lineNum="23" parent="globals/WFApp" pc="268435530" symbol="onStart"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="4" lineNum="27" parent="globals/WFApp" pc="268435559" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="4" lineNum="29" parent="globals/WFApp" pc="268435561" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="4" lineNum="30" parent="globals/WFApp" pc="268435589" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="4" lineNum="31" parent="globals/WFApp" pc="268435617" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="5" lineNum="14" parent="globals/WFApp" pc="268435636" symbol="getInitialView"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="5" lineNum="16" parent="globals/WFApp" pc="268435638" symbol="getInitialView"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="5" lineNum="17" parent="globals/WFApp" pc="268435672" symbol="getInitialView"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="6" lineNum="9" parent="globals/WFApp" pc="268435695" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" id="6" lineNum="11" parent="globals/WFApp" pc="268435697" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="7" lineNum="7" parent="globals/WFView" pc="268435716" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="8" lineNum="26" parent="globals/WFView" pc="268435735" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="8" lineNum="28" parent="globals/WFView" pc="268435739" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="8" lineNum="29" parent="globals/WFView" pc="268435864" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="8" lineNum="31" parent="globals/WFView" pc="268435888" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="8" lineNum="32" parent="globals/WFView" pc="268435916" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="8" lineNum="34" parent="globals/WFView" pc="268435923" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="9" lineNum="15" parent="globals/WFView" pc="268435949" symbol="onLayout"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="9" lineNum="17" parent="globals/WFView" pc="268435951" symbol="onLayout"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="10" lineNum="9" parent="globals/WFView" pc="268435993" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="10" lineNum="11" parent="globals/WFView" pc="268435995" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="11" lineNum="21" parent="globals/WFView" pc="268436014" symbol="onUpdate"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFView.mc" id="11" lineNum="23" parent="globals/WFView" pc="268436016" symbol="onUpdate"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" id="12" lineNum="7" parent="globals/WFBackground" pc="268436041" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" id="14" lineNum="11" parent="globals/WFBackground" pc="268436060" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" id="14" lineNum="12" parent="globals/WFBackground" pc="268436062" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" id="14" lineNum="13" parent="globals/WFBackground" pc="268436082" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" id="15" lineNum="16" parent="globals/WFBackground" pc="268436095" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" id="15" lineNum="18" parent="globals/WFBackground" pc="268436097" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" id="15" lineNum="19" parent="globals/WFBackground" pc="268436111" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" id="15" lineNum="20" parent="globals/WFBackground" pc="268436146" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="9" parent="globals/DrawableContainers/WidgetFactory" pc="268436159" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="11" parent="globals/DrawableContainers/WidgetFactory" pc="268436161" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="13" parent="globals/DrawableContainers/WidgetFactory" pc="268436163" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="15" parent="globals/DrawableContainers/WidgetFactory" pc="268436183" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="17" parent="globals/DrawableContainers/WidgetFactory" pc="268436203" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="18" parent="globals/DrawableContainers/WidgetFactory" pc="268436223" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="19" parent="globals/DrawableContainers/WidgetFactory" pc="268436243" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="20" parent="globals/DrawableContainers/WidgetFactory" pc="268436263" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="22" parent="globals/DrawableContainers/WidgetFactory" pc="268436283" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="24" parent="globals/DrawableContainers/WidgetFactory" pc="268436303" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="26" parent="globals/DrawableContainers/WidgetFactory" pc="268436323" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="14" parent="globals/DrawableContainers/WidgetFactory" pc="268436346" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="16" parent="globals/DrawableContainers/WidgetFactory" pc="268436375" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="21" parent="globals/DrawableContainers/WidgetFactory" pc="268436404" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="23" parent="globals/DrawableContainers/WidgetFactory" pc="268436433" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="25" parent="globals/DrawableContainers/WidgetFactory" pc="268436462" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="27" parent="globals/DrawableContainers/WidgetFactory" pc="268436491" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetFactory.mc" id="16" lineNum="30" parent="globals/DrawableContainers/WidgetFactory" pc="268436521" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="18" lineNum="8" parent="globals/DrawableContainers/WidgetContainer" pc="268436523" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="19" lineNum="26" parent="globals/DrawableContainers/WidgetContainer" pc="268436542" symbol="Init"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="19" lineNum="28" parent="globals/DrawableContainers/WidgetContainer" pc="268436546" symbol="Init"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="19" lineNum="29" parent="globals/DrawableContainers/WidgetContainer" pc="268436555" symbol="Init"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="19" lineNum="36" parent="globals/DrawableContainers/WidgetContainer" pc="268436627" symbol="Init"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="19" lineNum="37" parent="globals/DrawableContainers/WidgetContainer" pc="268436666" symbol="Init"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="19" lineNum="39" parent="globals/DrawableContainers/WidgetContainer" pc="268436679" symbol="Init"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="19" lineNum="43" parent="globals/DrawableContainers/WidgetContainer" pc="268436692" symbol="Init"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="20" lineNum="12" parent="globals/DrawableContainers/WidgetContainer" pc="268436703" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="20" lineNum="14" parent="globals/DrawableContainers/WidgetContainer" pc="268436705" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="20" lineNum="15" parent="globals/DrawableContainers/WidgetContainer" pc="268436725" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="21" lineNum="18" parent="globals/DrawableContainers/WidgetContainer" pc="268436738" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="21" lineNum="20" parent="globals/DrawableContainers/WidgetContainer" pc="268436740" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" id="21" lineNum="22" parent="globals/DrawableContainers/WidgetContainer" pc="268436753" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="60" parent="globals/Helper/ExtText" pc="268436774" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="62" parent="globals/Helper/ExtText" pc="268436778" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="63" parent="globals/Helper/ExtText" pc="268436785" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="64" parent="globals/Helper/ExtText" pc="268436792" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="66" parent="globals/Helper/ExtText" pc="268436816" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="68" parent="globals/Helper/ExtText" pc="268436832" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="70" parent="globals/Helper/ExtText" pc="268436835" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="71" parent="globals/Helper/ExtText" pc="268436879" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="72" parent="globals/Helper/ExtText" pc="268436907" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="73" parent="globals/Helper/ExtText" pc="268436914" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="75" parent="globals/Helper/ExtText" pc="268436922" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="22" lineNum="79" parent="globals/Helper/ExtText" pc="268436939" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="23" lineNum="14" parent="globals/Helper/ExtText" pc="268436966" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="23" lineNum="16" parent="globals/Helper/ExtText" pc="268436968" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="23" lineNum="17" parent="globals/Helper/ExtText" pc="268436978" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="23" lineNum="18" parent="globals/Helper/ExtText" pc="268436988" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="21" parent="globals/Helper/ExtText" pc="268436999" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="23" parent="globals/Helper/ExtText" pc="268437003" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="25" parent="globals/Helper/ExtText" pc="268437023" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="28" parent="globals/Helper/ExtText" pc="268437024" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="29" parent="globals/Helper/ExtText" pc="268437041" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="31" parent="globals/Helper/ExtText" pc="268437078" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="34" parent="globals/Helper/ExtText" pc="268437079" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="35" parent="globals/Helper/ExtText" pc="268437089" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="37" parent="globals/Helper/ExtText" pc="268437106" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="39" parent="globals/Helper/ExtText" pc="268437128" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="41" parent="globals/Helper/ExtText" pc="268437145" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="44" parent="globals/Helper/ExtText" pc="268437158" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="46" parent="globals/Helper/ExtText" pc="268437182" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="47" parent="globals/Helper/ExtText" pc="268437189" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="49" parent="globals/Helper/ExtText" pc="268437202" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="51" parent="globals/Helper/ExtText" pc="268437205" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="52" parent="globals/Helper/ExtText" pc="268437239" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="53" parent="globals/Helper/ExtText" pc="268437264" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="54" parent="globals/Helper/ExtText" pc="268437310" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="24" lineNum="57" parent="globals/Helper/ExtText" pc="268437364" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="25" lineNum="89" parent="globals/Helper/ExtTextPart" pc="268437373" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="25" lineNum="91" parent="globals/Helper/ExtTextPart" pc="268437375" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="25" lineNum="92" parent="globals/Helper/ExtTextPart" pc="268437385" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/ExtText.mc" id="25" lineNum="93" parent="globals/Helper/ExtTextPart" pc="268437395" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/String.mc" id="26" lineNum="7" parent="globals/Helper/String" pc="268437406" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/String.mc" id="26" lineNum="9" parent="globals/Helper/String" pc="268437410" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/String.mc" id="26" lineNum="10" parent="globals/Helper/String" pc="268437414" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/String.mc" id="26" lineNum="12" parent="globals/Helper/String" pc="268437414" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/String.mc" id="26" lineNum="13" parent="globals/Helper/String" pc="268437429" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/String.mc" id="26" lineNum="15" parent="globals/Helper/String" pc="268437436" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/String.mc" id="26" lineNum="16" parent="globals/Helper/String" pc="268437452" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/String.mc" id="26" lineNum="20" parent="globals/Helper/String" pc="268437503" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/String.mc" id="26" lineNum="24" parent="globals/Helper/String" pc="268437509" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="28" lineNum="7" parent="globals/Widgets/Steps" pc="268437515" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="29" lineNum="9" parent="globals/Widgets/Steps" pc="268437534" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="29" lineNum="11" parent="globals/Widgets/Steps" pc="268437536" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="14" parent="globals/Widgets/Steps" pc="268437557" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="16" parent="globals/Widgets/Steps" pc="268437561" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="18" parent="globals/Widgets/Steps" pc="268437584" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="21" parent="globals/Widgets/Steps" pc="268437585" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="23" parent="globals/Widgets/Steps" pc="268437608" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="24" parent="globals/Widgets/Steps" pc="268437643" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="27" parent="globals/Widgets/Steps" pc="268437699" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="28" parent="globals/Widgets/Steps" pc="268437716" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="29" parent="globals/Widgets/Steps" pc="268437735" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="31" parent="globals/Widgets/Steps" pc="268437752" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="34" parent="globals/Widgets/Steps" pc="268437788" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Steps.mc" id="30" lineNum="35" parent="globals/Widgets/Steps" pc="268437823" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Rect.mc" id="31" lineNum="7" parent="globals/Widgets/Rect" pc="268437889" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Rect.mc" id="32" lineNum="12" parent="globals/Widgets/Rect" pc="268437908" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Rect.mc" id="32" lineNum="14" parent="globals/Widgets/Rect" pc="268437910" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Rect.mc" id="32" lineNum="15" parent="globals/Widgets/Rect" pc="268437930" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Rect.mc" id="32" lineNum="16" parent="globals/Widgets/Rect" pc="268437954" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Rect.mc" id="33" lineNum="19" parent="globals/Widgets/Rect" pc="268437979" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Rect.mc" id="33" lineNum="21" parent="globals/Widgets/Rect" pc="268437981" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Rect.mc" id="33" lineNum="22" parent="globals/Widgets/Rect" pc="268438029" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="34" lineNum="7" parent="globals/Widgets/Heartrate" pc="268438074" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="35" lineNum="9" parent="globals/Widgets/Heartrate" pc="268438093" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="35" lineNum="11" parent="globals/Widgets/Heartrate" pc="268438095" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="14" parent="globals/Widgets/Heartrate" pc="268438116" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="16" parent="globals/Widgets/Heartrate" pc="268438120" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="18" parent="globals/Widgets/Heartrate" pc="268438143" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="21" parent="globals/Widgets/Heartrate" pc="268438144" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="23" parent="globals/Widgets/Heartrate" pc="268438167" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="24" parent="globals/Widgets/Heartrate" pc="268438202" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="27" parent="globals/Widgets/Heartrate" pc="268438258" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="28" parent="globals/Widgets/Heartrate" pc="268438265" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="29" parent="globals/Widgets/Heartrate" pc="268438282" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="31" parent="globals/Widgets/Heartrate" pc="268438305" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="34" parent="globals/Widgets/Heartrate" pc="268438315" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="35" parent="globals/Widgets/Heartrate" pc="268438322" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="37" parent="globals/Widgets/Heartrate" pc="268438333" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="40" parent="globals/Widgets/Heartrate" pc="268438346" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Heartrate.mc" id="36" lineNum="41" parent="globals/Widgets/Heartrate" pc="268438381" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="37" lineNum="7" parent="globals/Widgets/Battery" pc="268438447" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="38" lineNum="9" parent="globals/Widgets/Battery" pc="268438466" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="38" lineNum="11" parent="globals/Widgets/Battery" pc="268438468" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="14" parent="globals/Widgets/Battery" pc="268438489" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="16" parent="globals/Widgets/Battery" pc="268438493" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="18" parent="globals/Widgets/Battery" pc="268438516" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="21" parent="globals/Widgets/Battery" pc="268438517" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="22" parent="globals/Widgets/Battery" pc="268438542" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="24" parent="globals/Widgets/Battery" pc="268438565" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="25" parent="globals/Widgets/Battery" pc="268438600" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="27" parent="globals/Widgets/Battery" pc="268438668" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="28" parent="globals/Widgets/Battery" pc="268438675" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="29" parent="globals/Widgets/Battery" pc="268438682" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="30" parent="globals/Widgets/Battery" pc="268438701" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="32" parent="globals/Widgets/Battery" pc="268438717" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="34" parent="globals/Widgets/Battery" pc="268438733" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="36" parent="globals/Widgets/Battery" pc="268438741" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="37" parent="globals/Widgets/Battery" pc="268438748" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="39" parent="globals/Widgets/Battery" pc="268438759" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="41" parent="globals/Widgets/Battery" pc="268438766" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="42" parent="globals/Widgets/Battery" pc="268438786" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="45" parent="globals/Widgets/Battery" pc="268438802" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="48" parent="globals/Widgets/Battery" pc="268438824" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" id="39" lineNum="49" parent="globals/Widgets/Battery" pc="268438859" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="40" lineNum="8" parent="globals/Widgets/Clock" pc="268438933" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="41" lineNum="13" parent="globals/Widgets/Clock" pc="268438952" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="41" lineNum="15" parent="globals/Widgets/Clock" pc="268438954" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="41" lineNum="16" parent="globals/Widgets/Clock" pc="268438974" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="19" parent="globals/Widgets/Clock" pc="268439070" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="21" parent="globals/Widgets/Clock" pc="268439074" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="23" parent="globals/Widgets/Clock" pc="268439097" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="24" parent="globals/Widgets/Clock" pc="268439111" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="26" parent="globals/Widgets/Clock" pc="268439115" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="28" parent="globals/Widgets/Clock" pc="268439128" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="29" parent="globals/Widgets/Clock" pc="268439142" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="30" parent="globals/Widgets/Clock" pc="268439227" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="31" parent="globals/Widgets/Clock" pc="268439312" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="34" parent="globals/Widgets/Clock" pc="268439397" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="35" parent="globals/Widgets/Clock" pc="268439416" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="36" parent="globals/Widgets/Clock" pc="268439426" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="37" parent="globals/Widgets/Clock" pc="268439450" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="39" parent="globals/Widgets/Clock" pc="268439468" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="41" parent="globals/Widgets/Clock" pc="268439497" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="43" parent="globals/Widgets/Clock" pc="268439508" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="45" parent="globals/Widgets/Clock" pc="268439518" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="47" parent="globals/Widgets/Clock" pc="268439529" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="49" parent="globals/Widgets/Clock" pc="268439545" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="51" parent="globals/Widgets/Clock" pc="268439556" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="55" parent="globals/Widgets/Clock" pc="268439566" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="56" parent="globals/Widgets/Clock" pc="268439585" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="59" parent="globals/Widgets/Clock" pc="268439595" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="61" parent="globals/Widgets/Clock" pc="268439620" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="64" parent="globals/Widgets/Clock" pc="268439630" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="65" parent="globals/Widgets/Clock" pc="268439661" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Clock.mc" id="42" lineNum="66" parent="globals/Widgets/Clock" pc="268439692" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/WidgetBase.mc" id="43" lineNum="11" parent="globals/Widgets/WidgetBase" pc="268439721" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/WidgetBase.mc" id="43" lineNum="13" parent="globals/Widgets/WidgetBase" pc="268439723" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/WidgetBase.mc" id="43" lineNum="14" parent="globals/Widgets/WidgetBase" pc="268439747" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/WidgetBase.mc" id="43" lineNum="16" parent="globals/Widgets/WidgetBase" pc="268439760" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/WidgetBase.mc" id="43" lineNum="18" parent="globals/Widgets/WidgetBase" pc="268439773" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/WidgetBase.mc" id="43" lineNum="19" parent="globals/Widgets/WidgetBase" pc="268439797" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/WidgetBase.mc" id="43" lineNum="21" parent="globals/Widgets/WidgetBase" pc="268439810" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="44" lineNum="8" parent="globals/Widgets/Date" pc="268439824" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="45" lineNum="10" parent="globals/Widgets/Date" pc="268439843" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="45" lineNum="12" parent="globals/Widgets/Date" pc="268439845" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="15" parent="globals/Widgets/Date" pc="268439866" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="17" parent="globals/Widgets/Date" pc="268439870" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="19" parent="globals/Widgets/Date" pc="268439893" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="22" parent="globals/Widgets/Date" pc="268439894" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="23" parent="globals/Widgets/Date" pc="268439933" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="24" parent="globals/Widgets/Date" pc="268439957" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="25" parent="globals/Widgets/Date" pc="268439981" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="27" parent="globals/Widgets/Date" pc="268440000" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="29" parent="globals/Widgets/Date" pc="268440022" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" id="46" lineNum="30" parent="globals/Widgets/Date" pc="268440057" symbol="draw"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="47" lineNum="18" parent="globals/Helper/Gfx/Theme" pc="268440111" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="47" lineNum="20" parent="globals/Helper/Gfx/Theme" pc="268440113" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="47" lineNum="21" parent="globals/Helper/Gfx/Theme" pc="268440145" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="47" lineNum="22" parent="globals/Helper/Gfx/Theme" pc="268440177" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="47" lineNum="23" parent="globals/Helper/Gfx/Theme" pc="268440209" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="47" lineNum="24" parent="globals/Helper/Gfx/Theme" pc="268440241" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="47" lineNum="25" parent="globals/Helper/Gfx/Theme" pc="268440273" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="47" lineNum="26" parent="globals/Helper/Gfx/Theme" pc="268440305" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="48" lineNum="29" parent="globals/Helper/Gfx/Theme" pc="268440338" symbol="&lt;globals/Helper/Gfx/Theme/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="48" lineNum="32" parent="globals/Helper/Gfx/Theme" pc="268440342" symbol="&lt;globals/Helper/Gfx/Theme/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="48" lineNum="33" parent="globals/Helper/Gfx/Theme" pc="268440367" symbol="&lt;globals/Helper/Gfx/Theme/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="48" lineNum="35" parent="globals/Helper/Gfx/Theme" pc="268440416" symbol="&lt;globals/Helper/Gfx/Theme/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="48" lineNum="37" parent="globals/Helper/Gfx/Theme" pc="268440423" symbol="&lt;globals/Helper/Gfx/Theme/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Theme.mc" id="48" lineNum="40" parent="globals/Helper/Gfx/Theme" pc="268440427" symbol="&lt;globals/Helper/Gfx/Theme/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Fonts.mc" id="50" lineNum="14" parent="globals/Helper/Gfx/Fonts" pc="268440430" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Fonts.mc" id="50" lineNum="16" parent="globals/Helper/Gfx/Fonts" pc="268440432" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Fonts.mc" id="50" lineNum="17" parent="globals/Helper/Gfx/Fonts" pc="268440479" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Fonts.mc" id="50" lineNum="18" parent="globals/Helper/Gfx/Fonts" pc="268440526" symbol="Load"/>
+        <entry filename="/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Helper/Gfx/Fonts.mc" id="50" lineNum="19" parent="globals/Helper/Gfx/Fonts" pc="268440573" symbol="Load"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="23" parent="globals/Rez/Layouts" pc="268440621" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="24" parent="globals/Rez/Layouts" pc="268440633" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="26" parent="globals/Rez/Layouts" pc="268440680" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="28" parent="globals/Rez/Layouts" pc="268440753" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="30" parent="globals/Rez/Layouts" pc="268440852" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="32" parent="globals/Rez/Layouts" pc="268440925" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="34" parent="globals/Rez/Layouts" pc="268441024" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="36" parent="globals/Rez/Layouts" pc="268441097" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="38" parent="globals/Rez/Layouts" pc="268441196" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="40" parent="globals/Rez/Layouts" pc="268441269" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="42" parent="globals/Rez/Layouts" pc="268441368" symbol="WatchFace"/>
+        <entry filename="/home/roman/MyStuff/Coding/Github/SteffenWatch/build/gen/006-B3600-00/source/Rez.mcgen" id="52" lineNum="44" parent="globals/Rez/Layouts" pc="268441441" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="68" symbol="ColorClockMinutes"/>
+        <entry field="true" id="54" symbol="&lt;globals/Widgets/Clock/&lt;&gt;_texts&gt;"/>
+        <entry id="23" module="true" symbol="Widgets"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="33" object="true" symbol="Rect"/>
+        <entry field="true" id="64" symbol="ColorText"/>
+        <entry field="true" id="38" symbol="WatchfaceView"/>
+        <entry id="35" object="true" symbol="WidgetBase"/>
+        <entry id="32" object="true" symbol="Heartrate"/>
+        <entry id="26" object="true" symbol="ExtText"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="15" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="34" object="true" symbol="Steps"/>
+        <entry id="24" object="true" symbol="WidgetContainer"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="65" symbol="ColorBackground"/>
+        <entry id="18" module="true" symbol="DrawableContainers"/>
+        <entry field="true" id="63" symbol="ColorMinutes"/>
+        <entry id="7" module="true" symbol="globals/Helper/Gfx/Fonts/&lt;statics&gt;"/>
+        <entry id="46" method="true" symbol="calcDimensions"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="41" method="true" symbol="GetWidget"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="8389060" object="true" symbol="Text"/>
+        <entry id="39" method="true" symbol="Init"/>
+        <entry field="true" id="52" symbol="&lt;globals/Widgets/Rect/&lt;&gt;_width&gt;"/>
+        <entry field="true" id="66" symbol="ColorClockColon"/>
+        <entry field="true" id="44" symbol="AnchorY"/>
+        <entry field="true" id="43" symbol="AnchorX"/>
+        <entry field="true" id="51" symbol="&lt;globals/Widgets/Rect/&lt;&gt;_height&gt;"/>
+        <entry field="true" id="67" symbol="ColorClockHour"/>
+        <entry field="true" id="57" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Helper/Gfx"/>
+        <entry id="16" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="4" module="true" symbol="globals/Helper"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="10" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="56" symbol="Icons"/>
+        <entry id="28" module="true" symbol="Gfx"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="22" object="true" symbol="WFView"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="37" module="true" symbol="Menus"/>
+        <entry id="14" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="20" object="true" symbol="WFApp"/>
+        <entry field="true" id="31" object="true" symbol="Date"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="27" object="true" symbol="ExtTextPart"/>
+        <entry id="25" object="true" symbol="WidgetFactory"/>
+        <entry id="3" module="true" symbol="globals/DrawableContainers/WidgetFactory/&lt;statics&gt;"/>
+        <entry id="13" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="11" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="70" method="true" symbol="Load"/>
+        <entry field="true" id="61" symbol="ColorIcons"/>
+        <entry field="true" id="42" symbol="_Widget"/>
+        <entry id="17" module="true" symbol="globals/Widgets"/>
+        <entry field="true" id="48" symbol="Font"/>
+        <entry id="8" module="true" symbol="globals/Helper/Gfx/Theme/&lt;statics&gt;"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="21" object="true" symbol="WFBackground"/>
+        <entry field="true" id="47" symbol="Color"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="45" symbol="&lt;globals/Helper/ExtText/&lt;&gt;_just&gt;"/>
+        <entry id="50" method="true" symbol="stringReplace"/>
+        <entry field="true" id="62" symbol="ColorLines"/>
+        <entry field="true" id="60" symbol="ColorHour"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry id="2" module="true" symbol="globals/DrawableContainers"/>
+        <entry field="true" id="55" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="40" symbol="&lt;globals/WFBackground/&lt;&gt;_color&gt;"/>
+        <entry field="true" id="53" symbol="&lt;globals/Widgets/Clock/&lt;&gt;_textContainer&gt;"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="29" object="true" symbol="Battery"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="30" object="true" symbol="Clock"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="5" module="true" symbol="globals/Helper/ExtText/&lt;statics&gt;"/>
+        <entry id="9" module="true" symbol="globals/Helper/String/&lt;statics&gt;"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8388763" object="true" symbol="String"/>
+        <entry field="true" id="58" symbol="ColorBG"/>
+        <entry field="true" id="59" symbol="ColorColon"/>
+        <entry id="69" method="true" symbol="&lt;globals/Helper/Gfx/Theme/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry id="36" module="true" symbol="Layouts"/>
+        <entry id="19" module="true" symbol="Helper"/>
+        <entry id="12" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="49" object="true" symbol="Theme"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435558" name="state" stackId="1" startPc="268435500"/>
+        <entry endPc="268435947" name="ids" stackId="1" startPc="268435739"/>
+        <entry endPc="268435947" name="i" stackId="2" startPc="268435888"/>
+        <entry endPc="268435934" name="drawable" stackId="3" startPc="268435888"/>
+        <entry arg="true" endPc="268435992" name="dc" stackId="1" startPc="268435949"/>
+        <entry arg="true" endPc="268436040" name="dc" stackId="1" startPc="268436014"/>
+        <entry arg="true" endPc="268436094" name="params" stackId="1" startPc="268436060"/>
+        <entry arg="true" endPc="268436158" name="dc" stackId="1" startPc="268436095"/>
+        <entry arg="true" endPc="268436522" name="pos" stackId="1" startPc="268436159"/>
+        <entry arg="true" endPc="268436522" name="container_params" stackId="2" startPc="268436159"/>
+        <entry endPc="268436701" name="params" stackId="1" startPc="268436546"/>
+        <entry arg="true" endPc="268436737" name="params" stackId="1" startPc="268436703"/>
+        <entry arg="true" endPc="268436773" name="dc" stackId="1" startPc="268436738"/>
+        <entry arg="true" endPc="268436965" name="texts" stackId="1" startPc="268436774"/>
+        <entry arg="true" endPc="268436965" name="dc" stackId="2" startPc="268436774"/>
+        <entry endPc="268436965" name="totalwidth" stackId="3" startPc="268436778"/>
+        <entry endPc="268436965" name="totalheight" stackId="4" startPc="268436778"/>
+        <entry endPc="268436938" name="i" stackId="5" startPc="268436816"/>
+        <entry endPc="268436925" name="width" stackId="6" startPc="268436816"/>
+        <entry endPc="268436925" name="height" stackId="7" startPc="268436816"/>
+        <entry arg="true" endPc="268436998" name="posx" stackId="1" startPc="268436966"/>
+        <entry arg="true" endPc="268436998" name="posy" stackId="2" startPc="268436966"/>
+        <entry arg="true" endPc="268436998" name="just" stackId="3" startPc="268436966"/>
+        <entry arg="true" endPc="268437372" name="texts" stackId="1" startPc="268436999"/>
+        <entry arg="true" endPc="268437372" name="dc" stackId="2" startPc="268436999"/>
+        <entry endPc="268437372" name="dim" stackId="3" startPc="268437003"/>
+        <entry endPc="268437372" name="posx" stackId="4" startPc="268437003"/>
+        <entry endPc="268437363" name="i" stackId="5" startPc="268437182"/>
+        <entry endPc="268437350" name="text" stackId="6" startPc="268437182"/>
+        <entry endPc="268437350" name="yoffset" stackId="7" startPc="268437182"/>
+        <entry arg="true" endPc="268437405" name="text" stackId="1" startPc="268437373"/>
+        <entry arg="true" endPc="268437405" name="color" stackId="2" startPc="268437373"/>
+        <entry arg="true" endPc="268437405" name="font" stackId="3" startPc="268437373"/>
+        <entry arg="true" endPc="268437514" name="str" stackId="1" startPc="268437406"/>
+        <entry arg="true" endPc="268437514" name="oldString" stackId="2" startPc="268437406"/>
+        <entry arg="true" endPc="268437514" name="newString" stackId="3" startPc="268437406"/>
+        <entry endPc="268437514" name="result" stackId="4" startPc="268437410"/>
+        <entry endPc="268437505" name="index" stackId="5" startPc="268437414"/>
+        <entry endPc="268437499" name="index2" stackId="6" startPc="268437436"/>
+        <entry arg="true" endPc="268437556" name="params" stackId="1" startPc="268437534"/>
+        <entry arg="true" endPc="268437888" name="dc" stackId="1" startPc="268437557"/>
+        <entry endPc="268437887" name="info" stackId="2" startPc="268437561"/>
+        <entry endPc="268437887" name="steps" stackId="3" startPc="268437561"/>
+        <entry arg="true" endPc="268437978" name="params" stackId="1" startPc="268437908"/>
+        <entry arg="true" endPc="268438073" name="dc" stackId="1" startPc="268437979"/>
+        <entry arg="true" endPc="268438115" name="params" stackId="1" startPc="268438093"/>
+        <entry arg="true" endPc="268438446" name="dc" stackId="1" startPc="268438116"/>
+        <entry endPc="268438445" name="rate" stackId="2" startPc="268438120"/>
+        <entry endPc="268438445" name="info" stackId="3" startPc="268438120"/>
+        <entry endPc="268438445" name="heartrate" stackId="4" startPc="268438120"/>
+        <entry arg="true" endPc="268438488" name="params" stackId="1" startPc="268438466"/>
+        <entry arg="true" endPc="268438932" name="dc" stackId="1" startPc="268438489"/>
+        <entry endPc="268438931" name="battery" stackId="2" startPc="268438493"/>
+        <entry endPc="268438823" name="width" stackId="3" startPc="268438565"/>
+        <entry endPc="268438823" name="height" stackId="4" startPc="268438565"/>
+        <entry endPc="268438823" name="x" stackId="5" startPc="268438565"/>
+        <entry endPc="268438823" name="y" stackId="6" startPc="268438565"/>
+        <entry endPc="268438823" name="end" stackId="7" startPc="268438565"/>
+        <entry endPc="268438798" name="barwidth" stackId="8" startPc="268438741"/>
+        <entry arg="true" endPc="268439069" name="params" stackId="1" startPc="268438952"/>
+        <entry arg="true" endPc="268439720" name="dc" stackId="1" startPc="268439070"/>
+        <entry endPc="268439719" name="clockTime" stackId="2" startPc="268439074"/>
+        <entry endPc="268439719" name="hour" stackId="3" startPc="268439074"/>
+        <entry endPc="268439719" name="m" stackId="4" startPc="268439074"/>
+        <entry endPc="268439719" name="h" stackId="5" startPc="268439074"/>
+        <entry arg="true" endPc="268439823" name="container_params" stackId="1" startPc="268439721"/>
+        <entry arg="true" endPc="268439865" name="params" stackId="1" startPc="268439843"/>
+        <entry arg="true" endPc="268440110" name="dc" stackId="1" startPc="268439866"/>
+        <entry endPc="268440109" name="time" stackId="2" startPc="268439870"/>
+        <entry endPc="268440109" name="day" stackId="3" startPc="268439870"/>
+        <entry endPc="268440109" name="month" stackId="4" startPc="268439870"/>
+        <entry endPc="268440109" name="year" stackId="5" startPc="268439870"/>
+        <entry endPc="268440109" name="date" stackId="6" startPc="268439870"/>
+        <entry arg="true" endPc="268440429" name="key" stackId="1" startPc="268440338"/>
+        <entry arg="true" endPc="268440429" name="fallback" stackId="2" startPc="268440338"/>
+        <entry endPc="268440429" name="customcolor" stackId="3" startPc="268440342"/>
+        <entry endPc="268440429" name="color" stackId="4" startPc="268440342"/>
+        <entry arg="true" endPc="268441547" name="dc" stackId="1" startPc="268440621"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_BG" stackId="2" startPc="268440633"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_Date" stackId="3" startPc="268440633"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_Rect1" stackId="4" startPc="268440633"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_Clock" stackId="5" startPc="268440633"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_Rect2" stackId="6" startPc="268440633"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_Heartrate" stackId="7" startPc="268440633"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_Rect3" stackId="8" startPc="268440633"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_Steps" stackId="9" startPc="268440633"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_Rect4" stackId="10" startPc="268440633"/>
+        <entry endPc="268441547" name="rez_cmp_local_custom_drawable_Battery" stackId="11" startPc="268440633"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Date"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorHour"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Text"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorMinutes"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorText"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLines"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorColon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Clock"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Icons"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorIcons"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBG"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="159" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/DrawableContainers" offset="254" parentId="globals" symbolId="DrawableContainers" type="module"/>
+        <dataEntry label="globals/Helper" offset="301" parentId="globals" symbolId="Helper" type="module"/>
+        <dataEntry label="globals/Widgets" offset="364" parentId="globals" symbolId="Widgets" type="module"/>
+        <dataEntry label="globals/Rez" offset="451" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/WFApp" offset="530" parentId="globals" symbolId="WFApp" type="class"/>
+        <dataEntry label="globals/WFView" offset="609" parentId="globals" symbolId="WFView" type="class"/>
+        <dataEntry label="globals/WFBackground" offset="680" parentId="globals" symbolId="WFBackground" type="class"/>
+        <dataEntry label="globals/DrawableContainers/WidgetFactory" offset="751" parentId="DrawableContainers" symbolId="WidgetFactory" type="class"/>
+        <dataEntry label="globals/DrawableContainers/WidgetFactory/&lt;statics&gt;" offset="798" parentId="WidgetFactory" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/DrawableContainers/WidgetContainer" offset="837" parentId="DrawableContainers" symbolId="WidgetContainer" type="class"/>
+        <dataEntry label="globals/Helper/ExtText" offset="908" parentId="Helper" symbolId="ExtText" type="class"/>
+        <dataEntry label="globals/Helper/ExtText/&lt;statics&gt;" offset="987" parentId="ExtText" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Helper/ExtTextPart" offset="1026" parentId="Helper" symbolId="ExtTextPart" type="class"/>
+        <dataEntry label="globals/Helper/Gfx" offset="1097" parentId="Helper" symbolId="Gfx" type="module"/>
+        <dataEntry label="globals/Helper/String" offset="1144" parentId="Helper" symbolId="String" type="class"/>
+        <dataEntry label="globals/Helper/String/&lt;statics&gt;" offset="1191" parentId="String" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Widgets/Steps" offset="1230" parentId="Widgets" symbolId="Steps" type="class"/>
+        <dataEntry label="globals/Widgets/Rect" offset="1285" parentId="Widgets" symbolId="Rect" type="class"/>
+        <dataEntry label="globals/Widgets/Heartrate" offset="1356" parentId="Widgets" symbolId="Heartrate" type="class"/>
+        <dataEntry label="globals/Widgets/Battery" offset="1411" parentId="Widgets" symbolId="Battery" type="class"/>
+        <dataEntry label="globals/Widgets/Clock" offset="1466" parentId="Widgets" symbolId="Clock" type="class"/>
+        <dataEntry label="globals/Widgets/WidgetBase" offset="1537" parentId="Widgets" symbolId="WidgetBase" type="class"/>
+        <dataEntry label="globals/Widgets/Date" offset="1600" parentId="Widgets" symbolId="Date" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1655" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1694" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1733" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1764" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1827" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1922" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Helper/Gfx/Theme" offset="1953" parentId="Gfx" symbolId="Theme" type="class"/>
+        <dataEntry label="globals/Helper/Gfx/Theme/&lt;statics&gt;" offset="2000" parentId="Theme" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Helper/Gfx/Fonts" offset="2103" parentId="Gfx" symbolId="Fonts" type="class"/>
+        <dataEntry label="globals/Helper/Gfx/Fonts/&lt;statics&gt;" offset="2150" parentId="Fonts" symbolId="&lt;statics&gt;" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="DrawableContainers">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Helper">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Widgets">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435480" name="&lt;init&gt;" parent="Rez" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435499" name="&lt;init&gt;" parent="WFApp" startPc="268435481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435558" name="onStart" parent="WFApp" startPc="268435500">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435635" name="onSettingsChanged" parent="WFApp" startPc="268435559">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435694" name="getInitialView" parent="WFApp" startPc="268435636">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435715" name="initialize" parent="WFApp" startPc="268435695">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435734" name="&lt;init&gt;" parent="WFView" startPc="268435716">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435948" name="onSettingsChanged" parent="WFView" startPc="268435735">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435992" name="onLayout" parent="WFView" startPc="268435949">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436013" name="initialize" parent="WFView" startPc="268435993">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436040" name="onUpdate" parent="WFView" startPc="268436014">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436059" name="&lt;init&gt;" parent="WFBackground" startPc="268436041">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Init" parent="WFBackground">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436094" name="initialize" parent="WFBackground" startPc="268436060">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436158" name="draw" parent="WFBackground" startPc="268436095">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="WidgetFactory">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/DrawableContainers/WidgetFactory">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436522" name="GetWidget" parent="WidgetFactory" startPc="268436159">
+            <param id="pos"/>
+            <param id="container_params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="WidgetFactory">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436541" name="&lt;init&gt;" parent="WidgetContainer" startPc="268436523">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436702" name="Init" parent="WidgetContainer" startPc="268436542">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436737" name="initialize" parent="WidgetContainer" startPc="268436703">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436773" name="draw" parent="WidgetContainer" startPc="268436738">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="ExtText">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Helper/ExtText">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436965" name="calcDimensions" parent="ExtText" startPc="268436774">
+            <param id="texts"/>
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436998" name="initialize" parent="ExtText" startPc="268436966">
+            <param id="posx"/>
+            <param id="posy"/>
+            <param id="just"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437372" name="draw" parent="ExtText" startPc="268436999">
+            <param id="texts"/>
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="ExtTextPart">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437405" name="initialize" parent="ExtTextPart" startPc="268437373">
+            <param id="text"/>
+            <param id="color"/>
+            <param id="font"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Gfx">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="String">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Helper/String">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437514" name="stringReplace" parent="String" startPc="268437406">
+            <param id="str"/>
+            <param id="oldString"/>
+            <param id="newString"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="String">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437533" name="&lt;init&gt;" parent="Steps" startPc="268437515">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437556" name="initialize" parent="Steps" startPc="268437534">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437888" name="draw" parent="Steps" startPc="268437557">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437907" name="&lt;init&gt;" parent="Rect" startPc="268437889">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437978" name="initialize" parent="Rect" startPc="268437908">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438073" name="draw" parent="Rect" startPc="268437979">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438092" name="&lt;init&gt;" parent="Heartrate" startPc="268438074">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438115" name="initialize" parent="Heartrate" startPc="268438093">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438446" name="draw" parent="Heartrate" startPc="268438116">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438465" name="&lt;init&gt;" parent="Battery" startPc="268438447">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438488" name="initialize" parent="Battery" startPc="268438466">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438932" name="draw" parent="Battery" startPc="268438489">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438951" name="&lt;init&gt;" parent="Clock" startPc="268438933">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439069" name="initialize" parent="Clock" startPc="268438952">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439720" name="draw" parent="Clock" startPc="268439070">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="WidgetBase">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439823" name="initialize" parent="WidgetBase" startPc="268439721">
+            <param id="container_params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439842" name="&lt;init&gt;" parent="Date" startPc="268439824">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439865" name="initialize" parent="Date" startPc="268439843">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440110" name="draw" parent="Date" startPc="268439866">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Theme">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Helper/Gfx/Theme">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440337" name="Load" parent="Theme" startPc="268440111">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440429" name="&lt;globals/Helper/Gfx/Theme/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;" parent="Theme" startPc="268440338">
+            <param id="key"/>
+            <param id="fallback"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Theme">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Helper/Gfx/Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440620" name="Load" parent="Fonts" startPc="268440430">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441547" name="WatchFace" parent="Layouts" startPc="268440621">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

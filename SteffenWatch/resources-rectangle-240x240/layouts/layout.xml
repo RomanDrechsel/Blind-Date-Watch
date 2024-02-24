@@ -1,0 +1,57 @@
+<layout id="WatchFace">
+    <drawable class="WFBackground" id="BG" />
+
+    <drawable class="DrawableContainers.WidgetContainer" id="Date">
+        <param name="locX">120</param>
+        <param name="locY">5</param>
+    </drawable>
+
+    <drawable class="DrawableContainers.WidgetContainer" id="Rect1">
+        <param name="locX">15</param>
+        <param name="locY">55</param>
+        <param name="width">210</param>
+        <param name="height">2</param>
+    </drawable>
+
+    <drawable class="DrawableContainers.WidgetContainer" id="Clock">
+        <param name="locX">120</param>
+        <param name="locY">102</param>
+    </drawable>
+
+    <drawable class="DrawableContainers.WidgetContainer" id="Rect2">
+        <param name="locX">15</param>
+        <param name="locY">149</param>
+        <param name="width">210</param>
+        <param name="height">2</param>
+    </drawable>
+
+    <drawable class="DrawableContainers.WidgetContainer" id="Heartrate">
+        <param name="locX">15</param>
+        <param name="locY">159</param>
+    </drawable>
+
+    <drawable class="DrawableContainers.WidgetContainer" id="Rect3">
+        <param name="locX">115</param>
+        <param name="locY">159</param>
+        <param name="width">2</param>
+        <param name="height">30</param>
+    </drawable>
+
+    <drawable class="DrawableContainers.WidgetContainer" id="Steps">
+        <param name="locX">125</param>
+        <param name="locY">159</param>
+    </drawable>
+
+    <drawable class="DrawableContainers.WidgetContainer" id="Rect4">
+        <param name="locX">45</param>
+        <param name="locY">197</param>
+        <param name="width">150</param>
+        <param name="height">2</param>
+    </drawable>
+
+    <drawable class="DrawableContainers.WidgetContainer" id="Battery">
+        <param name="locX">120</param>
+        <param name="locY">199</param>
+    </drawable>
+
+</layout>

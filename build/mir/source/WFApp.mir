@@ -1,0 +1,89 @@
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 5; ]
+class WFApp extends Application.AppBase{
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 5; ]
+    <init> {
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" 7 8 ]
+        %tmp.1 = null;
+        %tmp.2 = as %tmp.1 WFView;
+        putv self :WatchfaceView %tmp.2;
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 7; @position = 8; ]
+    var WatchfaceView;
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 9; ]
+    function initialize() as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFApp_mc_10_4_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" 11 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFApp_mc_10_4_stop:
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 14; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFApp_mc_15_4_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" 16 8 ]
+        %tmp.4 = getv ? :WFView;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :WatchfaceView %tmp.1;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" 17 8 ]
+        %tmp.5 = newa Array<Views or InputDelegates> 1;
+        %tmp.6 = lgetv %self;
+        %tmp.7 = getv %tmp.6 :WatchfaceView;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 0 %tmp.7;
+        ret %tmp.9;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFApp_mc_15_4_stop:
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 20; ]
+    function onStart(state as Dictionary or Null) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFApp_mc_21_4_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" 22 8 ]
+        %tmp.2 = getv ? :Helper;
+        %tmp.3 = getv %tmp.2 :Gfx;
+        %tmp.4 = getv %tmp.3 :Theme;
+        %tmp.5 = getv function %tmp.4 :Load;
+        invoke %tmp.4 %tmp.5();
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" 23 8 ]
+        %tmp.7 = getv ? :Helper;
+        %tmp.8 = getv %tmp.7 :Gfx;
+        %tmp.9 = getv %tmp.8 :Fonts;
+        %tmp.10 = getv function %tmp.9 :Load;
+        invoke %tmp.9 %tmp.10();
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFApp_mc_21_4_stop:
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 27; ]
+    function onSettingsChanged() as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFApp_mc_28_4_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" 29 8 ]
+        %tmp.2 = getv ? :Helper;
+        %tmp.3 = getv %tmp.2 :Gfx;
+        %tmp.4 = getv %tmp.3 :Fonts;
+        %tmp.5 = getv function %tmp.4 :Load;
+        invoke %tmp.4 %tmp.5();
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" 30 8 ]
+        %tmp.7 = getv ? :Helper;
+        %tmp.8 = getv %tmp.7 :Gfx;
+        %tmp.9 = getv %tmp.8 :Theme;
+        %tmp.10 = getv function %tmp.9 :Load;
+        invoke %tmp.9 %tmp.10();
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc" 31 8 ]
+        %tmp.11 = lgetv %self;
+        %tmp.12 = getv %tmp.11 :WatchfaceView;
+        %tmp.13 = getv function %tmp.12 :onSettingsChanged;
+        invoke %tmp.12 %tmp.13();
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFApp_mc_28_4_stop:
+    }
+}
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFApp.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,340 @@
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 3; ]
+import Helper;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 5; ]
+module Widgets {
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 7; ]
+    class Battery extends WidgetBase{
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 7; ]
+        <init> {
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 7; ]
+        static
+        <init> {
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 9; ]
+        function initialize(params as Dictionary) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_10_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 11 12 ]
+            %tmp.2 = getv ? :WidgetBase;
+            %tmp.3 = getv function %tmp.2 :initialize;
+            %tmp.5 = lgetv %params;
+            invoke %tmp.2 %tmp.3(%tmp.5);
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_10_8_stop:
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 14; ]
+        function draw(dc as Dc) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_15_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 16 12 ]
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_16_12_if_stmt:
+            %tmp.2 = getv ? :Fonts;
+            %tmp.3 = getv %tmp.2 :Text;
+            %tmp.4 = null;
+            %tmp.5 = eq %tmp.3 %tmp.4;
+            bf %tmp.5 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_16_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_16_12_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_17_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 18 16 ]
+            ret ?;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_17_12_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_16_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_16_12_if_end:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 21 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_15_8_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_15_8_stop" ]
+            %battery.1 = local;
+            %tmp.7 = getv ? :System;
+            %tmp.8 = getv function %tmp.7 :getSystemStats;
+            %tmp.9 = invoke %tmp.7 %tmp.8();
+            %tmp.10 = getv %tmp.9 :battery;
+            lputv %battery.1 %tmp.10;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 22 12 ]
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_22_12_if_stmt:
+            %tmp.12 = getv ? :Fonts;
+            %tmp.13 = getv %tmp.12 :Icons;
+            %tmp.14 = null;
+            %tmp.15 = ne %tmp.13 %tmp.14;
+            bf %tmp.15 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_22_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_22_12_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_23_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 24 16 ]
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_24_16_if_stmt:
+            %tmp.17 = getv ? :IsSmallDisplay;
+            bf %tmp.17 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_24_16_if_false;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_24_16_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 26 20 ]
+            %tmp.18 = lgetv %dc;
+            %tmp.19 = getv function %tmp.18 :setColor;
+            %tmp.21 = getv ? :Theme;
+            %tmp.22 = getv %tmp.21 :ColorIcons;
+            %tmp.23 = getm $.Toybox.Graphics;
+            %tmp.24 = getv %tmp.23 :COLOR_TRANSPARENT;
+            invoke %tmp.18 %tmp.19(%tmp.22, %tmp.24);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 27 20 ]
+            %tmp.25 = lgetv %dc;
+            %tmp.26 = getv function %tmp.25 :drawText;
+            %tmp.27 = lgetv %self;
+            %tmp.28 = getv %tmp.27 :locX;
+            %tmp.29 = 7;
+            %tmp.30 = sub %tmp.28 %tmp.29;
+            %tmp.31 = lgetv %self;
+            %tmp.32 = getv %tmp.31 :locY;
+            %tmp.33 = 5;
+            %tmp.34 = add %tmp.32 %tmp.33;
+            %tmp.36 = getv ? :Fonts;
+            %tmp.37 = getv %tmp.36 :Icons;
+            %tmp.38 = "2";
+            %tmp.39 = getm $.Toybox.Graphics;
+            %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_RIGHT;
+            invoke %tmp.25 %tmp.26(%tmp.30, %tmp.34, %tmp.37, %tmp.38, %tmp.40);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 29 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_stop" ]
+            %width.2 = local;
+            %tmp.41 = 22;
+            lputv %width.2 %tmp.41;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 30 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_stop" ]
+            %height.3 = local;
+            %tmp.42 = 6;
+            lputv %height.3 %tmp.42;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 31 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_stop" ]
+            %x.4 = local;
+            %tmp.43 = lgetv %self;
+            %tmp.44 = getv %tmp.43 :locX;
+            %tmp.45 = 12;
+            %tmp.46 = sub %tmp.44 %tmp.45;
+            %tmp.48 = lgetv %width.2;
+            %tmp.49 = sub %tmp.46 %tmp.48;
+            lputv %x.4 %tmp.49;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 32 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_stop" ]
+            %y.5 = local;
+            %tmp.50 = lgetv %self;
+            %tmp.51 = getv %tmp.50 :locY;
+            %tmp.52 = 16;
+            %tmp.53 = add %tmp.51 %tmp.52;
+            lputv %y.5 %tmp.53;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 34 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_stop" ]
+            %end.6 = local;
+            %tmp.55 = lgetv %x.4;
+            %tmp.57 = lgetv %width.2;
+            %tmp.59 = lgetv %battery.1;
+            %tmp.60 = mul %tmp.57 %tmp.59;
+            %tmp.61 = 100;
+            %tmp.62 = div %tmp.60 %tmp.61;
+            %tmp.63 = add %tmp.55 %tmp.62;
+            lputv %end.6 %tmp.63;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 36 20 ]
+            while @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_36_20_while_test @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_36_20_while_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_36_20_while_test:
+            %tmp.65 = lgetv %x.4;
+            %tmp.67 = lgetv %end.6;
+            %tmp.68 = lte %tmp.65 %tmp.67;
+            bf %tmp.68 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_36_20_while_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_36_20_while_begin:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_37_20_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 38 24 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_37_20_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_37_20_stop" ]
+            %barwidth.7 = local;
+            %tmp.69 = 4;
+            lputv %barwidth.7 %tmp.69;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 39 24 ]
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_39_24_if_stmt:
+            %tmp.71 = lgetv %x.4;
+            %tmp.73 = lgetv %barwidth.7;
+            %tmp.74 = add %tmp.71 %tmp.73;
+            %tmp.76 = lgetv %end.6;
+            %tmp.77 = gt %tmp.74 %tmp.76;
+            bf %tmp.77 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_39_24_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_39_24_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_40_24_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 41 28 ]
+            %tmp.79 = lgetv %end.6;
+            %tmp.81 = lgetv %x.4;
+            %tmp.82 = sub %tmp.79 %tmp.81;
+            lputv %barwidth.7 %tmp.82;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_40_24_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_39_24_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_39_24_if_end:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 43 24 ]
+            %tmp.83 = lgetv %dc;
+            %tmp.84 = getv function %tmp.83 :fillRectangle;
+            %tmp.86 = lgetv %x.4;
+            %tmp.88 = lgetv %y.5;
+            %tmp.90 = lgetv %barwidth.7;
+            %tmp.92 = lgetv %height.3;
+            invoke %tmp.83 %tmp.84(%tmp.86, %tmp.88, %tmp.90, %tmp.92);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 44 24 ]
+            %tmp.93 = lgetv %x.4;
+            %tmp.95 = lgetv %barwidth.7;
+            %tmp.96 = 2;
+            %tmp.97 = add %tmp.95 %tmp.96;
+            %tmp.98 = add %tmp.93 %tmp.97;
+            lputv %x.4 %tmp.98;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_37_20_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_36_20_while_test;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_36_20_while_end:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_25_16_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_24_16_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_24_16_if_false:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 49 20 ]
+            %tmp.99 = lgetv %dc;
+            %tmp.100 = getv function %tmp.99 :setColor;
+            %tmp.102 = getv ? :Theme;
+            %tmp.103 = getv %tmp.102 :ColorIcons;
+            %tmp.104 = getm $.Toybox.Graphics;
+            %tmp.105 = getv %tmp.104 :COLOR_TRANSPARENT;
+            invoke %tmp.99 %tmp.100(%tmp.103, %tmp.105);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 50 20 ]
+            %tmp.106 = lgetv %dc;
+            %tmp.107 = getv function %tmp.106 :drawText;
+            %tmp.108 = lgetv %self;
+            %tmp.109 = getv %tmp.108 :locX;
+            %tmp.110 = 7;
+            %tmp.111 = sub %tmp.109 %tmp.110;
+            %tmp.112 = lgetv %self;
+            %tmp.113 = getv %tmp.112 :locY;
+            %tmp.114 = 9;
+            %tmp.115 = add %tmp.113 %tmp.114;
+            %tmp.117 = getv ? :Fonts;
+            %tmp.118 = getv %tmp.117 :Icons;
+            %tmp.119 = "2";
+            %tmp.120 = getm $.Toybox.Graphics;
+            %tmp.121 = getv %tmp.120 :TEXT_JUSTIFY_RIGHT;
+            invoke %tmp.106 %tmp.107(%tmp.111, %tmp.115, %tmp.118, %tmp.119, %tmp.121);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 52 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_stop" ]
+            %width.8 = local;
+            %tmp.122 = 34;
+            lputv %width.8 %tmp.122;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 53 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_stop" ]
+            %height.9 = local;
+            %tmp.123 = 9;
+            lputv %height.9 %tmp.123;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 54 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_stop" ]
+            %x.10 = local;
+            %tmp.124 = lgetv %self;
+            %tmp.125 = getv %tmp.124 :locX;
+            %tmp.126 = 12;
+            %tmp.127 = sub %tmp.125 %tmp.126;
+            %tmp.129 = lgetv %width.8;
+            %tmp.130 = sub %tmp.127 %tmp.129;
+            lputv %x.10 %tmp.130;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 55 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_stop" ]
+            %y.11 = local;
+            %tmp.131 = lgetv %self;
+            %tmp.132 = getv %tmp.131 :locY;
+            %tmp.133 = 22;
+            %tmp.134 = add %tmp.132 %tmp.133;
+            lputv %y.11 %tmp.134;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 57 20 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_stop" ]
+            %end.12 = local;
+            %tmp.136 = lgetv %x.10;
+            %tmp.138 = lgetv %width.8;
+            %tmp.140 = lgetv %battery.1;
+            %tmp.141 = mul %tmp.138 %tmp.140;
+            %tmp.142 = 100;
+            %tmp.143 = div %tmp.141 %tmp.142;
+            %tmp.144 = add %tmp.136 %tmp.143;
+            lputv %end.12 %tmp.144;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 59 20 ]
+            while @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_59_20_while_test @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_59_20_while_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_59_20_while_test:
+            %tmp.146 = lgetv %x.10;
+            %tmp.148 = lgetv %end.12;
+            %tmp.149 = lte %tmp.146 %tmp.148;
+            bf %tmp.149 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_59_20_while_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_59_20_while_begin:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_60_20_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 61 24 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_60_20_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_60_20_stop" ]
+            %barwidth.13 = local;
+            %tmp.150 = 5;
+            lputv %barwidth.13 %tmp.150;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 62 24 ]
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_62_24_if_stmt:
+            %tmp.152 = lgetv %x.10;
+            %tmp.154 = lgetv %barwidth.13;
+            %tmp.155 = add %tmp.152 %tmp.154;
+            %tmp.157 = lgetv %end.12;
+            %tmp.158 = gt %tmp.155 %tmp.157;
+            bf %tmp.158 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_62_24_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_62_24_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_63_24_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 64 28 ]
+            %tmp.160 = lgetv %end.12;
+            %tmp.162 = lgetv %x.10;
+            %tmp.163 = sub %tmp.160 %tmp.162;
+            lputv %barwidth.13 %tmp.163;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_63_24_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_62_24_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_62_24_if_end:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 66 24 ]
+            %tmp.164 = lgetv %dc;
+            %tmp.165 = getv function %tmp.164 :fillRectangle;
+            %tmp.167 = lgetv %x.10;
+            %tmp.169 = lgetv %y.11;
+            %tmp.171 = lgetv %barwidth.13;
+            %tmp.173 = lgetv %height.9;
+            invoke %tmp.164 %tmp.165(%tmp.167, %tmp.169, %tmp.171, %tmp.173);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 67 24 ]
+            %tmp.174 = lgetv %x.10;
+            %tmp.176 = lgetv %barwidth.13;
+            %tmp.177 = 2;
+            %tmp.178 = add %tmp.176 %tmp.177;
+            %tmp.179 = add %tmp.174 %tmp.178;
+            lputv %x.10 %tmp.179;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_60_20_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_59_20_while_test;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_59_20_while_end:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_48_16_stop:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_24_16_if_end:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_23_12_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_22_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_22_12_if_end:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 72 12 ]
+            %tmp.180 = lgetv %dc;
+            %tmp.181 = getv function %tmp.180 :setColor;
+            %tmp.183 = getv ? :Theme;
+            %tmp.184 = getv %tmp.183 :ColorText;
+            %tmp.185 = getm $.Toybox.Graphics;
+            %tmp.186 = getv %tmp.185 :COLOR_TRANSPARENT;
+            invoke %tmp.180 %tmp.181(%tmp.184, %tmp.186);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc" 73 12 ]
+            %tmp.187 = lgetv %dc;
+            %tmp.188 = getv function %tmp.187 :drawText;
+            %tmp.189 = lgetv %self;
+            %tmp.190 = getv %tmp.189 :locX;
+            %tmp.191 = lgetv %self;
+            %tmp.192 = getv %tmp.191 :locY;
+            %tmp.194 = getv ? :Fonts;
+            %tmp.195 = getv %tmp.194 :Text;
+            %tmp.196 = lgetv %battery.1;
+            %tmp.197 = getv function %tmp.196 :format;
+            %tmp.198 = "%1.1d";
+            %tmp.199 = invoke %tmp.196 %tmp.197(%tmp.198);
+            %tmp.200 = "%";
+            %tmp.201 = add %tmp.199 %tmp.200;
+            %tmp.202 = getm $.Toybox.Graphics;
+            %tmp.203 = getv %tmp.202 :TEXT_JUSTIFY_LEFT;
+            invoke %tmp.187 %tmp.188(%tmp.190, %tmp.192, %tmp.195, %tmp.201, %tmp.203);
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Battery_mc_15_8_stop:
+        }
+    }
+}
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Battery.mc"; @line = 1; ]
+<init> {
+}

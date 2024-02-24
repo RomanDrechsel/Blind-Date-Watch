@@ -1,0 +1,64 @@
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 4; ]
+module Themes {
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 6; ]
+    module Settings {
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 6; ]
+        <init> {
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 8; ]
+        class DarkBlue extends ThemeSettingsBase{
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 8; ]
+            <init> {
+            }
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 8; ]
+            static
+            <init> {
+            }
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 10; @position = 30; ]
+            public static
+            var ColorBackground = 0x000000;
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 11; @position = 30; ]
+            public static
+            var ColorDate = 0x0071a2;
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 12; @position = 30; ]
+            public static
+            var ColorClockHour = 0x73b9e0;
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 13; @position = 30; ]
+            public static
+            var ColorClockMinutes = 0x0071a2;
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 14; @position = 30; ]
+            public static
+            var ColorClockColon = 0xFFFFFF;
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 15; @position = 30; ]
+            public static
+            var ColorText = 0x73b9e0;
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 16; @position = 30; ]
+            public static
+            var ColorLines = 0x73b9e0;
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 17; @position = 30; ]
+            public static
+            var ColorIcons = 0x00FF00;
+            [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 19; ]
+            public
+            function initialize() as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Themes_Settings_DarkBlue_mc_20_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc" 21 16 ]
+                %tmp.1 = getm $.Toybox.System;
+                %tmp.2 = getv function %tmp.1 :println;
+                %tmp.3 = "INIT 2";
+                invoke %tmp.1 %tmp.2(%tmp.3);
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Themes_Settings_DarkBlue_mc_20_12_stop:
+            }
+        }
+    }
+}
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Themes/Settings/DarkBlue.mc"; @line = 1; ]
+<init> {
+}

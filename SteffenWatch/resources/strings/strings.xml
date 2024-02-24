@@ -1,0 +1,20 @@
+<strings>
+
+    <string id="AppName">SteffenWatch</string>
+
+    <string id="Theme">Thema</string>
+    <string id="ThDarkBlue">Dunkelblau</string>
+    <string id="ThFire">Feuer &amp; Eis</string>
+    <string id="ThBaW">Schwarz-Weiß</string>
+    <string id="ThCustom">Individuell</string>
+
+    <string id="ColorBG">Hintergrund-Farbe</string>
+    <string id="ColorText">Text-Farbe</string>
+    <string id="ColorIcons">Icon-Farbe</string>
+    <string id="ColorLines">Linien-Farbe</string>
+
+    <string id="ColorHour">Stunden-Farbe</string>
+    <string id="ColorMinutes">Minuten-Farbe</string>
+    <string id="ColorColon">Doppelpunkt-Farbe</string>
+
+</strings>

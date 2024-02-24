@@ -1,0 +1,53 @@
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 6; ]
+class WFBackground extends WatchUi.Drawable{
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 8; ]
+    function initialize(params) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFBackground_mc_8_32_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" 9 8 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFBackground_mc_8_32_stop:
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 12; ]
+    function draw(dc as Dc) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFBackground_mc_13_4_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" 14 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setAntiAlias;
+        %tmp.3 = true;
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" 15 8 ]
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :setColor;
+        %tmp.6 = getm $.Toybox.Graphics;
+        %tmp.7 = getv %tmp.6 :COLOR_TRANSPARENT;
+        %tmp.9 = getv ? :Theme;
+        %tmp.10 = getv %tmp.9 :ColorBackground;
+        invoke %tmp.4 %tmp.5(%tmp.7, %tmp.10);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc" 16 8 ]
+        %tmp.11 = lgetv %dc;
+        %tmp.12 = getv function %tmp.11 :clear;
+        invoke %tmp.11 %tmp.12();
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_WFBackground_mc_13_4_stop:
+    }
+}
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/WFBackground.mc"; @line = 1; ]
+<init> {
+}

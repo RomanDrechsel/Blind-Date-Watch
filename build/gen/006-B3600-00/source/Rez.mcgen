@@ -1,0 +1,61 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+        (:initialized) var Text as Symbol;
+        (:initialized) var Clock as Symbol;
+        (:initialized) var Date as Symbol;
+        (:initialized) var Icons as Symbol;
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_BG = new WFBackground({:identifier=>"BG"});
+
+            var rez_cmp_local_custom_drawable_Date = new DrawableContainers.WidgetContainer({:identifier=>"Date", :locX=>120, :locY=>5});
+
+            var rez_cmp_local_custom_drawable_Rect1 = new DrawableContainers.WidgetContainer({:identifier=>"Rect1", :width=>210, :locX=>15, :locY=>55, :height=>2});
+
+            var rez_cmp_local_custom_drawable_Clock = new DrawableContainers.WidgetContainer({:identifier=>"Clock", :locX=>120, :locY=>102});
+
+            var rez_cmp_local_custom_drawable_Rect2 = new DrawableContainers.WidgetContainer({:identifier=>"Rect2", :width=>210, :locX=>15, :locY=>149, :height=>2});
+
+            var rez_cmp_local_custom_drawable_Heartrate = new DrawableContainers.WidgetContainer({:identifier=>"Heartrate", :locX=>15, :locY=>159});
+
+            var rez_cmp_local_custom_drawable_Rect3 = new DrawableContainers.WidgetContainer({:identifier=>"Rect3", :width=>2, :locX=>115, :locY=>159, :height=>30});
+
+            var rez_cmp_local_custom_drawable_Steps = new DrawableContainers.WidgetContainer({:identifier=>"Steps", :locX=>125, :locY=>159});
+
+            var rez_cmp_local_custom_drawable_Rect4 = new DrawableContainers.WidgetContainer({:identifier=>"Rect4", :width=>150, :locX=>45, :locY=>197, :height=>2});
+
+            var rez_cmp_local_custom_drawable_Battery = new DrawableContainers.WidgetContainer({:identifier=>"Battery", :locX=>120, :locY=>199});
+
+            return [rez_cmp_local_custom_drawable_BG, rez_cmp_local_custom_drawable_Date, rez_cmp_local_custom_drawable_Rect1, rez_cmp_local_custom_drawable_Clock, rez_cmp_local_custom_drawable_Rect2, rez_cmp_local_custom_drawable_Heartrate, rez_cmp_local_custom_drawable_Rect3, rez_cmp_local_custom_drawable_Steps, rez_cmp_local_custom_drawable_Rect4, rez_cmp_local_custom_drawable_Battery] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var ColorText as Symbol;
+        (:initialized) var ColorIcons as Symbol;
+        (:initialized) var ColorHour as Symbol;
+        (:initialized) var ColorColon as Symbol;
+        (:initialized) var ColorBG as Symbol;
+        (:initialized) var ColorMinutes as Symbol;
+        (:initialized) var ColorLines as Symbol;
+        (:initialized) var AppName as Symbol;
+    } // Strings
+} // Rez

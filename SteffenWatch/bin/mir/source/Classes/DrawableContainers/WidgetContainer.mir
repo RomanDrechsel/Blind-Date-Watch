@@ -1,0 +1,133 @@
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 1; ]
+import Toybox.WatchUi;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 4; ]
+import Widgets;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 6; ]
+module DrawableContainers {
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 8; ]
+    class WidgetContainer extends Drawable{
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 8; ]
+        <init> {
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 10 22 ]
+            %tmp.1 = null;
+            %tmp.2 = as %tmp.1 WidgetBase;
+            putv self :_Widget %tmp.2;
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 8; ]
+        static
+        <init> {
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 10; @position = 22; ]
+        protected
+        var _Widget;
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 12; ]
+        function initialize(params as Dictionary) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_13_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 14 12 ]
+            %tmp.2 = getv ? :Drawable;
+            %tmp.3 = getv function %tmp.2 :initialize;
+            %tmp.5 = lgetv %params;
+            invoke %tmp.2 %tmp.3(%tmp.5);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 15 12 ]
+            %tmp.6 = lgetv %self;
+            %tmp.7 = getv function %tmp.6 :Init;
+            invoke %tmp.6 %tmp.7();
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_13_8_stop:
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 18; ]
+        function draw(dc as Dc) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_19_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 20 12 ]
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_20_12_if_stmt:
+            %tmp.1 = lgetv %self;
+            %tmp.2 = getv %tmp.1 :_Widget;
+            %tmp.3 = null;
+            %tmp.4 = ne %tmp.2 %tmp.3;
+            bf %tmp.4 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_20_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_20_12_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_21_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 22 16 ]
+            %tmp.5 = lgetv %self;
+            %tmp.6 = getv %tmp.5 :_Widget;
+            %tmp.7 = getv function %tmp.6 :draw;
+            %tmp.9 = lgetv %dc;
+            invoke %tmp.6 %tmp.7(%tmp.9);
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_21_12_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_20_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_20_12_if_end:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_19_8_stop:
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 26; ]
+        function Init() as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_27_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 28 12 ]
+            %tmp.1 = null;
+            putv self :_Widget %tmp.1;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 29 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_27_8_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_27_8_stop" ]
+            %params.1 = local;
+            %tmp.2 = newd 4;
+            %tmp.3 = "X";
+            %tmp.4 = lgetv %self;
+            %tmp.5 = getv %tmp.4 :locX;
+            %tmp.6 = dup %tmp.2;
+            %tmp.7 = aputv %tmp.6 %tmp.3 %tmp.5;
+            %tmp.8 = "Y";
+            %tmp.9 = lgetv %self;
+            %tmp.10 = getv %tmp.9 :locY;
+            %tmp.11 = dup %tmp.7;
+            %tmp.12 = aputv %tmp.11 %tmp.8 %tmp.10;
+            %tmp.13 = "W";
+            %tmp.14 = lgetv %self;
+            %tmp.15 = getv %tmp.14 :width;
+            %tmp.16 = dup %tmp.12;
+            %tmp.17 = aputv %tmp.16 %tmp.13 %tmp.15;
+            %tmp.18 = "H";
+            %tmp.19 = lgetv %self;
+            %tmp.20 = getv %tmp.19 :height;
+            %tmp.21 = dup %tmp.17;
+            %tmp.22 = aputv %tmp.21 %tmp.18 %tmp.20;
+            lputv %params.1 %tmp.22;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 36 12 ]
+            %tmp.24 = getv ? :WidgetFactory;
+            %tmp.25 = getv function %tmp.24 :GetWidget;
+            %tmp.26 = lgetv %self;
+            %tmp.27 = getv %tmp.26 :identifier;
+            %tmp.29 = lgetv %params.1;
+            %tmp.30 = invoke %tmp.24 %tmp.25(%tmp.27, %tmp.29);
+            putv self :_Widget %tmp.30;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 37 12 ]
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_37_12_if_stmt:
+            %tmp.31 = lgetv %self;
+            %tmp.32 = getv %tmp.31 :_Widget;
+            %tmp.33 = null;
+            %tmp.34 = eq %tmp.32 %tmp.33;
+            bf %tmp.34 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_37_12_if_false;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_37_12_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_38_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 39 16 ]
+            %tmp.35 = false;
+            putv self :isVisible %tmp.35;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_38_12_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_37_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_37_12_if_false:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_42_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc" 43 16 ]
+            %tmp.36 = true;
+            putv self :isVisible %tmp.36;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_42_12_stop:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_37_12_if_end:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_DrawableContainers_WidgetContainer_mc_27_8_stop:
+        }
+    }
+}
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/DrawableContainers/WidgetContainer.mc"; @line = 1; ]
+<init> {
+}

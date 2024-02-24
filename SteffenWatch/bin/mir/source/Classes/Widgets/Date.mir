@@ -1,0 +1,128 @@
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 3; ]
+import Toybox.Time.Gregorian;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 4; ]
+import Helper;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 6; ]
+module Widgets {
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 8; ]
+    class Date extends WidgetBase{
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 8; ]
+        static
+        <init> {
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 10; ]
+        function initialize(params as Dictionary) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_11_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 12 12 ]
+            %tmp.2 = getv ? :WidgetBase;
+            %tmp.3 = getv function %tmp.2 :initialize;
+            %tmp.5 = lgetv %params;
+            invoke %tmp.2 %tmp.3(%tmp.5);
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_11_8_stop:
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 15; ]
+        function draw(dc as Dc) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 17 12 ]
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_17_12_if_stmt:
+            %tmp.2 = getv ? :Fonts;
+            %tmp.3 = getv %tmp.2 :Date;
+            %tmp.4 = null;
+            %tmp.5 = eq %tmp.3 %tmp.4;
+            bf %tmp.5 @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_17_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_17_12_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_18_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 19 16 ]
+            ret ?;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_18_12_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_17_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_17_12_if_end:
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 22 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_stop" ]
+            %time.1 = local;
+            %tmp.6 = getm $.Toybox.Time.Gregorian;
+            %tmp.7 = getv function %tmp.6 :info;
+            %tmp.9 = getv ? :Time;
+            %tmp.10 = getv function %tmp.9 :now;
+            %tmp.11 = invoke %tmp.9 %tmp.10();
+            %tmp.13 = getv ? :Time;
+            %tmp.14 = getv %tmp.13 :FORMAT_SHORT;
+            %tmp.15 = invoke %tmp.6 %tmp.7(%tmp.11, %tmp.14);
+            lputv %time.1 %tmp.15;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 23 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_stop" ]
+            %day.2 = local;
+            %tmp.16 = lgetv %time.1;
+            %tmp.17 = getv %tmp.16 :day;
+            %tmp.18 = getv function %tmp.17 :format;
+            %tmp.19 = "%02d";
+            %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
+            lputv %day.2 %tmp.20;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 24 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_stop" ]
+            %month.3 = local;
+            %tmp.21 = lgetv %time.1;
+            %tmp.22 = getv %tmp.21 :month;
+            %tmp.23 = getv function %tmp.22 :format;
+            %tmp.24 = "%02d";
+            %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
+            lputv %month.3 %tmp.25;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 25 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_stop" ]
+            %year.4 = local;
+            %tmp.26 = lgetv %time.1;
+            %tmp.27 = getv %tmp.26 :year;
+            %tmp.28 = getv function %tmp.27 :toString;
+            %tmp.29 = invoke %tmp.27 %tmp.28();
+            lputv %year.4 %tmp.29;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 27 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_start" "_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_stop" ]
+            %date.5 = local;
+            %tmp.31 = lgetv %day.2;
+            %tmp.32 = ".";
+            %tmp.33 = add %tmp.31 %tmp.32;
+            %tmp.35 = lgetv %month.3;
+            %tmp.36 = add %tmp.33 %tmp.35;
+            %tmp.37 = ".";
+            %tmp.38 = add %tmp.36 %tmp.37;
+            %tmp.40 = lgetv %year.4;
+            %tmp.41 = add %tmp.38 %tmp.40;
+            lputv %date.5 %tmp.41;
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 29 12 ]
+            %tmp.42 = lgetv %dc;
+            %tmp.43 = getv function %tmp.42 :setColor;
+            %tmp.45 = getv ? :Theme;
+            %tmp.46 = getv %tmp.45 :ColorText;
+            %tmp.47 = getm $.Toybox.Graphics;
+            %tmp.48 = getv %tmp.47 :COLOR_TRANSPARENT;
+            invoke %tmp.42 %tmp.43(%tmp.46, %tmp.48);
+[ "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc" 30 12 ]
+            %tmp.49 = lgetv %dc;
+            %tmp.50 = getv function %tmp.49 :drawText;
+            %tmp.51 = lgetv %self;
+            %tmp.52 = getv %tmp.51 :locX;
+            %tmp.53 = lgetv %self;
+            %tmp.54 = getv %tmp.53 :locY;
+            %tmp.56 = getv ? :Fonts;
+            %tmp.57 = getv %tmp.56 :Date;
+            %tmp.59 = lgetv %date.5;
+            %tmp.60 = getm $.Toybox.Graphics;
+            %tmp.61 = getv %tmp.60 :TEXT_JUSTIFY_CENTER;
+            invoke %tmp.49 %tmp.50(%tmp.52, %tmp.54, %tmp.57, %tmp.59, %tmp.61);
+_mnt_zusatz_MyStuff_Coding_Github_SteffenWatch_SteffenWatch_source_Classes_Widgets_Date_mc_16_8_stop:
+        }
+    }
+}
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/SteffenWatch/SteffenWatch/source/Classes/Widgets/Date.mc"; @line = 1; ]
+<init> {
+}

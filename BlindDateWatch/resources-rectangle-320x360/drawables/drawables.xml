@@ -1,0 +1,7 @@
+<drawables>
+
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="BackgroundImageDark" filename="Backgrounds/Dark.jpg" scaleY="100%" scaleRelativeTo="screen" />
+    <bitmap id="BackgroundImageFire" filename="Backgrounds/Fire.jpg" scaleY="100%" scaleRelativeTo="screen" />
+    
+</drawables>

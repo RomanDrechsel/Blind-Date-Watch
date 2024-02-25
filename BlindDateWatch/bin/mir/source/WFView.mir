@@ -1,0 +1,146 @@
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 7; ]
+class WFView extends WatchUi.WatchFace{
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 9; ]
+    function initialize() as Void {
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_10_4_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc" 11 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_10_4_stop:
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 15; ]
+    function onLayout(dc as Dc) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_16_4_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc" 17 8 ]
+        %tmp.1 = lgetv %self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_16_4_stop:
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 21; ]
+    function onUpdate(dc as Dc) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_22_4_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc" 23 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_22_4_stop:
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 26; ]
+    function onSettingsChanged() {
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_27_4_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc" 28 8 ]
+        [ "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_27_4_start" "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_27_4_stop" ]
+        %ids.1 = local;
+        %tmp.1 = newa 10;
+        %tmp.2 = "BG";
+        %tmp.3 = dup %tmp.1;
+        %tmp.4 = aputv %tmp.3 0 %tmp.2;
+        %tmp.5 = "Date";
+        %tmp.6 = dup %tmp.4;
+        %tmp.7 = aputv %tmp.6 1 %tmp.5;
+        %tmp.8 = "Rect1";
+        %tmp.9 = dup %tmp.7;
+        %tmp.10 = aputv %tmp.9 2 %tmp.8;
+        %tmp.11 = "Rect2";
+        %tmp.12 = dup %tmp.10;
+        %tmp.13 = aputv %tmp.12 3 %tmp.11;
+        %tmp.14 = "Rect3";
+        %tmp.15 = dup %tmp.13;
+        %tmp.16 = aputv %tmp.15 4 %tmp.14;
+        %tmp.17 = "Rect4";
+        %tmp.18 = dup %tmp.16;
+        %tmp.19 = aputv %tmp.18 5 %tmp.17;
+        %tmp.20 = "Clock";
+        %tmp.21 = dup %tmp.19;
+        %tmp.22 = aputv %tmp.21 6 %tmp.20;
+        %tmp.23 = "Heartrate";
+        %tmp.24 = dup %tmp.22;
+        %tmp.25 = aputv %tmp.24 7 %tmp.23;
+        %tmp.26 = "Steps";
+        %tmp.27 = dup %tmp.25;
+        %tmp.28 = aputv %tmp.27 8 %tmp.26;
+        %tmp.29 = "Battery";
+        %tmp.30 = dup %tmp.28;
+        %tmp.31 = aputv %tmp.30 9 %tmp.29;
+        lputv %ids.1 %tmp.31;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc" 29 8 ]
+        for @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_test @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_incr @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_init:
+        [ "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_begin" "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_end" ]
+        %i.2 = local;
+        %tmp.32 = 0;
+        lputv %i.2 %tmp.32;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_test:
+        %tmp.34 = lgetv %i.2;
+        %tmp.35 = lgetv %ids.1;
+        %tmp.36 = getv function %tmp.35 :size;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        %tmp.38 = lt %tmp.34 %tmp.37;
+        bf %tmp.38 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_begin:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_30_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc" 31 12 ]
+        [ "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_30_8_start" "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_30_8_stop" ]
+        %drawable.3 = local;
+        %tmp.40 = getv ? :View;
+        %tmp.41 = getv function %tmp.40 :findDrawableById;
+        %tmp.43 = lgetv %ids.1;
+        %tmp.45 = lgetv %i.2;
+        %tmp.46 = agetv %tmp.43 %tmp.45;
+        %tmp.47 = invoke %tmp.40 %tmp.41(%tmp.46);
+        lputv %drawable.3 %tmp.47;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc" 32 12 ]
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_32_12_if_stmt:
+        %tmp.49 = lgetv %drawable.3;
+        %tmp.50 = null;
+        %tmp.51 = ne %tmp.49 %tmp.50;
+        bf %tmp.51 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_32_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_32_12_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_33_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc" 34 16 ]
+        %tmp.52 = lgetv %drawable.3;
+        %tmp.53 = as %tmp.52 { (!Null) };
+        %tmp.54 = getv function %tmp.53 :Init;
+        invoke %tmp.53 %tmp.54();
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_33_12_stop:
+        goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_32_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_32_12_if_end:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_30_8_stop:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_incr:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc" 29 ]
+        %tmp.57 = lgetv %i.2;
+        %tmp.58 = add %tmp.57 1;
+        lputv %i.2 %tmp.58;
+        goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_test;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_29_8_for_end:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_WFView_mc_27_4_stop:
+    }
+}
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/WFView.mc"; @line = 1; ]
+<init> {
+}

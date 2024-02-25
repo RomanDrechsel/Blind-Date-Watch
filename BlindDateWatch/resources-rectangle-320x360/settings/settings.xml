@@ -1,0 +1,84 @@
+<settings>
+
+    <!-- theme -->
+    <setting propertyKey="@Properties.Theme" title="@Strings.Theme">
+        <settingConfig type="list" required="true">
+            <listEntry value="0">@Strings.ThDarkBlue</listEntry>
+            <listEntry value="1">@Strings.ThFire</listEntry>
+            <listEntry value="2">@Strings.ThBaW</listEntry>
+            <listEntry value="3">@Strings.ThWaB</listEntry>
+            <listEntry value="4">Steffen</listEntry>
+            <listEntry value="666">Blue screen of death</listEntry>
+            <listEntry value="999">@Strings.ThCustom</listEntry>
+        </settingConfig>
+    </setting>
+
+    <!-- custom theme -->
+    <group id="groupTheme" title="@Strings.ThCustomGroup">
+
+        <!-- background image -->
+        <setting propertyKey="@Properties.ImageBG" title="@Strings.ImageBG">
+            <settingConfig type="list" required="true">
+                <listEntry value="0">@Strings.ColorBG</listEntry>
+                <listEntry value="1">@Strings.ThDarkBlue</listEntry>
+                <listEntry value="2">@Strings.ThFire</listEntry>
+            </settingConfig>
+        </setting>
+
+        <!-- background color -->
+        <setting propertyKey="@Properties.ColorBG" title="@Strings.ColorBG">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <!-- text color -->
+        <setting propertyKey="@Properties.ColorText" title="@Strings.ColorText">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <!-- icon color -->
+        <setting propertyKey="@Properties.ColorIcons" title="@Strings.ColorIcons">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <!-- lines color -->
+        <setting propertyKey="@Properties.ColorLines" title="@Strings.ColorLines">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <!-- hours color -->
+        <setting propertyKey="@Properties.ColorHour" title="@Strings.ColorHour">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <!-- minutes color -->
+        <setting propertyKey="@Properties.ColorMinutes" title="@Strings.ColorMinutes">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <!-- colon color -->
+        <setting propertyKey="@Properties.ColorColon" title="@Strings.ColorColon">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+    </group>
+
+    <!-- date format -->
+    <setting propertyKey="@Properties.FormatDate" title="@Strings.FormatDate">
+        <settingConfig type="list" required="true">
+            <listEntry value="0">28.04.1983</listEntry>
+            <listEntry value="1">1983/04/28</listEntry>
+            <listEntry value="2">1983/4/28</listEntry>
+            <listEntry value="3">04/28/1983</listEntry>
+            <listEntry value="4">4/28/1983</listEntry>
+            <listEntry value="5">28/04/1983</listEntry>
+            <listEntry value="6">28/4/1983</listEntry>
+            <listEntry value="7">1983-04-28</listEntry>
+            <listEntry value="8">1983-4-28</listEntry>
+        </settingConfig>
+    </setting>
+
+    <!-- use military time -->
+    <setting propertyKey="@Properties.TimeZero" title="@Strings.TimeZero">
+        <settingConfig type="boolean" required="true" />
+    </setting>
+
+</settings>

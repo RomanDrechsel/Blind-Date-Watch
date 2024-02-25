@@ -17,7 +17,7 @@ else
     output="$PWD/../../../SteffenWatch/resources-rectangle-320x360/fonts/Roboto_Date"
 fi
 
-codepoints="46,48-57"
+codepoints="45-57"
 
 echo "Ermittle passende Größe..."
 read width height <<<"$(python3 $PWD/checkSize.py \"$font\" $size 250 \"$codepoints\")"

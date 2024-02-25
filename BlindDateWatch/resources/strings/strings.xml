@@ -1,0 +1,26 @@
+<strings>
+
+    <string id="AppName">Blind Date</string>
+
+    <string id="Theme">Theme</string>
+
+    <string id="ThCustomGroup">Customize theme</string>
+    <string id="ThDarkBlue">Dark Blue</string>
+    <string id="ThFire">Fire &amp; Ice</string>
+    <string id="ThBaW">White on black</string>
+    <string id="ThWaB">Black on white</string>
+    <string id="ThCustom">Custom</string>
+
+    <string id="ColorBG">Background color</string>
+    <string id="ColorText">Text color</string>
+    <string id="ColorIcons">Icon color</string>
+    <string id="ColorLines">Line color</string>
+
+    <string id="ColorHour">Hour color</string>
+    <string id="ColorMinutes">Minutes color</string>
+    <string id="ColorColon">Colon color</string>
+
+    <string id="FormatDate">Date format</string>
+    <string id="TimeZero">Leading zero for time</string>
+
+</strings>

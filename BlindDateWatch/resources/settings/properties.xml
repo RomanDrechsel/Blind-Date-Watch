@@ -1,0 +1,15 @@
+<properties>
+
+    <property id="Theme" type="number">0</property>
+    <property id="ColorBG" type="string">#FFFFFF</property>
+    <property id="ColorText" type="string">#73b9e0</property>
+    <property id="ColorIcons" type="string">#00FF00</property>
+    <property id="ColorLines" type="string">#73b9e0</property>
+    <property id="ColorDate" type="string">#0071a2</property>
+    <property id="ColorHour" type="string">#73b9e0</property>
+    <property id="ColorMinutes" type="string">#0071a2</property>
+    <property id="ColorColon" type="string">#FFFFFF</property>
+    <property id="FormatDate" type="number">-1</property>
+    <property id="TimeZero" type="boolean">true</property>
+    
+</properties>

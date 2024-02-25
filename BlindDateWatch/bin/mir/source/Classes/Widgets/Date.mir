@@ -1,0 +1,563 @@
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 3; ]
+import Toybox.Time.Gregorian;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 5; ]
+import Helper;
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 7; ]
+module Widgets {
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 9; ]
+    class Date extends WidgetBase{
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 9; ]
+        <init> {
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 9; ]
+        static
+        <init> {
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 11; @position = 20; ]
+        private
+        var _dateFormat as Number;
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 13; ]
+        function initialize(params as Dictionary) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_14_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 15 12 ]
+            %tmp.2 = getv ? :WidgetBase;
+            %tmp.3 = getv function %tmp.2 :initialize;
+            %tmp.5 = lgetv %params;
+            invoke %tmp.2 %tmp.3(%tmp.5);
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 17 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_14_8_start" "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_14_8_stop" ]
+            %setting.1 = local;
+            %tmp.7 = getv ? :Application;
+            %tmp.8 = getv %tmp.7 :Properties;
+            %tmp.9 = getv function %tmp.8 :getValue;
+            %tmp.10 = "FormatDate";
+            %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+            %tmp.12 = as %tmp.11 Number;
+            lputv %setting.1 %tmp.12;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 18 12 ]
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_12_if_stmt:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_16_begin:
+            %tmp.14 = lgetv %setting.1;
+            %tmp.15 = null;
+            %tmp.16 = ne %tmp.14 %tmp.15;
+            %tmp.17 = dup %tmp.16;
+            bf %tmp.17 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_35_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_35_true:
+            %tmp.19 = lgetv %setting.1;
+            %tmp.20 = as %tmp.19 { (!Null) };
+            %tmp.21 = 0;
+            %tmp.22 = gte %tmp.20 %tmp.21;
+            %tmp.23 = and %tmp.16 %tmp.22;
+            push %tmp.23;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_35_end:
+            %tmp.24 = phi [%tmp.17 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_16_begin] [%tmp.23 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_35_true] [%tmp.24 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_35_end];
+            bf %tmp.24 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_12_if_false;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_12_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_19_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 20 16 ]
+            %tmp.26 = lgetv %setting.1;
+            %tmp.27 = as %tmp.26 { (!Null) };
+            putv self :_dateFormat %tmp.27;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_19_12_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_12_if_false:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_23_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 24 16 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_23_12_start" "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_23_12_stop" ]
+            %lang.2 = local;
+            %tmp.28 = getm $.Toybox.System;
+            %tmp.29 = getv function %tmp.28 :getDeviceSettings;
+            %tmp.30 = invoke %tmp.28 %tmp.29();
+            %tmp.31 = getv %tmp.30 :systemLanguage;
+            lputv %lang.2 %tmp.31;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 25 16 ]
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_25_16_if_stmt:
+            %tmp.32 = newa 4;
+            %tmp.33 = getm $.Toybox.System;
+            %tmp.34 = getv %tmp.33 :LANGUAGE_CHS;
+            %tmp.35 = dup %tmp.32;
+            %tmp.36 = aputv %tmp.35 0 %tmp.34;
+            %tmp.37 = getm $.Toybox.System;
+            %tmp.38 = getv %tmp.37 :LANGUAGE_CHT;
+            %tmp.39 = dup %tmp.36;
+            %tmp.40 = aputv %tmp.39 1 %tmp.38;
+            %tmp.41 = getm $.Toybox.System;
+            %tmp.42 = getv %tmp.41 :LANGUAGE_JPN;
+            %tmp.43 = dup %tmp.40;
+            %tmp.44 = aputv %tmp.43 2 %tmp.42;
+            %tmp.45 = getm $.Toybox.System;
+            %tmp.46 = getv %tmp.45 :LANGUAGE_KOR;
+            %tmp.47 = dup %tmp.44;
+            %tmp.48 = aputv %tmp.47 3 %tmp.46;
+            %tmp.49 = getv function %tmp.48 :indexOf;
+            %tmp.51 = lgetv %lang.2;
+            %tmp.52 = invoke %tmp.48 %tmp.49(%tmp.51);
+            %tmp.53 = 0;
+            %tmp.54 = gte %tmp.52 %tmp.53;
+            bf %tmp.54 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_25_16_if_false;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_25_16_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_26_16_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 28 20 ]
+            %tmp.55 = 1;
+            putv self :_dateFormat %tmp.55;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_26_16_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_25_16_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_25_16_if_false:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 30 21 ]
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_30_21_if_stmt:
+            %tmp.57 = lgetv %lang.2;
+            %tmp.58 = getm $.Toybox.System;
+            %tmp.59 = getv %tmp.58 :LANGUAGE_ENG;
+            %tmp.60 = eq %tmp.57 %tmp.59;
+            bf %tmp.60 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_30_21_if_false;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_30_21_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_31_16_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 33 20 ]
+            %tmp.61 = 3;
+            putv self :_dateFormat %tmp.61;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_31_16_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_30_21_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_30_21_if_false:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 35 21 ]
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_35_21_if_stmt:
+            %tmp.62 = newa 10;
+            %tmp.63 = getm $.Toybox.System;
+            %tmp.64 = getv %tmp.63 :LANGUAGE_ARA;
+            %tmp.65 = dup %tmp.62;
+            %tmp.66 = aputv %tmp.65 0 %tmp.64;
+            %tmp.67 = getm $.Toybox.System;
+            %tmp.68 = getv %tmp.67 :LANGUAGE_GRE;
+            %tmp.69 = dup %tmp.66;
+            %tmp.70 = aputv %tmp.69 1 %tmp.68;
+            %tmp.71 = getm $.Toybox.System;
+            %tmp.72 = getv %tmp.71 :LANGUAGE_HEB;
+            %tmp.73 = dup %tmp.70;
+            %tmp.74 = aputv %tmp.73 2 %tmp.72;
+            %tmp.75 = getm $.Toybox.System;
+            %tmp.76 = getv %tmp.75 :LANGUAGE_IND;
+            %tmp.77 = dup %tmp.74;
+            %tmp.78 = aputv %tmp.77 3 %tmp.76;
+            %tmp.79 = getm $.Toybox.System;
+            %tmp.80 = getv %tmp.79 :LANGUAGE_ITA;
+            %tmp.81 = dup %tmp.78;
+            %tmp.82 = aputv %tmp.81 4 %tmp.80;
+            %tmp.83 = getm $.Toybox.System;
+            %tmp.84 = getv %tmp.83 :LANGUAGE_POR;
+            %tmp.85 = dup %tmp.82;
+            %tmp.86 = aputv %tmp.85 5 %tmp.84;
+            %tmp.87 = getm $.Toybox.System;
+            %tmp.88 = getv %tmp.87 :LANGUAGE_SPA;
+            %tmp.89 = dup %tmp.86;
+            %tmp.90 = aputv %tmp.89 6 %tmp.88;
+            %tmp.91 = getm $.Toybox.System;
+            %tmp.92 = getv %tmp.91 :LANGUAGE_THA;
+            %tmp.93 = dup %tmp.90;
+            %tmp.94 = aputv %tmp.93 7 %tmp.92;
+            %tmp.95 = getm $.Toybox.System;
+            %tmp.96 = getv %tmp.95 :LANGUAGE_VIE;
+            %tmp.97 = dup %tmp.94;
+            %tmp.98 = aputv %tmp.97 8 %tmp.96;
+            %tmp.99 = getm $.Toybox.System;
+            %tmp.100 = getv %tmp.99 :LANGUAGE_ZSM;
+            %tmp.101 = dup %tmp.98;
+            %tmp.102 = aputv %tmp.101 9 %tmp.100;
+            %tmp.103 = getv function %tmp.102 :indexOf;
+            %tmp.105 = lgetv %lang.2;
+            %tmp.106 = invoke %tmp.102 %tmp.103(%tmp.105);
+            %tmp.107 = 0;
+            %tmp.108 = gte %tmp.106 %tmp.107;
+            bf %tmp.108 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_35_21_if_false;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_35_21_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_37_16_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 39 20 ]
+            %tmp.109 = 5;
+            putv self :_dateFormat %tmp.109;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_37_16_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_35_21_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_35_21_if_false:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 41 21 ]
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_41_21_if_stmt:
+            %tmp.111 = lgetv %lang.2;
+            %tmp.112 = getm $.Toybox.System;
+            %tmp.113 = getv %tmp.112 :LANGUAGE_SWE;
+            %tmp.114 = eq %tmp.111 %tmp.113;
+            bf %tmp.114 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_41_21_if_false;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_41_21_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_42_16_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 44 20 ]
+            %tmp.115 = 7;
+            putv self :_dateFormat %tmp.115;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_42_16_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_41_21_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_41_21_if_false:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_47_16_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 48 20 ]
+            %tmp.116 = 0;
+            putv self :_dateFormat %tmp.116;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_47_16_stop:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_41_21_if_end:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_35_21_if_end:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_30_21_if_end:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_25_16_if_end:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 50 16 ]
+            %tmp.117 = getm $.Toybox.System;
+            %tmp.118 = getv function %tmp.117 :println;
+            %tmp.119 = lgetv %self;
+            %tmp.120 = getv %tmp.119 :_dateFormat;
+            invoke %tmp.117 %tmp.118(%tmp.120);
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 51 16 ]
+            %tmp.122 = getv ? :Application;
+            %tmp.123 = getv %tmp.122 :Properties;
+            %tmp.124 = getv function %tmp.123 :setValue;
+            %tmp.125 = "FormatDate";
+            %tmp.126 = lgetv %self;
+            %tmp.127 = getv %tmp.126 :_dateFormat;
+            invoke %tmp.123 %tmp.124(%tmp.125, %tmp.127);
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_23_12_stop:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_18_12_if_end:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_14_8_stop:
+        }
+        [ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 55; ]
+        function draw(dc as Dc) as Void {
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_56_8_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 57 12 ]
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_57_12_if_stmt:
+            %tmp.2 = getv ? :Fonts;
+            %tmp.3 = getv %tmp.2 :Date;
+            %tmp.4 = null;
+            %tmp.5 = eq %tmp.3 %tmp.4;
+            bf %tmp.5 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_57_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_57_12_if_true:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_58_12_start:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 59 16 ]
+            ret ?;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_58_12_stop:
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_57_12_if_end;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_57_12_if_end:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 62 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_56_8_start" "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_56_8_stop" ]
+            %time.1 = local;
+            %tmp.6 = getm $.Toybox.Time.Gregorian;
+            %tmp.7 = getv function %tmp.6 :info;
+            %tmp.9 = getv ? :Time;
+            %tmp.10 = getv function %tmp.9 :now;
+            %tmp.11 = invoke %tmp.9 %tmp.10();
+            %tmp.13 = getv ? :Time;
+            %tmp.14 = getv %tmp.13 :FORMAT_SHORT;
+            %tmp.15 = invoke %tmp.6 %tmp.7(%tmp.11, %tmp.14);
+            lputv %time.1 %tmp.15;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 64 12 ]
+            [ "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_56_8_start" "_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_56_8_stop" ]
+            %date.2 = local;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 65 12 ]
+            %tmp.16 = lgetv %self;
+            %tmp.17 = getv %tmp.16 :_dateFormat;
+            push %tmp.17;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtBegin:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 67 16 ]
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 70 16 ]
+            %tmp.18 = dup %tmp.17;
+            %tmp.19 = 1;
+            %tmp.20 = getv function %tmp.18 :equals;
+            %tmp.21 = invoke %tmp.18 %tmp.20 (%tmp.19);
+            bt %tmp.21 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_70_16_switchCase;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 73 16 ]
+            %tmp.22 = dup %tmp.17;
+            %tmp.23 = 2;
+            %tmp.24 = getv function %tmp.22 :equals;
+            %tmp.25 = invoke %tmp.22 %tmp.24 (%tmp.23);
+            bt %tmp.25 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_73_16_switchCase;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 76 16 ]
+            %tmp.26 = dup %tmp.17;
+            %tmp.27 = 3;
+            %tmp.28 = getv function %tmp.26 :equals;
+            %tmp.29 = invoke %tmp.26 %tmp.28 (%tmp.27);
+            bt %tmp.29 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_76_16_switchCase;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 79 16 ]
+            %tmp.30 = dup %tmp.17;
+            %tmp.31 = 4;
+            %tmp.32 = getv function %tmp.30 :equals;
+            %tmp.33 = invoke %tmp.30 %tmp.32 (%tmp.31);
+            bt %tmp.33 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_79_16_switchCase;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 82 16 ]
+            %tmp.34 = dup %tmp.17;
+            %tmp.35 = 5;
+            %tmp.36 = getv function %tmp.34 :equals;
+            %tmp.37 = invoke %tmp.34 %tmp.36 (%tmp.35);
+            bt %tmp.37 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_82_16_switchCase;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 85 16 ]
+            %tmp.38 = dup %tmp.17;
+            %tmp.39 = 6;
+            %tmp.40 = getv function %tmp.38 :equals;
+            %tmp.41 = invoke %tmp.38 %tmp.40 (%tmp.39);
+            bt %tmp.41 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_85_16_switchCase;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 88 16 ]
+            %tmp.42 = dup %tmp.17;
+            %tmp.43 = 7;
+            %tmp.44 = getv function %tmp.42 :equals;
+            %tmp.45 = invoke %tmp.42 %tmp.44 (%tmp.43);
+            bt %tmp.45 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_88_16_switchCase;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 91 16 ]
+            %tmp.46 = dup %tmp.17;
+            %tmp.47 = 8;
+            %tmp.48 = getv function %tmp.46 :equals;
+            %tmp.49 = invoke %tmp.46 %tmp.48 (%tmp.47);
+            bt %tmp.49 @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_91_16_switchCase;
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_defaultCodeBegin;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_67_16_switchCase:
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_defaultCodeBegin:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 68 20 ]
+            %tmp.50 = lgetv %time.1;
+            %tmp.51 = getv %tmp.50 :day;
+            %tmp.52 = getv function %tmp.51 :format;
+            %tmp.53 = "%02d";
+            %tmp.54 = invoke %tmp.51 %tmp.52(%tmp.53);
+            %tmp.55 = ".";
+            %tmp.56 = add %tmp.54 %tmp.55;
+            %tmp.57 = lgetv %time.1;
+            %tmp.58 = getv %tmp.57 :month;
+            %tmp.59 = getv function %tmp.58 :format;
+            %tmp.60 = "%02d";
+            %tmp.61 = invoke %tmp.58 %tmp.59(%tmp.60);
+            %tmp.62 = add %tmp.56 %tmp.61;
+            %tmp.63 = ".";
+            %tmp.64 = add %tmp.62 %tmp.63;
+            %tmp.65 = lgetv %time.1;
+            %tmp.66 = getv %tmp.65 :year;
+            %tmp.67 = getv function %tmp.66 :toString;
+            %tmp.68 = invoke %tmp.66 %tmp.67();
+            %tmp.69 = add %tmp.64 %tmp.68;
+            lputv %date.2 %tmp.69;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 69 20 ]
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_70_16_switchCase:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 71 20 ]
+            %tmp.70 = lgetv %time.1;
+            %tmp.71 = getv %tmp.70 :year;
+            %tmp.72 = getv function %tmp.71 :toString;
+            %tmp.73 = invoke %tmp.71 %tmp.72();
+            %tmp.74 = "/";
+            %tmp.75 = add %tmp.73 %tmp.74;
+            %tmp.76 = lgetv %time.1;
+            %tmp.77 = getv %tmp.76 :month;
+            %tmp.78 = getv function %tmp.77 :format;
+            %tmp.79 = "%02d";
+            %tmp.80 = invoke %tmp.77 %tmp.78(%tmp.79);
+            %tmp.81 = add %tmp.75 %tmp.80;
+            %tmp.82 = "/";
+            %tmp.83 = add %tmp.81 %tmp.82;
+            %tmp.84 = lgetv %time.1;
+            %tmp.85 = getv %tmp.84 :day;
+            %tmp.86 = getv function %tmp.85 :format;
+            %tmp.87 = "%02d";
+            %tmp.88 = invoke %tmp.85 %tmp.86(%tmp.87);
+            %tmp.89 = add %tmp.83 %tmp.88;
+            lputv %date.2 %tmp.89;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 72 20 ]
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_73_16_switchCase:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 74 20 ]
+            %tmp.90 = lgetv %time.1;
+            %tmp.91 = getv %tmp.90 :year;
+            %tmp.92 = getv function %tmp.91 :toString;
+            %tmp.93 = invoke %tmp.91 %tmp.92();
+            %tmp.94 = "/";
+            %tmp.95 = add %tmp.93 %tmp.94;
+            %tmp.96 = lgetv %time.1;
+            %tmp.97 = getv %tmp.96 :month;
+            %tmp.98 = getv function %tmp.97 :toString;
+            %tmp.99 = invoke %tmp.97 %tmp.98();
+            %tmp.100 = add %tmp.95 %tmp.99;
+            %tmp.101 = "/";
+            %tmp.102 = add %tmp.100 %tmp.101;
+            %tmp.103 = lgetv %time.1;
+            %tmp.104 = getv %tmp.103 :day;
+            %tmp.105 = getv function %tmp.104 :toString;
+            %tmp.106 = invoke %tmp.104 %tmp.105();
+            %tmp.107 = add %tmp.102 %tmp.106;
+            lputv %date.2 %tmp.107;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 75 20 ]
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_76_16_switchCase:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 77 20 ]
+            %tmp.108 = lgetv %time.1;
+            %tmp.109 = getv %tmp.108 :month;
+            %tmp.110 = getv function %tmp.109 :format;
+            %tmp.111 = "%02d";
+            %tmp.112 = invoke %tmp.109 %tmp.110(%tmp.111);
+            %tmp.113 = "/";
+            %tmp.114 = add %tmp.112 %tmp.113;
+            %tmp.115 = lgetv %time.1;
+            %tmp.116 = getv %tmp.115 :day;
+            %tmp.117 = getv function %tmp.116 :format;
+            %tmp.118 = "%02d";
+            %tmp.119 = invoke %tmp.116 %tmp.117(%tmp.118);
+            %tmp.120 = add %tmp.114 %tmp.119;
+            %tmp.121 = "/";
+            %tmp.122 = add %tmp.120 %tmp.121;
+            %tmp.123 = lgetv %time.1;
+            %tmp.124 = getv %tmp.123 :year;
+            %tmp.125 = getv function %tmp.124 :toString;
+            %tmp.126 = invoke %tmp.124 %tmp.125();
+            %tmp.127 = add %tmp.122 %tmp.126;
+            lputv %date.2 %tmp.127;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 78 20 ]
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_79_16_switchCase:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 80 20 ]
+            %tmp.128 = lgetv %time.1;
+            %tmp.129 = getv %tmp.128 :month;
+            %tmp.130 = getv function %tmp.129 :toString;
+            %tmp.131 = invoke %tmp.129 %tmp.130();
+            %tmp.132 = "/";
+            %tmp.133 = add %tmp.131 %tmp.132;
+            %tmp.134 = lgetv %time.1;
+            %tmp.135 = getv %tmp.134 :day;
+            %tmp.136 = getv function %tmp.135 :toString;
+            %tmp.137 = invoke %tmp.135 %tmp.136();
+            %tmp.138 = add %tmp.133 %tmp.137;
+            %tmp.139 = "/";
+            %tmp.140 = add %tmp.138 %tmp.139;
+            %tmp.141 = lgetv %time.1;
+            %tmp.142 = getv %tmp.141 :year;
+            %tmp.143 = getv function %tmp.142 :toString;
+            %tmp.144 = invoke %tmp.142 %tmp.143();
+            %tmp.145 = add %tmp.140 %tmp.144;
+            lputv %date.2 %tmp.145;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 81 20 ]
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_82_16_switchCase:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 83 20 ]
+            %tmp.146 = lgetv %time.1;
+            %tmp.147 = getv %tmp.146 :day;
+            %tmp.148 = getv function %tmp.147 :format;
+            %tmp.149 = "%02d";
+            %tmp.150 = invoke %tmp.147 %tmp.148(%tmp.149);
+            %tmp.151 = "/";
+            %tmp.152 = add %tmp.150 %tmp.151;
+            %tmp.153 = lgetv %time.1;
+            %tmp.154 = getv %tmp.153 :month;
+            %tmp.155 = getv function %tmp.154 :format;
+            %tmp.156 = "%02d";
+            %tmp.157 = invoke %tmp.154 %tmp.155(%tmp.156);
+            %tmp.158 = add %tmp.152 %tmp.157;
+            %tmp.159 = "/";
+            %tmp.160 = add %tmp.158 %tmp.159;
+            %tmp.161 = lgetv %time.1;
+            %tmp.162 = getv %tmp.161 :year;
+            %tmp.163 = getv function %tmp.162 :toString;
+            %tmp.164 = invoke %tmp.162 %tmp.163();
+            %tmp.165 = add %tmp.160 %tmp.164;
+            lputv %date.2 %tmp.165;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 84 20 ]
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_85_16_switchCase:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 86 20 ]
+            %tmp.166 = lgetv %time.1;
+            %tmp.167 = getv %tmp.166 :day;
+            %tmp.168 = getv function %tmp.167 :toString;
+            %tmp.169 = invoke %tmp.167 %tmp.168();
+            %tmp.170 = "/";
+            %tmp.171 = add %tmp.169 %tmp.170;
+            %tmp.172 = lgetv %time.1;
+            %tmp.173 = getv %tmp.172 :month;
+            %tmp.174 = getv function %tmp.173 :toString;
+            %tmp.175 = invoke %tmp.173 %tmp.174();
+            %tmp.176 = add %tmp.171 %tmp.175;
+            %tmp.177 = "/";
+            %tmp.178 = add %tmp.176 %tmp.177;
+            %tmp.179 = lgetv %time.1;
+            %tmp.180 = getv %tmp.179 :year;
+            %tmp.181 = getv function %tmp.180 :toString;
+            %tmp.182 = invoke %tmp.180 %tmp.181();
+            %tmp.183 = add %tmp.178 %tmp.182;
+            lputv %date.2 %tmp.183;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 87 20 ]
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_88_16_switchCase:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 89 20 ]
+            %tmp.184 = lgetv %time.1;
+            %tmp.185 = getv %tmp.184 :year;
+            %tmp.186 = getv function %tmp.185 :toString;
+            %tmp.187 = invoke %tmp.185 %tmp.186();
+            %tmp.188 = "-";
+            %tmp.189 = add %tmp.187 %tmp.188;
+            %tmp.190 = lgetv %time.1;
+            %tmp.191 = getv %tmp.190 :month;
+            %tmp.192 = getv function %tmp.191 :format;
+            %tmp.193 = "%02d";
+            %tmp.194 = invoke %tmp.191 %tmp.192(%tmp.193);
+            %tmp.195 = add %tmp.189 %tmp.194;
+            %tmp.196 = "-";
+            %tmp.197 = add %tmp.195 %tmp.196;
+            %tmp.198 = lgetv %time.1;
+            %tmp.199 = getv %tmp.198 :day;
+            %tmp.200 = getv function %tmp.199 :format;
+            %tmp.201 = "%02d";
+            %tmp.202 = invoke %tmp.199 %tmp.200(%tmp.201);
+            %tmp.203 = add %tmp.197 %tmp.202;
+            lputv %date.2 %tmp.203;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 90 20 ]
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_91_16_switchCase:
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 92 20 ]
+            %tmp.204 = lgetv %time.1;
+            %tmp.205 = getv %tmp.204 :year;
+            %tmp.206 = getv function %tmp.205 :toString;
+            %tmp.207 = invoke %tmp.205 %tmp.206();
+            %tmp.208 = "-";
+            %tmp.209 = add %tmp.207 %tmp.208;
+            %tmp.210 = lgetv %time.1;
+            %tmp.211 = getv %tmp.210 :month;
+            %tmp.212 = getv function %tmp.211 :toString;
+            %tmp.213 = invoke %tmp.211 %tmp.212();
+            %tmp.214 = add %tmp.209 %tmp.213;
+            %tmp.215 = "-";
+            %tmp.216 = add %tmp.214 %tmp.215;
+            %tmp.217 = lgetv %time.1;
+            %tmp.218 = getv %tmp.217 :day;
+            %tmp.219 = getv function %tmp.218 :toString;
+            %tmp.220 = invoke %tmp.218 %tmp.219();
+            %tmp.221 = add %tmp.216 %tmp.220;
+            lputv %date.2 %tmp.221;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 93 20 ]
+            goto @_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd;
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_65_12_switchStmtEnd:
+            pop;
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 96 12 ]
+            %tmp.222 = lgetv %dc;
+            %tmp.223 = getv function %tmp.222 :setColor;
+            %tmp.225 = getv ? :Theme;
+            %tmp.226 = getv %tmp.225 :ColorText;
+            %tmp.227 = getm $.Toybox.Graphics;
+            %tmp.228 = getv %tmp.227 :COLOR_TRANSPARENT;
+            invoke %tmp.222 %tmp.223(%tmp.226, %tmp.228);
+[ "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc" 97 12 ]
+            %tmp.229 = lgetv %dc;
+            %tmp.230 = getv function %tmp.229 :drawText;
+            %tmp.231 = lgetv %self;
+            %tmp.232 = getv %tmp.231 :locX;
+            %tmp.233 = lgetv %self;
+            %tmp.234 = getv %tmp.233 :locY;
+            %tmp.236 = getv ? :Fonts;
+            %tmp.237 = getv %tmp.236 :Date;
+            %tmp.239 = lgetv %date.2;
+            %tmp.240 = getm $.Toybox.Graphics;
+            %tmp.241 = getv %tmp.240 :TEXT_JUSTIFY_CENTER;
+            invoke %tmp.229 %tmp.230(%tmp.232, %tmp.234, %tmp.237, %tmp.239, %tmp.241);
+_mnt_zusatz_MyStuff_Coding_Github_BlindDateWatch_BlindDateWatch_source_Classes_Widgets_Date_mc_56_8_stop:
+        }
+    }
+}
+[ @file = "/mnt/zusatz/MyStuff/Coding/Github/BlindDateWatch/BlindDateWatch/source/Classes/Widgets/Date.mc"; @line = 1; ]
+<init> {
+}

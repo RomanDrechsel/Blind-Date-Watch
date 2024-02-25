@@ -1,0 +1,5 @@
+bin/
+build/
+*.code-workspace
+*.iq
+__pycache__

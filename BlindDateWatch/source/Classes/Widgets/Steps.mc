@@ -2,16 +2,16 @@ import Toybox.Lang;
 import Toybox.Graphics;
 import Helper;
 
-module Widgets 
+module Widgets
 {
     class Steps extends WidgetBase
     {
-        function initialize(params as Dictionary) 
+        function initialize(params as Dictionary)
         {
             WidgetBase.initialize(params);
         }
 
-        function draw(dc as Dc) as Void 
+        function draw(dc as Dc) as Void
         {
             if (Fonts.Text == null)
             {
@@ -29,7 +29,7 @@ module Widgets
 
             if (info.steps > 9999)
             {
-                steps = (info.steps / 1000).format("%2.1f") + "K";
+                steps = (info.steps.toFloat() / 1000.0).format("%2.1f") + "K";
             }
 
             var xOffset = 28;
@@ -39,7 +39,7 @@ module Widgets
                 xOffset = 36;
                 yOffset = -7;
             }
-            
+
             dc.setColor(Theme.ColorText, Graphics.COLOR_TRANSPARENT);
             dc.drawText(self.locX + xOffset, self.locY + yOffset, Fonts.Text, steps, Graphics.TEXT_JUSTIFY_LEFT);
         }

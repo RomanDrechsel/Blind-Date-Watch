@@ -1,9 +1,9 @@
 Beta:
 
-<iq:application id="3d11660b-475e-4d32-ae3a-d4e8352904c9" type="watchface" name="@Strings.AppName" entry="WFApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.3.0">
+3d11660b-475e-4d32-ae3a-d4e8352904c9
 
 
 
 Release:
 
-<iq:application id="2b1e0d45-21f6-4e46-a6eb-8245a7f7b88c" type="watchface" name="@Strings.AppName" entry="WFApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.3.0">
+2b1e0d45-21f6-4e46-a6eb-8245a7f7b88c

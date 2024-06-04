@@ -3,16 +3,16 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class WFBackground extends WatchUi.Drawable 
+class WFBackground extends WatchUi.Drawable
 {
-    private var _image = null as BitmapResource;
+    private var _image = null as BitmapResource?;
 
     function initialize(params) {
         Drawable.initialize(params);
         self.Init();
     }
 
-    function draw(dc as Dc) as Void 
+    function draw(dc as Dc) as Void
     {
         dc.setAntiAlias(true);
         dc.setColor(Graphics.COLOR_TRANSPARENT, Theme.ColorBackground);

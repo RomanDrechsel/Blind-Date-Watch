@@ -2,29 +2,29 @@ import Toybox.Lang;
 import Toybox.Graphics;
 import Helper;
 
-module Widgets 
+module Widgets
 {
     class Battery extends WidgetBase
     {
-        function initialize(params as Dictionary) 
+        function initialize(params as Dictionary)
         {
             WidgetBase.initialize(params);
         }
 
-        function draw(dc as Dc) as Void 
+        function draw(dc as Dc) as Void
         {
-            if (Fonts.Text == null)
+            if (Helper.Fonts.Text == null)
             {
                 return;
             }
 
             var battery = System.getSystemStats().battery;
-            if (Fonts.Icons != null)
+            if (Helper.Fonts.Icons != null)
             {
                 if (IsSmallDisplay)
                 {
                     dc.setColor(Theme.ColorIcons, Graphics.COLOR_TRANSPARENT);
-                    dc.drawText(self.locX -7, self.locY + 5, Fonts.Icons, "2", Graphics.TEXT_JUSTIFY_RIGHT);
+                    dc.drawText(self.locX -7, self.locY + 5, Helper.Fonts.Icons, "2", Graphics.TEXT_JUSTIFY_RIGHT);
 
                     var width = 22;
                     var height = 6;
@@ -47,7 +47,7 @@ module Widgets
                 else
                 {
                     dc.setColor(Theme.ColorIcons, Graphics.COLOR_TRANSPARENT);
-                    dc.drawText(self.locX -7, self.locY + 12, Fonts.Icons, "2", Graphics.TEXT_JUSTIFY_RIGHT);
+                    dc.drawText(self.locX -7, self.locY + 12, Helper.Fonts.Icons, "2", Graphics.TEXT_JUSTIFY_RIGHT);
 
                     var width = 34;
                     var height = 9;
@@ -70,7 +70,7 @@ module Widgets
             }
 
             dc.setColor(Theme.ColorText, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(self.locX, self.locY, Fonts.Text, battery.format("%1.1d") + "%", Graphics.TEXT_JUSTIFY_LEFT);            
+            dc.drawText(self.locX, self.locY, Helper.Fonts.Text, battery.format("%1.1d") + "%", Graphics.TEXT_JUSTIFY_LEFT);
         }
     }
 }

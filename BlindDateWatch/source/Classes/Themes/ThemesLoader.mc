@@ -14,31 +14,26 @@ module Themes
             {
                 default:
                 case 0:
-                    Theme = new DarkBlue();
+                    Theme = new Settings.DarkBlue();
                     break;
                 case 1:
-                    Theme = new Fire();
+                    Theme = new Settings.Fire();
                     break;
                 case 2:
-                    Theme = new BaW();
+                    Theme = new Settings.BaW();
                     break;
                 case 3:
-                    Theme = new WaB();
+                    Theme = new Settings.WaB();
                     break;
                 case 4:
-                    Theme = new Steffen();
+                    Theme = new Settings.Steffen();
                     break;
                 case 666:
-                    Theme = new BSoD();
+                    Theme = new Settings.BSoD();
                     break;
                 case 999:
-                    Theme = new Custom();
+                    Theme = new Settings.Custom();
                     break;
-            }
-
-            if (Theme == null)
-            {
-                Theme = new ThemeSettingsBase();
             }
         }
     }

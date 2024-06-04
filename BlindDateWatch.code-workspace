@@ -1,11 +1,8 @@
 {
-	"folders": [
-		{
-			"path": "BlindDateWatch"
-		},
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "BlindDateWatch"
+        }
+    ],
+    "settings": {}
 }

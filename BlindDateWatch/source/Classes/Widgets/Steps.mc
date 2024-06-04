@@ -13,15 +13,15 @@ module Widgets
 
         function draw(dc as Dc) as Void
         {
-            if (Fonts.Text == null)
+            if (Helper.Fonts.Text == null)
             {
                 return;
             }
 
-            if (Fonts.Icons != null)
+            if (Helper.Fonts.Icons != null)
             {
                 dc.setColor(Theme.ColorIcons, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(self.locX, self.locY, Fonts.Icons, "1", Graphics.TEXT_JUSTIFY_LEFT);
+                dc.drawText(self.locX, self.locY, Helper.Fonts.Icons, "1", Graphics.TEXT_JUSTIFY_LEFT);
             }
 
             var info = Toybox.ActivityMonitor.getInfo();
@@ -41,7 +41,7 @@ module Widgets
             }
 
             dc.setColor(Theme.ColorText, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(self.locX + xOffset, self.locY + yOffset, Fonts.Text, steps, Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(self.locX + xOffset, self.locY + yOffset, Helper.Fonts.Text, steps, Graphics.TEXT_JUSTIFY_LEFT);
         }
     }
 }

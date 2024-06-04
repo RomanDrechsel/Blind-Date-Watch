@@ -4,13 +4,13 @@ import Toybox.Time.Gregorian;
 import Toybox.System;
 import Helper;
 
-module Widgets 
+module Widgets
 {
     class Date extends WidgetBase
     {
         private var _dateFormat as Number;
 
-        function initialize(params as Dictionary) 
+        function initialize(params as Dictionary)
         {
             WidgetBase.initialize(params);
 
@@ -32,7 +32,7 @@ module Widgets
                     // mm/dd/yyyy
                     self._dateFormat = 3;
                 }
-                else if ([ System.LANGUAGE_ARA, System.LANGUAGE_GRE, System.LANGUAGE_HEB, System.LANGUAGE_IND, System.LANGUAGE_ITA, 
+                else if ([ System.LANGUAGE_ARA, System.LANGUAGE_GRE, System.LANGUAGE_HEB, System.LANGUAGE_IND, System.LANGUAGE_ITA,
                     System.LANGUAGE_POR, System.LANGUAGE_SPA, System.LANGUAGE_THA, System.LANGUAGE_VIE, System.LANGUAGE_ZSM ].indexOf(lang) >= 0)
                 {
                     // dd/mm/yyyy
@@ -52,9 +52,9 @@ module Widgets
             }
         }
 
-        function draw(dc as Dc) as Void 
+        function draw(dc as Dc) as Void
         {
-            if (Fonts.Date == null)
+            if (Helper.Fonts.Date == null)
             {
                 return;
             }
@@ -94,7 +94,7 @@ module Widgets
             }
 
             dc.setColor(Theme.ColorText, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(self.locX, self.locY, Fonts.Date, date, Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(self.locX, self.locY, Helper.Fonts.Date, date, Graphics.TEXT_JUSTIFY_CENTER);
         }
     }
 }

@@ -5,9 +5,9 @@ import Widgets;
 
 module DrawableContainers
 {
-    class WidgetContainer extends Drawable 
+    class WidgetContainer extends WatchUi.Drawable
     {
-        protected var _Widget = null as WidgetBase;
+        protected var _Widget = null as WidgetBase?;
 
         function initialize(params as Dictionary)
         {
@@ -15,7 +15,7 @@ module DrawableContainers
             self.Init();
         }
 
-        function draw(dc as Dc) as Void 
+        function draw(dc as Dc) as Void
         {
             if (self._Widget != null)
             {

@@ -2,12 +2,12 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.Graphics;
 
-module Helper 
+module Helper
 {
     class ExtText
     {
-        var AnchorX = NaN as Number;
-        var AnchorY = NaN as Number;
+        var AnchorX as Number;
+        var AnchorY as Number;
 
         private var _just = Graphics.TEXT_JUSTIFY_CENTER;
 
@@ -82,15 +82,15 @@ module Helper
 
     class ExtTextPart
     {
-        var Text as String;
+        var Text as Lang.String?;
         var Color as Number;
         var Font as FontResource;
 
-        function initialize(text as String, color as Number, font as FontResource)
+        function initialize(text as Lang.String?, color as Number, font as FontResource)
         {
             self.Text = text;
             self.Color = color;
             self.Font = font;
-        }        
+        }
     }
 }

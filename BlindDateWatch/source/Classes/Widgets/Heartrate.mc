@@ -2,26 +2,26 @@ import Toybox.Lang;
 import Toybox.Graphics;
 import Helper;
 
-module Widgets 
+module Widgets
 {
     class Heartrate extends WidgetBase
     {
-        function initialize(params as Dictionary) 
+        function initialize(params as Dictionary)
         {
             WidgetBase.initialize(params);
         }
 
-        function draw(dc as Dc) as Void 
+        function draw(dc as Dc) as Void
         {
-            if (Fonts.Text == null)
+            if (Helper.Fonts.Text == null)
             {
                 return;
             }
 
-            if (Fonts.Icons != null)
+            if (Helper.Fonts.Icons != null)
             {
                 dc.setColor(Theme.ColorIcons, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(self.locX, self.locY, Fonts.Icons, "0", Graphics.TEXT_JUSTIFY_LEFT);
+                dc.drawText(self.locX, self.locY, Helper.Fonts.Icons, "0", Graphics.TEXT_JUSTIFY_LEFT);
             }
 
             var rate = -1;
@@ -46,7 +46,7 @@ module Widgets
             }
 
             dc.setColor(Theme.ColorText, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(self.locX + xOffset, self.locY + yOffset, Fonts.Text, heartrate, Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(self.locX + xOffset, self.locY + yOffset, Helper.Fonts.Text, heartrate, Graphics.TEXT_JUSTIFY_LEFT);
         }
     }
 }

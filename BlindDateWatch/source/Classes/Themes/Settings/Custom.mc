@@ -1,44 +1,27 @@
 import Toybox.Application;
 import Toybox.Lang;
 
-module Themes
-{ 
-    module Settings
-    {
-        class Custom extends ThemeSettingsBase
-        {
-            public static var ColorBackground = 0x000000;
-            public static var ImageBackground = 0;
-            public static var ColorDate = 0x0071a2;
-            public static var ColorClockHour = 0x73b9e0;
-            public static var ColorClockMinutes = 0x0071a2;
-            public static var ColorClockColon = 0xFFFFFF;
-            public static var ColorText = 0x73b9e0;
-            public static var ColorLines = 0x73b9e0;
-            public static var ColorIcons = 0x00FF00;
-
-            public function initialize()
-            {
-                self.ColorBackground = self.GetColorFromProperties("ColorBG", self.ColorBackground);
-                self.ImageBackground = Application.Properties.getValue("ImageBG") as Number;
-                self.ColorDate = self.GetColorFromProperties("ColorDate", self.ColorDate);
-                self.ColorClockHour = self.GetColorFromProperties("ColorHour", self.ColorClockHour);
-                self.ColorClockMinutes = self.GetColorFromProperties("ColorMinutes", self.ColorClockMinutes);
-                self.ColorClockColon = self.GetColorFromProperties("ColorColon", self.ColorClockColon);
-                self.ColorText = self.GetColorFromProperties("ColorText", self.ColorText);
-                self.ColorLines = self.GetColorFromProperties("ColorLines", self.ColorLines);
-                self.ColorIcons = self.GetColorFromProperties("ColorIcons", self.ColorIcons);
+module Themes {
+    module Settings {
+        class Custom extends ThemeSettingsBase {
+            public function initialize() {
+                self.ColorBackground = self.GetColorFromProperties("ColorBG", "#000000");
+                self.ImageBackground = Helper.Properties.Get("ImageBG", 0) as Number;
+                self.ColorDate = self.GetColorFromProperties("ColorDate", "#0071a2");
+                self.ColorClockHour = self.GetColorFromProperties("ColorHour", "#73b9e0");
+                self.ColorClockMinutes = self.GetColorFromProperties("ColorMinutes", "#0071a2");
+                self.ColorClockColon = self.GetColorFromProperties("ColorColon", "#ffffff");
+                self.ColorText = self.GetColorFromProperties("ColorText", "#73b9e0");
+                self.ColorLines = self.GetColorFromProperties("ColorLines", "#73b9e0");
+                self.ColorIcons = self.GetColorFromProperties("ColorIcons", "#00ff00");
             }
 
-            private static function GetColorFromProperties(key as String, fallback as Number) as Number
-            {
-                //custom color
-                var customcolor = Application.Properties.getValue(key) as String;
+            private static function GetColorFromProperties(key as String, fallback as String) as Number {
+                var customcolor = Helper.Properties.Get(key, fallback) as String;
                 var color = Helper.String.stringReplace(customcolor, "#", "").toNumberWithBase(16);
 
-                if (color == null)
-                {
-                    color = fallback;
+                if (color == null) {
+                    color = Helper.String.stringReplace(fallback, "#", "").toNumberWithBase(16);
                 }
 
                 return color;

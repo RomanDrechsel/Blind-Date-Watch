@@ -1,20 +1,19 @@
 import Toybox.Application;
 import Toybox.Lang;
 
-module Themes
-{ 
-    module Settings
-    {
-        class BSoD extends ThemeSettingsBase
-        {
-            public static var ColorBackground = 0x0827F5;
-            public static var ColorDate = 0xFFFFFF;
-            public static var ColorClockHour = 0xFFFFFF;
-            public static var ColorClockMinutes = 0xFFFFFF;
-            public static var ColorClockColon = 0xFFFFFF;
-            public static var ColorText = 0xFFFFFF;
-            public static var ColorLines = 0xFFFFFF;
-            public static var ColorIcons = 0xFFFFFF;
+module Themes {
+    module Settings {
+        class BSoD extends ThemeSettingsBase {
+            function initialize() {
+                self.ColorBackground = 0x0827f5;
+                self.ColorDate = 0xffffff;
+                self.ColorClockHour = 0xffffff;
+                self.ColorClockMinutes = 0xffffff;
+                self.ColorClockColon = 0xffffff;
+                self.ColorText = 0xffffff;
+                self.ColorLines = 0xffffff;
+                self.ColorIcons = 0xffffff;
+            }
         }
     }
 }

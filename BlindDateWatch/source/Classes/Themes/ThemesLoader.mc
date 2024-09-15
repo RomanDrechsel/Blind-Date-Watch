@@ -2,16 +2,11 @@ import Toybox.Lang;
 import Toybox.Application;
 import Themes.Settings;
 
-module Themes
-{
-    class ThemesLoader
-    {
-        static function loadTheme() as Void
-        {
-            Theme = null;
-            var theme = Application.Properties.getValue("Theme") as Number;
-            switch (theme)
-            {
+module Themes {
+    class ThemesLoader {
+        static function loadTheme() as Void {
+            var theme = Helper.Properties.Get("Theme", 0) as Number;
+            switch (theme) {
                 default:
                 case 0:
                     Theme = new Settings.DarkBlue();

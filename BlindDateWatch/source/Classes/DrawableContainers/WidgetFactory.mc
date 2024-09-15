@@ -2,14 +2,10 @@ import Widgets;
 import Toybox.Lang;
 import Toybox.Application;
 
-module DrawableContainers
-{
-    class WidgetFactory
-    {
-        static function GetWidget(pos as String, container_params as Dictionary) as WidgetBase?
-        {
-            switch (pos)
-            {
+module DrawableContainers {
+    class WidgetFactory {
+        static function GetWidget(pos as String, container_params as Dictionary) as WidgetBase? {
+            switch (pos) {
                 case "Clock":
                     return new Widgets.Clock(container_params);
                 case "Date":
@@ -25,9 +21,9 @@ module DrawableContainers
                     return new Widgets.Steps(container_params);
                 case "Battery":
                     return new Widgets.Battery(container_params);
+                default:
+                    return null;
             }
-
-            return null;
         }
     }
 }

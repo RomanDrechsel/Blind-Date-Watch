@@ -5,18 +5,9 @@ import Toybox.System;
 import Toybox.WatchUi;
 
 class WFView extends WatchUi.WatchFace {
-    function initialize() {
-        WatchFace.initialize();
-    }
-
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         self.setLayout(Rez.Layouts.WatchFace(dc));
-    }
-
-    // Update the view
-    function onUpdate(dc as Dc) as Void {
-        View.onUpdate(dc);
     }
 
     function onSettingsChanged() {

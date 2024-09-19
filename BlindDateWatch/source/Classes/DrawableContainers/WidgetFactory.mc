@@ -1,6 +1,5 @@
 import Widgets;
 import Toybox.Lang;
-import Toybox.Application;
 
 module DrawableContainers {
     class WidgetFactory {

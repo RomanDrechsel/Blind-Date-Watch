@@ -9,12 +9,13 @@ class WFApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
-        var settings = System.getDeviceSettings() as DeviceSettings;
-        IsSmallDisplay = settings.screenWidth < 320;
+        IsSmallDisplay = System.getDeviceSettings().screenWidth < 320;
     }
 
     function getInitialView() as Array<Views or InputDelegates>? {
-        self.WatchfaceView = new WFView();
+        if (self.WatchfaceView == null) {
+            self.WatchfaceView = new WFView();
+        }
         return [self.WatchfaceView] as Array<Views or InputDelegates>;
     }
 

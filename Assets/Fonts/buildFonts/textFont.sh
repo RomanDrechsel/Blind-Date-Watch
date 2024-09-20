@@ -11,12 +11,13 @@ font="$PWD/../Roboto/Roboto-Medium.ttf"
 
 if [ "$1" = "s" ] || [ "$1" = "small" ]; then
     size=30
-    output="$PWD/../../../SteffenWatch/resources-rectangle-240x240/fonts/Roboto_Text"
+    output="$PWD/../../../BlindDateWatch/resources-rectangle-240x240/fonts/Roboto_Text"
+    codepoints="32,37,45-46,48-57,75"
 else
     size=46
-    output="$PWD/../../../SteffenWatch/resources-rectangle-320x360/fonts/Roboto_Text"
+    output="$PWD/../../../BlindDateWatch/resources-rectangle-320x360/fonts/Roboto_Text"
+    codepoints="32,37,45-46,48-57,75,84,100"
 fi
-codepoints="37,45-46,48-57,75"
 
 echo "Ermittle passende Größe..."
 read width height <<<"$(python3 $PWD/checkSize.py \"$font\" $size 250 \"$codepoints\")"
@@ -40,6 +41,6 @@ params=("--font-file=\"$font\""
     "--max-texture-count 1"
 )
 
-eval "~/MyStuff/Coding/Tools/FontBM/fontbm ${params[@]}"
+eval "/mnt/zusatz/Coding/Tools/FontBM/fontbm ${params[@]}"
 
-optipng -o8 "${output}_0.png"
+optipng -o10 "${output}_0.png"

@@ -8,22 +8,22 @@ def checkSize(fontfile, fontsize, maxheight, codepoints, prefix):
     step = 4
 
     tmp = "./tmp"
-    
+
     if os.path.exists(tmp):
         p = subprocess.Popen("rm -rf " + tmp, stdout=subprocess.PIPE, shell=True)
-        (output, err) = p.communicate() 
+        (output, err) = p.communicate()
 
     os.mkdir(tmp)
-        
-    
+
+
     height = startheight
-    
+
     best_size = None
     best_height = None
-    
+
     while height <= maxheight:
         output = os.path.join(tmp, "tmpfile_" + str(height))
-        
+
         params = "--font-file=\"" + fontfile + "\" \
 --output=\"" + output + "\" \
 --font-size=" + str(fontsize) + " \
@@ -43,9 +43,9 @@ def checkSize(fontfile, fontsize, maxheight, codepoints, prefix):
 --texture-name-suffix=index \
 --max-texture-count 1"
 
-        p = subprocess.Popen("~/MyStuff/Coding/Tools/FontBM/fontbm " + params, stdout=subprocess.PIPE, shell=True)
+        p = subprocess.Popen("/mnt/zusatz/Coding/Tools/FontBM/fontbm " + params, stdout=subprocess.PIPE, shell=True)
         (output, _) = p.communicate()
-        
+
         # optimize
         for file in os.scandir(tmp):
             if file.is_file():
@@ -62,23 +62,23 @@ def checkSize(fontfile, fontsize, maxheight, codepoints, prefix):
                 if ext == ".png":
                     size += os.stat(file.path).st_size
                 p = subprocess.Popen("rm " + file.path, stdout=subprocess.PIPE, shell=True)
-                (output, _) = p.communicate() 
-        
-        
-        
+                (output, _) = p.communicate()
+
+
+
         #print(prefix + "Checked " + fontfile + " (" + str(fontsize) + "): " + str(width) + "x" + str(height) + ": " + str(size) + " bytes")
-        
+
         if size > 0:
             if best_size == None or best_size > size:
                 best_height = height
                 best_size = size
-        
+
         height += step
-        
+
     if os.path.exists(tmp):
         p = subprocess.Popen("rm -rf " + tmp, stdout=subprocess.PIPE, shell=True)
-        (output, err) = p.communicate() 
-        
+        (output, err) = p.communicate()
+
     #print(prefix + "Found best Size " + str(width) + "x" + str(best_height) + " with " + str(best_size) + " bytes")
     return width, best_height
 

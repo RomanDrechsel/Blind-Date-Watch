@@ -18,10 +18,10 @@ module Themes {
 
             private static function GetColorFromProperties(key as String, fallback as String) as Number {
                 var customcolor = Helper.Properties.Get(key, fallback) as String;
-                var color = Helper.String.stringReplace(customcolor, "#", "").toNumberWithBase(16);
+                var color = Helper.StringUtil.stringReplace(customcolor, "#", "").toNumberWithBase(16);
 
                 if (color == null) {
-                    color = Helper.String.stringReplace(fallback, "#", "").toNumberWithBase(16);
+                    color = Helper.StringUtil.stringReplace(fallback, "#", "").toNumberWithBase(16);
                 }
 
                 return color;

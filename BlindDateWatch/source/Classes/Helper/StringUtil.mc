@@ -1,7 +1,7 @@
 import Toybox.Lang;
 
 module Helper {
-    class String {
+    class StringUtil {
         static function stringReplace(str, oldString, newString) as String {
             var result = str;
             var index = result.find(oldString);

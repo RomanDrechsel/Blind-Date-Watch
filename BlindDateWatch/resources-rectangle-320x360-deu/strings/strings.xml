@@ -1,3 +1,6 @@
 <strings>
     <string id="ImageBG">Hintergrund-Bild</string>
+    <string id="SBat2">verbleibende Tage</string>
+    <string id="SBat3">Beides</string>
+    <string id="ShortBatteryDays">T</string>
 </strings>

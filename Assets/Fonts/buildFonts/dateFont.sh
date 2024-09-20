@@ -11,10 +11,10 @@ PWD="$(dirname $(realpath $0))"
 font="$PWD/../Roboto/Roboto-Bold.ttf"
 if [ "$1" = "s" ] || [ "$1" = "small" ]; then
     size=40
-    output="$PWD/../../../SteffenWatch/resources-rectangle-240x240/fonts/Roboto_Date"
+    output="$PWD/../../../BlindDateWatch/resources-rectangle-240x240/fonts/Roboto_Date"
 else
     size=56
-    output="$PWD/../../../SteffenWatch/resources-rectangle-320x360/fonts/Roboto_Date"
+    output="$PWD/../../../BlindDateWatch/resources-rectangle-320x360/fonts/Roboto_Date"
 fi
 
 codepoints="45-57"
@@ -41,6 +41,6 @@ params=("--font-file=\"$font\""
     "--max-texture-count 1"
 )
 
-eval "~/MyStuff/Coding/Tools/FontBM/fontbm ${params[@]}"
+eval "/mnt/zusatz/Coding/Tools/FontBM/fontbm ${params[@]}"
 
-optipng -o8 "${output}_0.png"
+optipng -o10 "${output}_0.png"

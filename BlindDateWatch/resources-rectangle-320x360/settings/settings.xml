@@ -80,5 +80,14 @@
     <setting propertyKey="@Properties.TimeZero" title="@Strings.TimeZero">
         <settingConfig type="boolean" required="true" />
     </setting>
+    <!-- display battery level as -->
+        <setting propertyKey="@Properties.Bat" title="@Strings.SBat">
+            <settingConfig type="list" required="true">
+                <listEntry value="0">@Strings.SBat0</listEntry>
+                <listEntry value="1">@Strings.SBat1</listEntry>
+                <listEntry value="2">@Strings.SBat2</listEntry>
+                <listEntry value="3">@Strings.SBat3</listEntry>
+            </settingConfig>
+        </setting>
 
 </settings>

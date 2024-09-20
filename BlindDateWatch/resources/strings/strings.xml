@@ -23,4 +23,8 @@
     <string id="FormatDate">Date format</string>
     <string id="TimeZero">Leading zero for time</string>
 
+    <string id="SBat">Display battery level</string>
+    <string id="SBat0">Bars only</string>
+    <string id="SBat1">Percentage</string>
+
 </strings>

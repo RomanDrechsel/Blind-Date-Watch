@@ -16,7 +16,7 @@ if [ "$1" = "s" ] || [ "$1" = "small" ]; then
 else
     size=46
     output="$PWD/../../../BlindDateWatch/resources-rectangle-320x360/fonts/Roboto_Text"
-    codepoints="32,37,45-46,48-57,75,84,100"
+    codepoints="32,37,45-47,48-57,75,84,100"
 fi
 
 echo "Ermittle passende Größe..."

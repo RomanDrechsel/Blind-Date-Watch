@@ -30,7 +30,7 @@ module Widgets {
             var txt = null;
             var stats = System.getSystemStats();
             var iconWidth = 0;
-            var padding = 10;
+            var padding = IsSmallDisplay ? 10 : 15;
 
             if (Helper.Fonts.Text != null && self._BatteryDisplay > 0) {
                 if (self._BatteryDisplay == 1 || IsSmallDisplay) {

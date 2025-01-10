@@ -21,13 +21,14 @@ class WFApp extends Application.AppBase {
 
     function onStart(state as Dictionary?) as Void {
         Helper.Fonts.Load();
+        DrawableContainers.WidgetFactory.onSettingsChanged();
         Themes.ThemesLoader.loadTheme();
     }
 
-    // New app settings have been received so trigger a UI update
     function onSettingsChanged() as Void {
         Helper.Fonts.Load();
         Themes.ThemesLoader.loadTheme();
+        DrawableContainers.WidgetFactory.onSettingsChanged();
         self.WatchfaceView.onSettingsChanged();
     }
 }

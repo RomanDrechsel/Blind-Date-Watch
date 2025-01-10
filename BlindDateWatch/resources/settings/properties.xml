@@ -10,5 +10,7 @@
 	<property id="ColorColon" type="string">#FFFFFF</property>
 	<property id="FormatDate" type="number">-1</property>
 	<property id="TimeZero" type="boolean">true</property>
+    <property id="ShowHeartrate" type="boolean">true</property>
+    <property id="ShowSteps" type="boolean">true</property>
 	<property type="number" id="Bat">1</property>
 </properties>

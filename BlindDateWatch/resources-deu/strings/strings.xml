@@ -23,6 +23,8 @@
     <string id="FormatDate">Datumsformat</string>
     <string id="TimeZero">Führende Null bei der Uhrzeit</string>
 
+    <string id="SHr">Pulsrate anzeigen</string>
+    <string id="SSt">Schritte anzeigen</string>
     <string id="SBat">Batteriestand anzeigen</string>
     <string id="SBat0">nur Balken</string>
     <string id="SBat1">Prozent</string>

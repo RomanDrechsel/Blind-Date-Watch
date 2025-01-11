@@ -6,9 +6,11 @@ module Widgets {
     class Battery extends WidgetBase {
         private var _BatteryDaysText as String? = null;
         private var _BatteryDisplay = 1;
+        private var _centerContainer = false;
 
         function initialize(params as Dictionary) {
             WidgetBase.initialize(params);
+            self._centerContainer = params.hasKey("center") ? params.get("center") : false;
 
             var settings = Helper.Properties.Get("Bat", -1) as Number;
             var max_settings = IsSmallDisplay ? 1 : 3;
@@ -57,15 +59,19 @@ module Widgets {
             }
 
             var startX = self.locX - (totalwidth / 2).toNumber();
+            var y = self.locY;
+            if (self._centerContainer) {
+                y -= IsSmallDisplay ? 3 : 6;
+            }
 
             if (Helper.Fonts.Icons != null) {
                 dc.setColor(Theme.ColorIcons, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(startX - -7, self.locY + (IsSmallDisplay ? 5 : 12), Helper.Fonts.Icons, "2", Graphics.TEXT_JUSTIFY_LEFT);
+                dc.drawText(startX - -7, y + (IsSmallDisplay ? 5 : 12), Helper.Fonts.Icons, "2", Graphics.TEXT_JUSTIFY_LEFT);
 
                 var width = IsSmallDisplay ? 22 : 34;
                 var height = IsSmallDisplay ? 6 : 9;
                 var x = startX + (IsSmallDisplay ? 12 : 13);
-                var y = self.locY + (IsSmallDisplay ? 16 : 25);
+                var y2 = y + (IsSmallDisplay ? 16 : 25);
 
                 var end = x + ((width * stats.battery) / 100).toNumber();
 
@@ -74,7 +80,7 @@ module Widgets {
                     if (x + barwidth > end) {
                         barwidth = end - x;
                     }
-                    dc.fillRectangle(x, y, barwidth, height);
+                    dc.fillRectangle(x, y2, barwidth, height);
                     x += barwidth + 2;
                 }
 
@@ -83,7 +89,7 @@ module Widgets {
 
             if (txt != null) {
                 dc.setColor(Theme.ColorText, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(startX, self.locY, Helper.Fonts.Text, txt, Graphics.TEXT_JUSTIFY_LEFT);
+                dc.drawText(startX, y, Helper.Fonts.Text, txt, Graphics.TEXT_JUSTIFY_LEFT);
             }
         }
     }

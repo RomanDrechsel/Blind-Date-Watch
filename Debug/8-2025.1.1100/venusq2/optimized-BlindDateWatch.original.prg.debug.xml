@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="15" lineNum="38" parent="globals" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="27" lineNum="43" parent="globals" pc="268435487" symbol="Log"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="27" lineNum="45" parent="globals" pc="268435498" symbol="Log"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="27" lineNum="46" parent="globals" pc="268435505" symbol="Log"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="27" lineNum="50" parent="globals" pc="268435530" symbol="Log"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="28" lineNum="7" parent="globals/Rez" pc="268435674" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="29" lineNum="12" parent="globals/WFApp" pc="268435694" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="30" lineNum="8" parent="globals/WFView" pc="268435706" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="31" lineNum="7" parent="globals/WFBackground" pc="268435718" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="32" lineNum="7" parent="globals/DrawableContainers/WidgetContainer" pc="268435730" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="33" lineNum="8" parent="globals/Widgets/Steps" pc="268435742" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="34" lineNum="6" parent="globals/Widgets/Rect" pc="268435754" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="35" lineNum="7" parent="globals/Widgets/Heartrate" pc="268435766" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="36" lineNum="9" parent="globals/Widgets/Battery" pc="268435778" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="37" lineNum="7" parent="globals/Widgets/Clock" pc="268435790" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="38" lineNum="11" parent="globals/Widgets/Date" pc="268435802" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="39" lineNum="27" parent="globals/WFApp" pc="268435814" symbol="onStart"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="39" lineNum="28" parent="globals/WFApp" pc="268435816" symbol="onStart"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="39" lineNum="29" parent="globals/WFApp" pc="268435832" symbol="onStart"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="39" lineNum="30" parent="globals/WFApp" pc="268435848" symbol="onStart"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="40" lineNum="33" parent="globals/WFApp" pc="268435865" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="40" lineNum="34" parent="globals/WFApp" pc="268435867" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="40" lineNum="35" parent="globals/WFApp" pc="268435883" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="40" lineNum="36" parent="globals/WFApp" pc="268435899" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="40" lineNum="37" parent="globals/WFApp" pc="268435915" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="41" lineNum="20" parent="globals/WFApp" pc="268435928" symbol="getInitialView"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="41" lineNum="21" parent="globals/WFApp" pc="268435930" symbol="getInitialView"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="41" lineNum="22" parent="globals/WFApp" pc="268435939" symbol="getInitialView"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="41" lineNum="24" parent="globals/WFApp" pc="268435968" symbol="getInitialView"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="42" lineNum="15" parent="globals/WFApp" pc="268435981" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="42" lineNum="16" parent="globals/WFApp" pc="268435983" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFApp.mc" id="42" lineNum="17" parent="globals/WFApp" pc="268435995" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="43" lineNum="43" parent="globals/WFView" pc="268436022" symbol="&lt;globals/WFView/&lt;&gt;readDrawables&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="43" lineNum="44" parent="globals/WFView" pc="268436025" symbol="&lt;globals/WFView/&lt;&gt;readDrawables&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="43" lineNum="56" parent="globals/WFView" pc="268436032" symbol="&lt;globals/WFView/&lt;&gt;readDrawables&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="43" lineNum="57" parent="globals/WFView" pc="268436041" symbol="&lt;globals/WFView/&lt;&gt;readDrawables&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="43" lineNum="58" parent="globals/WFView" pc="268436057" symbol="&lt;globals/WFView/&lt;&gt;readDrawables&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="43" lineNum="59" parent="globals/WFView" pc="268436081" symbol="&lt;globals/WFView/&lt;&gt;readDrawables&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="43" lineNum="60" parent="globals/WFView" pc="268436087" symbol="&lt;globals/WFView/&lt;&gt;readDrawables&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="44" lineNum="15" parent="globals/WFView" pc="268436114" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="44" lineNum="16" parent="globals/WFView" pc="268436117" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="44" lineNum="17" parent="globals/WFView" pc="268436126" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="44" lineNum="20" parent="globals/WFView" pc="268436133" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="44" lineNum="21" parent="globals/WFView" pc="268436153" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="44" lineNum="22" parent="globals/WFView" pc="268436163" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="44" lineNum="23" parent="globals/WFView" pc="268436174" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="45" lineNum="11" parent="globals/WFView" pc="268436194" symbol="onLayout"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="45" lineNum="12" parent="globals/WFView" pc="268436196" symbol="onLayout"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="46" lineNum="28" parent="globals/WFView" pc="268436230" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="46" lineNum="29" parent="globals/WFView" pc="268436233" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="46" lineNum="31" parent="globals/WFView" pc="268436245" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="46" lineNum="32" parent="globals/WFView" pc="268436254" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="46" lineNum="35" parent="globals/WFView" pc="268436261" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="46" lineNum="36" parent="globals/WFView" pc="268436281" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="46" lineNum="37" parent="globals/WFView" pc="268436291" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFView.mc" id="46" lineNum="38" parent="globals/WFView" pc="268436302" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="48" lineNum="27" parent="globals/WFBackground" pc="268436322" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="48" lineNum="29" parent="globals/WFBackground" pc="268436325" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="48" lineNum="30" parent="globals/WFBackground" pc="268436332" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="48" lineNum="31" parent="globals/WFBackground" pc="268436340" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="48" lineNum="32" parent="globals/WFBackground" pc="268436351" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="48" lineNum="36" parent="globals/WFBackground" pc="268436367" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="48" lineNum="39" parent="globals/WFBackground" pc="268436406" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="48" lineNum="43" parent="globals/WFBackground" pc="268436422" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="49" lineNum="10" parent="globals/WFBackground" pc="268436461" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="49" lineNum="11" parent="globals/WFBackground" pc="268436463" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="49" lineNum="12" parent="globals/WFBackground" pc="268436479" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="50" lineNum="15" parent="globals/WFBackground" pc="268436487" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="50" lineNum="17" parent="globals/WFBackground" pc="268436490" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="50" lineNum="18" parent="globals/WFBackground" pc="268436497" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="50" lineNum="19" parent="globals/WFBackground" pc="268436508" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="50" lineNum="20" parent="globals/WFBackground" pc="268436530" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="50" lineNum="22" parent="globals/WFBackground" pc="268436538" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/WFBackground.mc" id="50" lineNum="23" parent="globals/WFBackground" pc="268436544" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="51" lineNum="10" parent="globals/DrawableContainers/WidgetFactory" pc="268436559" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="51" lineNum="11" parent="globals/DrawableContainers/WidgetFactory" pc="268436561" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="51" lineNum="12" parent="globals/DrawableContainers/WidgetFactory" pc="268436591" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="52" lineNum="41" parent="globals/DrawableContainers/WidgetFactory" pc="268436622" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetLeft&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="52" lineNum="44" parent="globals/DrawableContainers/WidgetFactory" pc="268436624" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetLeft&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="52" lineNum="45" parent="globals/DrawableContainers/WidgetFactory" pc="268436644" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetLeft&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="52" lineNum="47" parent="globals/DrawableContainers/WidgetFactory" pc="268436669" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetLeft&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="61" parent="globals/DrawableContainers/WidgetFactory" pc="268436671" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="65" parent="globals/DrawableContainers/WidgetFactory" pc="268436674" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="66" parent="globals/DrawableContainers/WidgetFactory" pc="268436692" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="68" parent="globals/DrawableContainers/WidgetFactory" pc="268436708" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="69" parent="globals/DrawableContainers/WidgetFactory" pc="268436715" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="70" parent="globals/DrawableContainers/WidgetFactory" pc="268436722" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="71" parent="globals/DrawableContainers/WidgetFactory" pc="268436736" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="72" parent="globals/DrawableContainers/WidgetFactory" pc="268436761" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="73" parent="globals/DrawableContainers/WidgetFactory" pc="268436768" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="74" parent="globals/DrawableContainers/WidgetFactory" pc="268436793" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="75" parent="globals/DrawableContainers/WidgetFactory" pc="268436800" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="53" lineNum="77" parent="globals/DrawableContainers/WidgetFactory" pc="268436825" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="54" lineNum="81" parent="globals/DrawableContainers/WidgetFactory" pc="268436850" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetBottom&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="54" lineNum="84" parent="globals/DrawableContainers/WidgetFactory" pc="268436852" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetBottom&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="54" lineNum="85" parent="globals/DrawableContainers/WidgetFactory" pc="268436872" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetBottom&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="54" lineNum="87" parent="globals/DrawableContainers/WidgetFactory" pc="268436897" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetBottom&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="55" lineNum="51" parent="globals/DrawableContainers/WidgetFactory" pc="268436899" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetRight&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="55" lineNum="54" parent="globals/DrawableContainers/WidgetFactory" pc="268436901" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetRight&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="55" lineNum="55" parent="globals/DrawableContainers/WidgetFactory" pc="268436921" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetRight&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="55" lineNum="57" parent="globals/DrawableContainers/WidgetFactory" pc="268436946" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetRight&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="15" parent="globals/DrawableContainers/WidgetFactory" pc="268436948" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="19" parent="globals/DrawableContainers/WidgetFactory" pc="268436950" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="20" parent="globals/DrawableContainers/WidgetFactory" pc="268436952" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="22" parent="globals/DrawableContainers/WidgetFactory" pc="268436971" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="24" parent="globals/DrawableContainers/WidgetFactory" pc="268436990" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="25" parent="globals/DrawableContainers/WidgetFactory" pc="268437009" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="26" parent="globals/DrawableContainers/WidgetFactory" pc="268437028" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="28" parent="globals/DrawableContainers/WidgetFactory" pc="268437047" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="30" parent="globals/DrawableContainers/WidgetFactory" pc="268437066" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="32" parent="globals/DrawableContainers/WidgetFactory" pc="268437085" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="34" parent="globals/DrawableContainers/WidgetFactory" pc="268437104" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="36" parent="globals/DrawableContainers/WidgetFactory" pc="268437123" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="21" parent="globals/DrawableContainers/WidgetFactory" pc="268437126" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="23" parent="globals/DrawableContainers/WidgetFactory" pc="268437151" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="27" parent="globals/DrawableContainers/WidgetFactory" pc="268437176" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="29" parent="globals/DrawableContainers/WidgetFactory" pc="268437201" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="31" parent="globals/DrawableContainers/WidgetFactory" pc="268437212" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="33" parent="globals/DrawableContainers/WidgetFactory" pc="268437223" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="35" parent="globals/DrawableContainers/WidgetFactory" pc="268437234" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetFactory.mc" id="56" lineNum="37" parent="globals/DrawableContainers/WidgetFactory" pc="268437245" symbol="GetWidget"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="58" lineNum="23" parent="globals/DrawableContainers/WidgetContainer" pc="268437247" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="58" lineNum="24" parent="globals/DrawableContainers/WidgetContainer" pc="268437249" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="58" lineNum="25" parent="globals/DrawableContainers/WidgetContainer" pc="268437257" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="58" lineNum="31" parent="globals/DrawableContainers/WidgetContainer" pc="268437335" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="58" lineNum="32" parent="globals/DrawableContainers/WidgetContainer" pc="268437344" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="58" lineNum="34" parent="globals/DrawableContainers/WidgetContainer" pc="268437353" symbol="Init"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="59" lineNum="10" parent="globals/DrawableContainers/WidgetContainer" pc="268437362" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="59" lineNum="11" parent="globals/DrawableContainers/WidgetContainer" pc="268437364" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="59" lineNum="12" parent="globals/DrawableContainers/WidgetContainer" pc="268437380" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="60" lineNum="15" parent="globals/DrawableContainers/WidgetContainer" pc="268437388" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="60" lineNum="17" parent="globals/DrawableContainers/WidgetContainer" pc="268437391" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="60" lineNum="18" parent="globals/DrawableContainers/WidgetContainer" pc="268437398" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/DrawableContainers/WidgetContainer.mc" id="60" lineNum="19" parent="globals/DrawableContainers/WidgetContainer" pc="268437404" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="70" parent="globals/Helper/ExtText" pc="268437418" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="75" parent="globals/Helper/ExtText" pc="268437421" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="76" parent="globals/Helper/ExtText" pc="268437424" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="77" parent="globals/Helper/ExtText" pc="268437428" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="78" parent="globals/Helper/ExtText" pc="268437432" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="79" parent="globals/Helper/ExtText" pc="268437449" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="84" parent="globals/Helper/ExtText" pc="268437499" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="86" parent="globals/Helper/ExtText" pc="268437502" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="87" parent="globals/Helper/ExtText" pc="268437526" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="91" parent="globals/Helper/ExtText" pc="268437566" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="92" parent="globals/Helper/ExtText" pc="268437574" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="61" lineNum="96" parent="globals/Helper/ExtText" pc="268437588" symbol="calcDimensions"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="62" lineNum="12" parent="globals/Helper/ExtText" pc="268437603" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="62" lineNum="17" parent="globals/Helper/ExtText" pc="268437605" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="62" lineNum="18" parent="globals/Helper/ExtText" pc="268437614" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="62" lineNum="19" parent="globals/Helper/ExtText" pc="268437623" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="22" parent="globals/Helper/ExtText" pc="268437633" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="24" parent="globals/Helper/ExtText" pc="268437636" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="25" parent="globals/Helper/ExtText" pc="268437639" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="26" parent="globals/Helper/ExtText" pc="268437652" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="29" parent="globals/Helper/ExtText" pc="268437653" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="30" parent="globals/Helper/ExtText" pc="268437667" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="31" parent="globals/Helper/ExtText" pc="268437671" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="32" parent="globals/Helper/ExtText" pc="268437693" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="35" parent="globals/Helper/ExtText" pc="268437694" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="36" parent="globals/Helper/ExtText" pc="268437701" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="37" parent="globals/Helper/ExtText" pc="268437708" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="38" parent="globals/Helper/ExtText" pc="268437716" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="39" parent="globals/Helper/ExtText" pc="268437732" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="40" parent="globals/Helper/ExtText" pc="268437740" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="44" parent="globals/Helper/ExtText" pc="268437750" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="45" parent="globals/Helper/ExtText" pc="268437754" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="46" parent="globals/Helper/ExtText" pc="268437767" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="47" parent="globals/Helper/ExtText" pc="268437774" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="52" parent="globals/Helper/ExtText" pc="268437812" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="54" parent="globals/Helper/ExtText" pc="268437815" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="55" parent="globals/Helper/ExtText" pc="268437841" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="56" parent="globals/Helper/ExtText" pc="268437859" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="63" parent="globals/Helper/ExtText" pc="268437893" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="63" lineNum="67" parent="globals/Helper/ExtText" pc="268437935" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="64" lineNum="105" parent="globals/Helper/ExtTextPart" pc="268437941" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="64" lineNum="110" parent="globals/Helper/ExtTextPart" pc="268437943" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="64" lineNum="111" parent="globals/Helper/ExtTextPart" pc="268437952" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/ExtText.mc" id="64" lineNum="112" parent="globals/Helper/ExtTextPart" pc="268437961" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Fonts.mc" id="65" lineNum="11" parent="globals/Helper/Fonts" pc="268437971" symbol="Load"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Fonts.mc" id="65" lineNum="12" parent="globals/Helper/Fonts" pc="268437973" symbol="Load"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Fonts.mc" id="65" lineNum="13" parent="globals/Helper/Fonts" pc="268438011" symbol="Load"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Fonts.mc" id="65" lineNum="14" parent="globals/Helper/Fonts" pc="268438049" symbol="Load"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Fonts.mc" id="65" lineNum="15" parent="globals/Helper/Fonts" pc="268438087" symbol="Load"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Properties.mc" id="67" lineNum="8" parent="globals/Helper/Properties" pc="268438126" symbol="Get"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Properties.mc" id="67" lineNum="10" parent="globals/Helper/Properties" pc="268438129" symbol="Get"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Properties.mc" id="67" lineNum="11" parent="globals/Helper/Properties" pc="268438144" symbol="Get"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Properties.mc" id="67" lineNum="12" parent="globals/Helper/Properties" pc="268438163" symbol="Get"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/Properties.mc" id="67" lineNum="14" parent="globals/Helper/Properties" pc="268438203" symbol="Get"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/StringUtil.mc" id="69" lineNum="5" parent="globals/Helper/StringUtil" pc="268438206" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/StringUtil.mc" id="69" lineNum="6" parent="globals/Helper/StringUtil" pc="268438209" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/StringUtil.mc" id="69" lineNum="7" parent="globals/Helper/StringUtil" pc="268438213" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/StringUtil.mc" id="69" lineNum="8" parent="globals/Helper/StringUtil" pc="268438226" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/StringUtil.mc" id="69" lineNum="9" parent="globals/Helper/StringUtil" pc="268438232" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/StringUtil.mc" id="69" lineNum="10" parent="globals/Helper/StringUtil" pc="268438244" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/StringUtil.mc" id="69" lineNum="14" parent="globals/Helper/StringUtil" pc="268438280" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Helper/StringUtil.mc" id="69" lineNum="17" parent="globals/Helper/StringUtil" pc="268438296" symbol="stringReplace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="71" lineNum="74" parent="globals/Widgets/Steps" pc="268438299" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="71" lineNum="75" parent="globals/Widgets/Steps" pc="268438301" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="72" lineNum="78" parent="globals/Widgets/Steps" pc="268438310" symbol="&lt;globals/Widgets/Steps/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="72" lineNum="80" parent="globals/Widgets/Steps" pc="268438313" symbol="&lt;globals/Widgets/Steps/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="72" lineNum="81" parent="globals/Widgets/Steps" pc="268438329" symbol="&lt;globals/Widgets/Steps/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="72" lineNum="82" parent="globals/Widgets/Steps" pc="268438361" symbol="&lt;globals/Widgets/Steps/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="72" lineNum="83" parent="globals/Widgets/Steps" pc="268438367" symbol="&lt;globals/Widgets/Steps/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="73" lineNum="11" parent="globals/Widgets/Steps" pc="268438400" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="73" lineNum="12" parent="globals/Widgets/Steps" pc="268438402" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="73" lineNum="13" parent="globals/Widgets/Steps" pc="268438418" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="18" parent="globals/Widgets/Steps" pc="268438461" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="20" parent="globals/Widgets/Steps" pc="268438464" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="21" parent="globals/Widgets/Steps" pc="268438482" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="24" parent="globals/Widgets/Steps" pc="268438483" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="25" parent="globals/Widgets/Steps" pc="268438487" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="26" parent="globals/Widgets/Steps" pc="268438499" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="27" parent="globals/Widgets/Steps" pc="268438522" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="29" parent="globals/Widgets/Steps" pc="268438529" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="30" parent="globals/Widgets/Steps" pc="268438539" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="32" parent="globals/Widgets/Steps" pc="268438581" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="33" parent="globals/Widgets/Steps" pc="268438590" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="34" parent="globals/Widgets/Steps" pc="268438627" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="35" parent="globals/Widgets/Steps" pc="268438634" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="38" parent="globals/Widgets/Steps" pc="268438643" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="39" parent="globals/Widgets/Steps" pc="268438652" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="41" parent="globals/Widgets/Steps" pc="268438665" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="42" parent="globals/Widgets/Steps" pc="268438669" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="43" parent="globals/Widgets/Steps" pc="268438672" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="44" parent="globals/Widgets/Steps" pc="268438680" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="47" parent="globals/Widgets/Steps" pc="268438693" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="48" parent="globals/Widgets/Steps" pc="268438711" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="49" parent="globals/Widgets/Steps" pc="268438733" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="56" parent="globals/Widgets/Steps" pc="268438777" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="60" parent="globals/Widgets/Steps" pc="268438813" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="74" lineNum="61" parent="globals/Widgets/Steps" pc="268438835" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="75" lineNum="70" parent="globals/Widgets/Steps" pc="268438893" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Steps.mc" id="75" lineNum="71" parent="globals/Widgets/Steps" pc="268438895" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="76" lineNum="11" parent="globals/Widgets/Rect" pc="268438904" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="76" lineNum="12" parent="globals/Widgets/Rect" pc="268438906" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="76" lineNum="13" parent="globals/Widgets/Rect" pc="268438922" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="76" lineNum="14" parent="globals/Widgets/Rect" pc="268438964" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="76" lineNum="15" parent="globals/Widgets/Rect" pc="268439006" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="77" lineNum="20" parent="globals/Widgets/Rect" pc="268439049" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="77" lineNum="22" parent="globals/Widgets/Rect" pc="268439052" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="77" lineNum="23" parent="globals/Widgets/Rect" pc="268439059" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="77" lineNum="24" parent="globals/Widgets/Rect" pc="268439066" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="77" lineNum="25" parent="globals/Widgets/Rect" pc="268439080" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="77" lineNum="26" parent="globals/Widgets/Rect" pc="268439087" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Rect.mc" id="77" lineNum="27" parent="globals/Widgets/Rect" pc="268439109" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="78" lineNum="80" parent="globals/Widgets/Heartrate" pc="268439150" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="78" lineNum="81" parent="globals/Widgets/Heartrate" pc="268439152" symbol="onSettingsChanged"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="79" lineNum="84" parent="globals/Widgets/Heartrate" pc="268439161" symbol="&lt;globals/Widgets/Heartrate/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="79" lineNum="86" parent="globals/Widgets/Heartrate" pc="268439164" symbol="&lt;globals/Widgets/Heartrate/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="79" lineNum="87" parent="globals/Widgets/Heartrate" pc="268439180" symbol="&lt;globals/Widgets/Heartrate/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="79" lineNum="88" parent="globals/Widgets/Heartrate" pc="268439212" symbol="&lt;globals/Widgets/Heartrate/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="79" lineNum="89" parent="globals/Widgets/Heartrate" pc="268439218" symbol="&lt;globals/Widgets/Heartrate/&lt;&gt;calcWidth&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="80" lineNum="10" parent="globals/Widgets/Heartrate" pc="268439251" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="80" lineNum="11" parent="globals/Widgets/Heartrate" pc="268439253" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="80" lineNum="12" parent="globals/Widgets/Heartrate" pc="268439269" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="17" parent="globals/Widgets/Heartrate" pc="268439312" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="26" parent="globals/Widgets/Heartrate" pc="268439315" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="27" parent="globals/Widgets/Heartrate" pc="268439331" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="28" parent="globals/Widgets/Heartrate" pc="268439337" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="31" parent="globals/Widgets/Heartrate" pc="268439338" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="32" parent="globals/Widgets/Heartrate" pc="268439350" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="39" parent="globals/Widgets/Heartrate" pc="268439402" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="40" parent="globals/Widgets/Heartrate" pc="268439411" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="43" parent="globals/Widgets/Heartrate" pc="268439424" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="44" parent="globals/Widgets/Heartrate" pc="268439428" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="45" parent="globals/Widgets/Heartrate" pc="268439432" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="46" parent="globals/Widgets/Heartrate" pc="268439435" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="47" parent="globals/Widgets/Heartrate" pc="268439443" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="50" parent="globals/Widgets/Heartrate" pc="268439456" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="51" parent="globals/Widgets/Heartrate" pc="268439463" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="52" parent="globals/Widgets/Heartrate" pc="268439470" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="53" parent="globals/Widgets/Heartrate" pc="268439477" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="54" parent="globals/Widgets/Heartrate" pc="268439493" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="55" parent="globals/Widgets/Heartrate" pc="268439499" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="56" parent="globals/Widgets/Heartrate" pc="268439517" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="63" parent="globals/Widgets/Heartrate" pc="268439543" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="66" parent="globals/Widgets/Heartrate" pc="268439567" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="81" lineNum="67" parent="globals/Widgets/Heartrate" pc="268439585" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="82" lineNum="76" parent="globals/Widgets/Heartrate" pc="268439625" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Heartrate.mc" id="82" lineNum="77" parent="globals/Widgets/Heartrate" pc="268439627" symbol="onHide"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="14" parent="globals/Widgets/Battery" pc="268439636" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="15" parent="globals/Widgets/Battery" pc="268439639" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="16" parent="globals/Widgets/Battery" pc="268439655" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="20" parent="globals/Widgets/Battery" pc="268439697" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="21" parent="globals/Widgets/Battery" pc="268439723" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="22" parent="globals/Widgets/Battery" pc="268439740" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="23" parent="globals/Widgets/Battery" pc="268439755" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="25" parent="globals/Widgets/Battery" pc="268439767" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="28" parent="globals/Widgets/Battery" pc="268439776" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="29" parent="globals/Widgets/Battery" pc="268439791" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="83" lineNum="32" parent="globals/Widgets/Battery" pc="268439830" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="36" parent="globals/Widgets/Battery" pc="268439839" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="44" parent="globals/Widgets/Battery" pc="268439842" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="45" parent="globals/Widgets/Battery" pc="268439845" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="46" parent="globals/Widgets/Battery" pc="268439852" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="47" parent="globals/Widgets/Battery" pc="268439856" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="48" parent="globals/Widgets/Battery" pc="268439859" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="49" parent="globals/Widgets/Battery" pc="268439871" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="50" parent="globals/Widgets/Battery" pc="268439875" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="52" parent="globals/Widgets/Battery" pc="268439889" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="53" parent="globals/Widgets/Battery" pc="268439905" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="54" parent="globals/Widgets/Battery" pc="268439912" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="55" parent="globals/Widgets/Battery" pc="268439926" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="56" parent="globals/Widgets/Battery" pc="268439939" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="58" parent="globals/Widgets/Battery" pc="268439962" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="59" parent="globals/Widgets/Battery" pc="268439982" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="61" parent="globals/Widgets/Battery" pc="268440003" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="62" parent="globals/Widgets/Battery" pc="268440011" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="63" parent="globals/Widgets/Battery" pc="268440017" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="65" parent="globals/Widgets/Battery" pc="268440030" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="67" parent="globals/Widgets/Battery" pc="268440037" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="70" parent="globals/Widgets/Battery" pc="268440060" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="73" parent="globals/Widgets/Battery" pc="268440075" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="74" parent="globals/Widgets/Battery" pc="268440091" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="75" parent="globals/Widgets/Battery" pc="268440097" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="79" parent="globals/Widgets/Battery" pc="268440115" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="82" parent="globals/Widgets/Battery" pc="268440125" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="83" parent="globals/Widgets/Battery" pc="268440129" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="84" parent="globals/Widgets/Battery" pc="268440148" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="85" parent="globals/Widgets/Battery" pc="268440155" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="86" parent="globals/Widgets/Battery" pc="268440163" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="89" parent="globals/Widgets/Battery" pc="268440180" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="90" parent="globals/Widgets/Battery" pc="268440187" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="91" parent="globals/Widgets/Battery" pc="268440193" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="92" parent="globals/Widgets/Battery" pc="268440211" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="100" parent="globals/Widgets/Battery" pc="268440250" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="101" parent="globals/Widgets/Battery" pc="268440264" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="102" parent="globals/Widgets/Battery" pc="268440281" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="104" parent="globals/Widgets/Battery" pc="268440298" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="108" parent="globals/Widgets/Battery" pc="268440331" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="109" parent="globals/Widgets/Battery" pc="268440339" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="110" parent="globals/Widgets/Battery" pc="268440353" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="114" parent="globals/Widgets/Battery" pc="268440364" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="117" parent="globals/Widgets/Battery" pc="268440371" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="123" parent="globals/Widgets/Battery" pc="268440389" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="126" parent="globals/Widgets/Battery" pc="268440402" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="129" parent="globals/Widgets/Battery" pc="268440412" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="130" parent="globals/Widgets/Battery" pc="268440418" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Battery.mc" id="84" lineNum="131" parent="globals/Widgets/Battery" pc="268440436" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="85" lineNum="12" parent="globals/Widgets/Clock" pc="268440457" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="85" lineNum="13" parent="globals/Widgets/Clock" pc="268440459" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="85" lineNum="14" parent="globals/Widgets/Clock" pc="268440475" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="85" lineNum="19" parent="globals/Widgets/Clock" pc="268440546" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="22" parent="globals/Widgets/Clock" pc="268440577" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="24" parent="globals/Widgets/Clock" pc="268440580" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="25" parent="globals/Widgets/Clock" pc="268440596" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="26" parent="globals/Widgets/Clock" pc="268440602" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="27" parent="globals/Widgets/Clock" pc="268440610" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="28" parent="globals/Widgets/Clock" pc="268440611" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="29" parent="globals/Widgets/Clock" pc="268440620" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="30" parent="globals/Widgets/Clock" pc="268440629" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="33" parent="globals/Widgets/Clock" pc="268440678" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="36" parent="globals/Widgets/Clock" pc="268440743" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="45" parent="globals/Widgets/Clock" pc="268440804" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="46" parent="globals/Widgets/Clock" pc="268440807" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="47" parent="globals/Widgets/Clock" pc="268440819" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="48" parent="globals/Widgets/Clock" pc="268440827" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="49" parent="globals/Widgets/Clock" pc="268440848" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="51" parent="globals/Widgets/Clock" pc="268440864" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="52" parent="globals/Widgets/Clock" pc="268440884" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="53" parent="globals/Widgets/Clock" pc="268440892" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="55" parent="globals/Widgets/Clock" pc="268440902" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="56" parent="globals/Widgets/Clock" pc="268440906" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="57" parent="globals/Widgets/Clock" pc="268440914" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="58" parent="globals/Widgets/Clock" pc="268440926" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="59" parent="globals/Widgets/Clock" pc="268440934" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="61" parent="globals/Widgets/Clock" pc="268440944" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="62" parent="globals/Widgets/Clock" pc="268440957" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="66" parent="globals/Widgets/Clock" pc="268440964" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="67" parent="globals/Widgets/Clock" pc="268440990" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="71" parent="globals/Widgets/Clock" pc="268441000" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="72" parent="globals/Widgets/Clock" pc="268441016" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Clock.mc" id="86" lineNum="73" parent="globals/Widgets/Clock" pc="268441032" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/WidgetBase.mc" id="87" lineNum="8" parent="globals/Widgets/WidgetBase" pc="268441054" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/WidgetBase.mc" id="87" lineNum="9" parent="globals/Widgets/WidgetBase" pc="268441056" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/WidgetBase.mc" id="87" lineNum="10" parent="globals/Widgets/WidgetBase" pc="268441098" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="14" parent="globals/Widgets/Date" pc="268441141" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="16" parent="globals/Widgets/Date" pc="268441144" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="17" parent="globals/Widgets/Date" pc="268441147" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="19" parent="globals/Widgets/Date" pc="268441163" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="21" parent="globals/Widgets/Date" pc="268441194" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="22" parent="globals/Widgets/Date" pc="268441205" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="24" parent="globals/Widgets/Date" pc="268441222" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="33" parent="globals/Widgets/Date" pc="268441243" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="34" parent="globals/Widgets/Date" pc="268441255" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="36" parent="globals/Widgets/Date" pc="268441266" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="37" parent="globals/Widgets/Date" pc="268441278" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="52" parent="globals/Widgets/Date" pc="268441299" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="53" parent="globals/Widgets/Date" pc="268441311" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="55" parent="globals/Widgets/Date" pc="268441322" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="57" parent="globals/Widgets/Date" pc="268441334" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="59" parent="globals/Widgets/Date" pc="268441343" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="60" parent="globals/Widgets/Date" pc="268441350" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="88" lineNum="61" parent="globals/Widgets/Date" pc="268441371" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="68" parent="globals/Widgets/Date" pc="268441392" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="70" parent="globals/Widgets/Date" pc="268441395" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="71" parent="globals/Widgets/Date" pc="268441413" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="74" parent="globals/Widgets/Date" pc="268441414" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="75" parent="globals/Widgets/Date" pc="268441421" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="76" parent="globals/Widgets/Date" pc="268441428" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="77" parent="globals/Widgets/Date" pc="268441453" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="78" parent="globals/Widgets/Date" pc="268441460" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="87" parent="globals/Widgets/Date" pc="268441465" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="95" parent="globals/Widgets/Date" pc="268441481" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="103" parent="globals/Widgets/Date" pc="268441497" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="111" parent="globals/Widgets/Date" pc="268441513" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="119" parent="globals/Widgets/Date" pc="268441529" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="127" parent="globals/Widgets/Date" pc="268441545" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="135" parent="globals/Widgets/Date" pc="268441561" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="143" parent="globals/Widgets/Date" pc="268441577" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="80" parent="globals/Widgets/Date" pc="268441596" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="86" parent="globals/Widgets/Date" pc="268441656" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="88" parent="globals/Widgets/Date" pc="268441659" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="94" parent="globals/Widgets/Date" pc="268441713" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="96" parent="globals/Widgets/Date" pc="268441716" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="102" parent="globals/Widgets/Date" pc="268441762" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="104" parent="globals/Widgets/Date" pc="268441765" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="110" parent="globals/Widgets/Date" pc="268441819" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="112" parent="globals/Widgets/Date" pc="268441822" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="118" parent="globals/Widgets/Date" pc="268441868" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="120" parent="globals/Widgets/Date" pc="268441871" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="126" parent="globals/Widgets/Date" pc="268441925" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="128" parent="globals/Widgets/Date" pc="268441928" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="134" parent="globals/Widgets/Date" pc="268441974" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="136" parent="globals/Widgets/Date" pc="268441977" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="142" parent="globals/Widgets/Date" pc="268442031" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="144" parent="globals/Widgets/Date" pc="268442034" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="150" parent="globals/Widgets/Date" pc="268442080" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="153" parent="globals/Widgets/Date" pc="268442081" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Widgets/Date.mc" id="89" lineNum="154" parent="globals/Widgets/Date" pc="268442103" symbol="draw"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="22" parent="globals/Rez/Layouts" pc="268442142" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="23" parent="globals/Rez/Layouts" pc="268442153" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="25" parent="globals/Rez/Layouts" pc="268442193" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="27" parent="globals/Rez/Layouts" pc="268442250" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="29" parent="globals/Rez/Layouts" pc="268442323" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="31" parent="globals/Rez/Layouts" pc="268442381" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="33" parent="globals/Rez/Layouts" pc="268442455" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="35" parent="globals/Rez/Layouts" pc="268442512" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="37" parent="globals/Rez/Layouts" pc="268442586" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="39" parent="globals/Rez/Layouts" pc="268442644" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="41" parent="globals/Rez/Layouts" pc="268442718" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/gen/006-B4115-00/source/Rez.mcgen" id="90" lineNum="43" parent="globals/Rez/Layouts" pc="268442776" symbol="WatchFace"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="9" parent="globals/Themes/ThemesLoader" pc="268442831" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="10" parent="globals/Themes/ThemesLoader" pc="268442833" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="12" parent="globals/Themes/ThemesLoader" pc="268442856" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="15" parent="globals/Themes/ThemesLoader" pc="268442871" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="18" parent="globals/Themes/ThemesLoader" pc="268442887" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="21" parent="globals/Themes/ThemesLoader" pc="268442903" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="24" parent="globals/Themes/ThemesLoader" pc="268442919" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="27" parent="globals/Themes/ThemesLoader" pc="268442935" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="30" parent="globals/Themes/ThemesLoader" pc="268442952" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="13" parent="globals/Themes/ThemesLoader" pc="268442972" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="14" parent="globals/Themes/ThemesLoader" pc="268443001" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="16" parent="globals/Themes/ThemesLoader" pc="268443004" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="17" parent="globals/Themes/ThemesLoader" pc="268443033" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="19" parent="globals/Themes/ThemesLoader" pc="268443036" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="20" parent="globals/Themes/ThemesLoader" pc="268443065" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="22" parent="globals/Themes/ThemesLoader" pc="268443068" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="23" parent="globals/Themes/ThemesLoader" pc="268443097" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="25" parent="globals/Themes/ThemesLoader" pc="268443100" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="26" parent="globals/Themes/ThemesLoader" pc="268443129" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="28" parent="globals/Themes/ThemesLoader" pc="268443132" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="29" parent="globals/Themes/ThemesLoader" pc="268443161" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="31" parent="globals/Themes/ThemesLoader" pc="268443164" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/ThemesLoader.mc" id="92" lineNum="32" parent="globals/Themes/ThemesLoader" pc="268443193" symbol="loadTheme"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="94" lineNum="6" parent="globals/Themes/Settings/Fire" pc="268443195" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="95" lineNum="6" parent="globals/Themes/Settings/DarkBlue" pc="268443207" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="96" lineNum="6" parent="globals/Themes/Settings/BSoD" pc="268443219" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="97" lineNum="6" parent="globals/Themes/Settings/BaW" pc="268443231" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="98" lineNum="6" parent="globals/Themes/Settings/WaB" pc="268443243" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="99" lineNum="7" parent="globals/Themes/Settings/Custom" pc="268443255" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="100" lineNum="6" parent="globals/Themes/Settings/Steffen" pc="268443267" symbol="&lt;init&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="7" parent="globals/Themes/Settings/Fire" pc="268443279" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="8" parent="globals/Themes/Settings/Fire" pc="268443281" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="9" parent="globals/Themes/Settings/Fire" pc="268443292" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="10" parent="globals/Themes/Settings/Fire" pc="268443301" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="11" parent="globals/Themes/Settings/Fire" pc="268443313" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="12" parent="globals/Themes/Settings/Fire" pc="268443324" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="13" parent="globals/Themes/Settings/Fire" pc="268443335" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="14" parent="globals/Themes/Settings/Fire" pc="268443347" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="15" parent="globals/Themes/Settings/Fire" pc="268443359" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Fire.mc" id="101" lineNum="16" parent="globals/Themes/Settings/Fire" pc="268443371" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="7" parent="globals/Themes/Settings/DarkBlue" pc="268443384" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="9" parent="globals/Themes/Settings/DarkBlue" pc="268443387" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="10" parent="globals/Themes/Settings/DarkBlue" pc="268443393" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="11" parent="globals/Themes/Settings/DarkBlue" pc="268443401" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="12" parent="globals/Themes/Settings/DarkBlue" pc="268443410" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="13" parent="globals/Themes/Settings/DarkBlue" pc="268443420" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="14" parent="globals/Themes/Settings/DarkBlue" pc="268443429" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="15" parent="globals/Themes/Settings/DarkBlue" pc="268443439" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="16" parent="globals/Themes/Settings/DarkBlue" pc="268443451" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="17" parent="globals/Themes/Settings/DarkBlue" pc="268443460" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/DarkBlue.mc" id="102" lineNum="18" parent="globals/Themes/Settings/DarkBlue" pc="268443469" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="7" parent="globals/Themes/Settings/BSoD" pc="268443481" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="9" parent="globals/Themes/Settings/BSoD" pc="268443484" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="10" parent="globals/Themes/Settings/BSoD" pc="268443491" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="11" parent="globals/Themes/Settings/BSoD" pc="268443502" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="12" parent="globals/Themes/Settings/BSoD" pc="268443511" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="13" parent="globals/Themes/Settings/BSoD" pc="268443520" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="14" parent="globals/Themes/Settings/BSoD" pc="268443529" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="15" parent="globals/Themes/Settings/BSoD" pc="268443538" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="16" parent="globals/Themes/Settings/BSoD" pc="268443547" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BSoD.mc" id="103" lineNum="17" parent="globals/Themes/Settings/BSoD" pc="268443556" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="7" parent="globals/Themes/Settings/BaW" pc="268443566" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="9" parent="globals/Themes/Settings/BaW" pc="268443569" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="10" parent="globals/Themes/Settings/BaW" pc="268443576" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="11" parent="globals/Themes/Settings/BaW" pc="268443584" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="12" parent="globals/Themes/Settings/BaW" pc="268443593" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="13" parent="globals/Themes/Settings/BaW" pc="268443602" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="14" parent="globals/Themes/Settings/BaW" pc="268443611" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="15" parent="globals/Themes/Settings/BaW" pc="268443620" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="16" parent="globals/Themes/Settings/BaW" pc="268443629" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/BaW.mc" id="104" lineNum="17" parent="globals/Themes/Settings/BaW" pc="268443638" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="7" parent="globals/Themes/Settings/WaB" pc="268443648" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="9" parent="globals/Themes/Settings/WaB" pc="268443651" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="10" parent="globals/Themes/Settings/WaB" pc="268443654" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="11" parent="globals/Themes/Settings/WaB" pc="268443666" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="12" parent="globals/Themes/Settings/WaB" pc="268443675" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="13" parent="globals/Themes/Settings/WaB" pc="268443684" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="14" parent="globals/Themes/Settings/WaB" pc="268443693" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="15" parent="globals/Themes/Settings/WaB" pc="268443702" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="16" parent="globals/Themes/Settings/WaB" pc="268443711" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/WaB.mc" id="105" lineNum="17" parent="globals/Themes/Settings/WaB" pc="268443720" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="106" lineNum="40" parent="globals/Themes/Settings/Custom" pc="268443730" symbol="&lt;globals/Themes/Settings/Custom/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="106" lineNum="44" parent="globals/Themes/Settings/Custom" pc="268443732" symbol="&lt;globals/Themes/Settings/Custom/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="106" lineNum="50" parent="globals/Themes/Settings/Custom" pc="268443792" symbol="&lt;globals/Themes/Settings/Custom/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="106" lineNum="51" parent="globals/Themes/Settings/Custom" pc="268443798" symbol="&lt;globals/Themes/Settings/Custom/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="106" lineNum="58" parent="globals/Themes/Settings/Custom" pc="268443839" symbol="&lt;globals/Themes/Settings/Custom/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="8" parent="globals/Themes/Settings/Custom" pc="268443842" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="10" parent="globals/Themes/Settings/Custom" pc="268443845" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="11" parent="globals/Themes/Settings/Custom" pc="268443852" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="15" parent="globals/Themes/Settings/Custom" pc="268443877" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="16" parent="globals/Themes/Settings/Custom" pc="268443907" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="17" parent="globals/Themes/Settings/Custom" pc="268443932" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="21" parent="globals/Themes/Settings/Custom" pc="268443954" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="25" parent="globals/Themes/Settings/Custom" pc="268443979" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="29" parent="globals/Themes/Settings/Custom" pc="268444004" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="33" parent="globals/Themes/Settings/Custom" pc="268444026" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Custom.mc" id="107" lineNum="37" parent="globals/Themes/Settings/Custom" pc="268444048" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="7" parent="globals/Themes/Settings/Steffen" pc="268444074" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="9" parent="globals/Themes/Settings/Steffen" pc="268444077" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="10" parent="globals/Themes/Settings/Steffen" pc="268444080" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="11" parent="globals/Themes/Settings/Steffen" pc="268444092" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="12" parent="globals/Themes/Settings/Steffen" pc="268444101" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="13" parent="globals/Themes/Settings/Steffen" pc="268444110" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="14" parent="globals/Themes/Settings/Steffen" pc="268444121" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="15" parent="globals/Themes/Settings/Steffen" pc="268444130" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="16" parent="globals/Themes/Settings/Steffen" pc="268444139" symbol="initialize"/>
+        <entry filename="/mnt/zusatz/Coding/Github/Blind-Date-Watch/BlindDateWatch/bin/optimized/group001-debug/source/source/Classes/Themes/Settings/Steffen.mc" id="108" lineNum="17" parent="globals/Themes/Settings/Steffen" pc="268444148" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="114" symbol="ColorClockMinutes"/>
+        <entry field="true" id="81" symbol="&lt;globals/Widgets/Clock/&lt;&gt;_texts&gt;"/>
+        <entry id="28" module="true" symbol="Widgets"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="116" symbol="ImageBackground"/>
+        <entry id="37" object="true" symbol="Rect"/>
+        <entry field="true" id="82" symbol="&lt;globals/Widgets/Date/&lt;&gt;_dateFormat&gt;"/>
+        <entry field="true" id="93" symbol="ColorText"/>
+        <entry field="true" id="41" symbol="WatchfaceView"/>
+        <entry id="39" object="true" symbol="WidgetBase"/>
+        <entry field="true" id="54" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;_showHeartrate&gt;"/>
+        <entry id="51" method="true" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetLeft&gt;"/>
+        <entry id="36" object="true" symbol="Heartrate"/>
+        <entry id="31" object="true" symbol="ExtText"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="38" object="true" symbol="Steps"/>
+        <entry id="29" object="true" symbol="WidgetContainer"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry id="117" method="true" symbol="loadTheme"/>
+        <entry id="44" object="true" symbol="ThemesLoader"/>
+        <entry field="true" id="111" symbol="ColorBackground"/>
+        <entry id="19" module="true" symbol="DrawableContainers"/>
+        <entry field="true" id="92" symbol="ColorMinutes"/>
+        <entry id="119" object="true" symbol="BaW"/>
+        <entry field="true" id="100" symbol="SBat3"/>
+        <entry field="true" id="99" symbol="SBat2"/>
+        <entry field="true" id="98" symbol="SBat1"/>
+        <entry field="true" id="97" symbol="SBat0"/>
+        <entry id="7" module="true" symbol="globals/Helper/Properties/&lt;statics&gt;"/>
+        <entry id="60" method="true" symbol="calcDimensions"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="53" method="true" symbol="GetWidget"/>
+        <entry id="8389782" module="true" object="true" symbol="StringUtil"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="8389060" object="true" symbol="Text"/>
+        <entry field="true" id="109" symbol="ThWaB"/>
+        <entry field="true" id="55" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;_showSteps&gt;"/>
+        <entry id="47" method="true" symbol="Init"/>
+        <entry field="true" id="103" symbol="ShortBatteryDays"/>
+        <entry field="true" id="83" symbol="BackgroundImageDark"/>
+        <entry id="15" module="true" symbol="globals/Themes/Settings"/>
+        <entry id="75" method="true" symbol="&lt;globals/Widgets/Heartrate/&lt;&gt;calcWidth&gt;"/>
+        <entry field="true" id="72" symbol="&lt;globals/Widgets/Rect/&lt;&gt;_width&gt;"/>
+        <entry field="true" id="112" symbol="ColorClockColon"/>
+        <entry field="true" id="58" symbol="AnchorY"/>
+        <entry field="true" id="57" symbol="AnchorX"/>
+        <entry field="true" id="71" symbol="&lt;globals/Widgets/Rect/&lt;&gt;_height&gt;"/>
+        <entry field="true" id="113" symbol="ColorClockHour"/>
+        <entry field="true" id="86" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry field="true" id="115" symbol="ColorDate"/>
+        <entry field="true" id="79" symbol="&lt;globals/Widgets/Clock/&lt;&gt;_leadingZero&gt;"/>
+        <entry id="6" module="true" symbol="globals/Helper/Fonts/&lt;statics&gt;"/>
+        <entry id="49" method="true" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetBottom&gt;"/>
+        <entry field="true" id="84" symbol="BackgroundImageFire"/>
+        <entry id="14" module="true" symbol="globals/Themes"/>
+        <entry id="13" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="4" module="true" symbol="globals/Helper"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="17" module="true" symbol="globals/Themes/ThemesLoader/&lt;statics&gt;"/>
+        <entry id="121" object="true" symbol="DarkBlue"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8390425" module="true" object="true" symbol="Properties"/>
+        <entry field="true" id="94" symbol="FormatDate"/>
+        <entry id="9" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="63" symbol="Icons"/>
+        <entry id="8" module="true" symbol="globals/Helper/StringUtil/&lt;statics&gt;"/>
+        <entry field="true" id="48" symbol="&lt;globals/WFBackground/&lt;&gt;_image&gt;"/>
+        <entry id="65" method="true" symbol="Get"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="27" object="true" symbol="WFView"/>
+        <entry id="118" object="true" symbol="BSoD"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="77" symbol="&lt;globals/Widgets/Battery/&lt;&gt;_BatteryDisplay&gt;"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="12" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="25" object="true" symbol="WFApp"/>
+        <entry field="true" id="35" object="true" symbol="Date"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="32" object="true" symbol="ExtTextPart"/>
+        <entry field="true" id="74" symbol="&lt;globals/Widgets/Heartrate/&lt;&gt;_width&gt;"/>
+        <entry field="true" id="70" symbol="&lt;globals/Widgets/Rect/&lt;&gt;_centerContainer&gt;"/>
+        <entry id="30" object="true" symbol="WidgetFactory"/>
+        <entry field="true" id="104" symbol="ThBaW"/>
+        <entry id="3" module="true" symbol="globals/DrawableContainers/WidgetFactory/&lt;statics&gt;"/>
+        <entry id="122" object="true" symbol="Fire"/>
+        <entry field="true" id="107" symbol="ThDarkBlue"/>
+        <entry id="16" module="true" symbol="globals/Themes/Settings/Custom/&lt;statics&gt;"/>
+        <entry field="true" id="8391854" symbol="batteryInDays"/>
+        <entry id="22" method="true" symbol="Log"/>
+        <entry field="true" id="45" symbol="&lt;globals/WFView/&lt;&gt;_drawables&gt;"/>
+        <entry field="true" id="21" symbol="IsSmallDisplay"/>
+        <entry id="10" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="64" method="true" symbol="Load"/>
+        <entry field="true" id="90" symbol="ColorIcons"/>
+        <entry field="true" id="102" symbol="SSt"/>
+        <entry field="true" id="56" symbol="_Widget"/>
+        <entry id="18" module="true" symbol="globals/Widgets"/>
+        <entry field="true" id="62" symbol="Font"/>
+        <entry id="50" method="true" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;"/>
+        <entry id="42" module="true" symbol="Settings"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="26" object="true" symbol="WFBackground"/>
+        <entry field="true" id="101" symbol="SHr"/>
+        <entry field="true" id="61" symbol="Color"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="59" symbol="&lt;globals/Helper/ExtText/&lt;&gt;_just&gt;"/>
+        <entry id="66" method="true" symbol="stringReplace"/>
+        <entry field="true" id="96" symbol="SBat"/>
+        <entry field="true" id="91" symbol="ColorLines"/>
+        <entry field="true" id="89" symbol="ColorHour"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="125" method="true" symbol="&lt;globals/Themes/Settings/Custom/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;"/>
+        <entry id="69" method="true" symbol="&lt;globals/Widgets/Steps/&lt;&gt;calcWidth&gt;"/>
+        <entry field="true" id="105" symbol="ThCustom"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry id="2" module="true" symbol="globals/DrawableContainers"/>
+        <entry field="true" id="85" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="80" symbol="&lt;globals/Widgets/Clock/&lt;&gt;_textContainer&gt;"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="33" object="true" symbol="Battery"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="68" symbol="&lt;globals/Widgets/Steps/&lt;&gt;_width&gt;"/>
+        <entry field="true" id="34" object="true" symbol="Clock"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="108" symbol="ThFire"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="5" module="true" symbol="globals/Helper/ExtText/&lt;statics&gt;"/>
+        <entry field="true" id="67" symbol="&lt;globals/Widgets/Steps/&lt;&gt;_centerContainer&gt;"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="87" symbol="ColorBG"/>
+        <entry field="true" id="95" symbol="ImageBG"/>
+        <entry field="true" id="88" symbol="ColorColon"/>
+        <entry field="true" id="78" symbol="&lt;globals/Widgets/Battery/&lt;&gt;_centerContainer&gt;"/>
+        <entry id="124" object="true" symbol="WaB"/>
+        <entry id="43" object="true" symbol="ThemeSettingsBase"/>
+        <entry id="24" module="true" symbol="Themes"/>
+        <entry id="40" module="true" symbol="Layouts"/>
+        <entry id="20" module="true" symbol="Helper"/>
+        <entry id="120" object="true" symbol="Custom"/>
+        <entry field="true" id="73" symbol="&lt;globals/Widgets/Heartrate/&lt;&gt;_centerContainer&gt;"/>
+        <entry id="11" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="123" object="true" symbol="Steffen"/>
+        <entry field="true" id="76" symbol="&lt;globals/Widgets/Battery/&lt;&gt;_BatteryDaysText&gt;"/>
+        <entry field="true" id="23" symbol="Theme"/>
+        <entry field="true" id="110" symbol="TimeZero"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="46" method="true" symbol="&lt;globals/WFView/&lt;&gt;readDrawables&gt;"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="106" symbol="ThCustomGroup"/>
+        <entry id="52" method="true" symbol="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetRight&gt;"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435673" name="obj" stackId="1" startPc="268435487"/>
+        <entry endPc="268435672" name="pre___02d_" stackId="2" startPc="268435498"/>
+        <entry endPc="268435672" name="info" stackId="3" startPc="268435498"/>
+        <entry arg="true" endPc="268435864" name="state" stackId="1" startPc="268435814"/>
+        <entry endPc="268436112" name="ids" stackId="1" startPc="268436025"/>
+        <entry endPc="268436112" name="i" stackId="2" startPc="268436057"/>
+        <entry endPc="268436102" name="drawable" stackId="3" startPc="268436057"/>
+        <entry endPc="268436192" name="i" stackId="1" startPc="268436153"/>
+        <entry endPc="268436182" name="drawable" stackId="2" startPc="268436153"/>
+        <entry arg="true" endPc="268436229" name="dc" stackId="1" startPc="268436194"/>
+        <entry endPc="268436320" name="i" stackId="1" startPc="268436281"/>
+        <entry endPc="268436310" name="drawable" stackId="2" startPc="268436281"/>
+        <entry endPc="268436459" name="pre_Theme" stackId="1" startPc="268436325"/>
+        <entry arg="true" endPc="268436486" name="params" stackId="1" startPc="268436461"/>
+        <entry arg="true" endPc="268436558" name="dc" stackId="1" startPc="268436487"/>
+        <entry endPc="268436557" name="pre__image" stackId="2" startPc="268436490"/>
+        <entry arg="true" endPc="268436670" name="container_params" stackId="1" startPc="268436622"/>
+        <entry arg="true" endPc="268436849" name="container_params" stackId="1" startPc="268436671"/>
+        <entry arg="true" endPc="268436898" name="container_params" stackId="1" startPc="268436850"/>
+        <entry arg="true" endPc="268436947" name="container_params" stackId="1" startPc="268436899"/>
+        <entry arg="true" endPc="268437246" name="pos" stackId="1" startPc="268436948"/>
+        <entry arg="true" endPc="268437246" name="container_params" stackId="2" startPc="268436948"/>
+        <entry arg="true" endPc="268437387" name="params" stackId="1" startPc="268437362"/>
+        <entry arg="true" endPc="268437417" name="dc" stackId="1" startPc="268437388"/>
+        <entry endPc="268437416" name="pre__Widget" stackId="2" startPc="268437391"/>
+        <entry arg="true" endPc="268437602" name="texts" stackId="1" startPc="268437418"/>
+        <entry arg="true" endPc="268437602" name="dc" stackId="2" startPc="268437418"/>
+        <entry endPc="268437587" name="i" stackId="6" startPc="268437449"/>
+        <entry endPc="268437577" name="height" stackId="7" startPc="268437449"/>
+        <entry arg="true" endPc="268437632" name="posx" stackId="1" startPc="268437603"/>
+        <entry arg="true" endPc="268437632" name="posy" stackId="2" startPc="268437603"/>
+        <entry arg="true" endPc="268437632" name="just" stackId="3" startPc="268437603"/>
+        <entry arg="true" endPc="268437940" name="texts" stackId="1" startPc="268437633"/>
+        <entry arg="true" endPc="268437940" name="dc" stackId="2" startPc="268437633"/>
+        <entry endPc="268437924" name="text" stackId="8" startPc="268437767"/>
+        <entry endPc="268437924" name="yoffset" stackId="9" startPc="268437767"/>
+        <entry arg="true" endPc="268437970" name="text" stackId="1" startPc="268437941"/>
+        <entry arg="true" endPc="268437970" name="color" stackId="2" startPc="268437941"/>
+        <entry arg="true" endPc="268437970" name="font" stackId="3" startPc="268437941"/>
+        <entry arg="true" endPc="268438205" name="key" stackId="1" startPc="268438126"/>
+        <entry arg="true" endPc="268438205" name="def_val" stackId="2" startPc="268438126"/>
+        <entry endPc="268438201" name="ex" stackId="3" startPc="268438144"/>
+        <entry arg="true" endPc="268438298" name="str" stackId="1" startPc="268438206"/>
+        <entry arg="true" endPc="268438298" name="oldString" stackId="2" startPc="268438206"/>
+        <entry arg="true" endPc="268438298" name="newString" stackId="3" startPc="268438206"/>
+        <entry arg="true" endPc="268438399" name="dc" stackId="1" startPc="268438310"/>
+        <entry arg="true" endPc="268438399" name="steps" stackId="2" startPc="268438310"/>
+        <entry endPc="268438398" name="pre_Icons" stackId="3" startPc="268438313"/>
+        <entry arg="true" endPc="268438460" name="params" stackId="1" startPc="268438400"/>
+        <entry arg="true" endPc="268438892" name="dc" stackId="1" startPc="268438461"/>
+        <entry endPc="268438891" name="info" stackId="2" startPc="268438464"/>
+        <entry endPc="268438891" name="pre__1" stackId="3" startPc="268438464"/>
+        <entry endPc="268438891" name="pre_2" stackId="4" startPc="268438464"/>
+        <entry endPc="268438891" name="steps_str" stackId="5" startPc="268438464"/>
+        <entry arg="true" endPc="268439048" name="params" stackId="1" startPc="268438904"/>
+        <entry arg="true" endPc="268439149" name="dc" stackId="1" startPc="268439049"/>
+        <entry endPc="268439148" name="pre_Theme" stackId="2" startPc="268439052"/>
+        <entry endPc="268439148" name="pre__height" stackId="3" startPc="268439052"/>
+        <entry endPc="268439148" name="pre__width" stackId="4" startPc="268439052"/>
+        <entry arg="true" endPc="268439250" name="dc" stackId="1" startPc="268439161"/>
+        <entry arg="true" endPc="268439250" name="heartrate" stackId="2" startPc="268439161"/>
+        <entry endPc="268439249" name="pre_Icons" stackId="3" startPc="268439164"/>
+        <entry arg="true" endPc="268439311" name="params" stackId="1" startPc="268439251"/>
+        <entry arg="true" endPc="268439624" name="dc" stackId="1" startPc="268439312"/>
+        <entry endPc="268439623" name="info" stackId="2" startPc="268439315"/>
+        <entry endPc="268439623" name="pre_Icons" stackId="3" startPc="268439315"/>
+        <entry endPc="268439623" name="pre_Text" stackId="4" startPc="268439315"/>
+        <entry endPc="268439623" name="pre_Theme" stackId="5" startPc="268439315"/>
+        <entry endPc="268439623" name="pre_locX" stackId="6" startPc="268439315"/>
+        <entry endPc="268439623" name="pre_locY" stackId="7" startPc="268439315"/>
+        <entry endPc="268439623" name="pre__1" stackId="8" startPc="268439315"/>
+        <entry endPc="268439623" name="pre_2" stackId="9" startPc="268439315"/>
+        <entry endPc="268439623" name="heartrate" stackId="10" startPc="268439315"/>
+        <entry arg="true" endPc="268439838" name="params" stackId="1" startPc="268439636"/>
+        <entry endPc="268439837" name="settings" stackId="2" startPc="268439639"/>
+        <entry arg="true" endPc="268440456" name="dc" stackId="1" startPc="268439839"/>
+        <entry endPc="268440455" name="totalwidth" stackId="2" startPc="268439842"/>
+        <entry endPc="268440455" name="pre_0" stackId="3" startPc="268439842"/>
+        <entry endPc="268440455" name="pre__BatteryDisplay" stackId="4" startPc="268439842"/>
+        <entry endPc="268440455" name="pre_Text" stackId="5" startPc="268439842"/>
+        <entry endPc="268440455" name="pre_IsSmallDisplay" stackId="6" startPc="268439842"/>
+        <entry endPc="268440455" name="pre_Theme" stackId="7" startPc="268439842"/>
+        <entry endPc="268440455" name="pre_2" stackId="8" startPc="268439842"/>
+        <entry endPc="268440455" name="txt" stackId="9" startPc="268439842"/>
+        <entry endPc="268440455" name="stats" stackId="10" startPc="268439842"/>
+        <entry endPc="268440455" name="iconWidth" stackId="11" startPc="268439842"/>
+        <entry endPc="268440455" name="padding" stackId="12" startPc="268439842"/>
+        <entry endPc="268440455" name="startX" stackId="13" startPc="268439842"/>
+        <entry endPc="268440455" name="y" stackId="14" startPc="268439842"/>
+        <entry endPc="268440411" name="height" stackId="15" startPc="268440193"/>
+        <entry endPc="268440411" name="y2" stackId="16" startPc="268440193"/>
+        <entry arg="true" endPc="268440576" name="params" stackId="1" startPc="268440457"/>
+        <entry arg="true" endPc="268441053" name="dc" stackId="1" startPc="268440577"/>
+        <entry endPc="268441052" name="pre_Clock" stackId="2" startPc="268440580"/>
+        <entry endPc="268441052" name="pre_0" stackId="3" startPc="268440580"/>
+        <entry endPc="268441052" name="pre_12" stackId="4" startPc="268440580"/>
+        <entry endPc="268441052" name="hour" stackId="5" startPc="268440580"/>
+        <entry endPc="268441052" name="m" stackId="6" startPc="268440580"/>
+        <entry arg="true" endPc="268441140" name="container_params" stackId="1" startPc="268441054"/>
+        <entry arg="true" endPc="268441391" name="params" stackId="1" startPc="268441141"/>
+        <entry endPc="268441390" name="pre_0" stackId="2" startPc="268441144"/>
+        <entry arg="true" endPc="268442141" name="dc" stackId="1" startPc="268441392"/>
+        <entry endPc="268442140" name="date" stackId="2" startPc="268441395"/>
+        <entry endPc="268442140" name="pre___02d_" stackId="3" startPc="268441395"/>
+        <entry endPc="268442140" name="pre____" stackId="4" startPc="268441395"/>
+        <entry endPc="268442140" name="time" stackId="5" startPc="268441395"/>
+        <entry arg="true" endPc="268442830" name="dc" stackId="1" startPc="268442142"/>
+        <entry endPc="268443479" name="pre_0x73b9e0" stackId="1" startPc="268443387"/>
+        <entry endPc="268443564" name="pre_0xffffff" stackId="1" startPc="268443484"/>
+        <entry endPc="268443646" name="pre_0xffffff" stackId="1" startPc="268443569"/>
+        <entry endPc="268443728" name="pre_0x000000" stackId="1" startPc="268443651"/>
+        <entry arg="true" endPc="268443841" name="key" stackId="1" startPc="268443730"/>
+        <entry arg="true" endPc="268443841" name="fallback" stackId="2" startPc="268443730"/>
+        <entry endPc="268444072" name="pre___73b9e0_" stackId="1" startPc="268443845"/>
+        <entry endPc="268444158" name="pre_0x000000" stackId="1" startPc="268444077"/>
+    </localVars>
+    <deviceInfo deviceVersion="d768f42b362bd6ce30dcbbc223d308fbb5a79106" partNumber="006-B4115-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SBat"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Date"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorHour"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FormatDate"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Text"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorMinutes"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorText"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLines"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThFire"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SSt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShortBatteryDays"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Icons"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Theme"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorIcons"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TimeZero"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBG"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SHr"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThCustom"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThCustomGroup"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SBat2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SBat1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SBat0"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorColon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ImageBG"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Clock"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SBat3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThDarkBlue"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundImageDark"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThBaW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThWaB"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundImageFire"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="175" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/DrawableContainers" offset="305" parentId="globals" symbolId="DrawableContainers" type="module"/>
+        <dataEntry label="globals/Helper" offset="349" parentId="globals" symbolId="Helper" type="module"/>
+        <dataEntry label="globals/Widgets" offset="420" parentId="globals" symbolId="Widgets" type="module"/>
+        <dataEntry label="globals/Rez" offset="509" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/WFApp" offset="571" parentId="globals" symbolId="WFApp" type="class"/>
+        <dataEntry label="globals/Themes" offset="651" parentId="globals" symbolId="Themes" type="module"/>
+        <dataEntry label="globals/WFView" offset="704" parentId="globals" symbolId="WFView" type="class"/>
+        <dataEntry label="globals/WFBackground" offset="793" parentId="globals" symbolId="WFBackground" type="class"/>
+        <dataEntry label="globals/DrawableContainers/WidgetFactory" offset="864" parentId="DrawableContainers" symbolId="WidgetFactory" type="class"/>
+        <dataEntry label="globals/DrawableContainers/WidgetFactory/&lt;statics&gt;" offset="912" parentId="WidgetFactory" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/DrawableContainers/WidgetContainer" offset="1006" parentId="DrawableContainers" symbolId="WidgetContainer" type="class"/>
+        <dataEntry label="globals/Helper/ExtText" offset="1077" parentId="Helper" symbolId="ExtText" type="class"/>
+        <dataEntry label="globals/Helper/ExtText/&lt;statics&gt;" offset="1161" parentId="ExtText" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Helper/ExtTextPart" offset="1192" parentId="Helper" symbolId="ExtTextPart" type="class"/>
+        <dataEntry label="globals/Helper/Fonts" offset="1263" parentId="Helper" symbolId="Fonts" type="class"/>
+        <dataEntry label="globals/Helper/Fonts/&lt;statics&gt;" offset="1311" parentId="Fonts" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Helper/Properties" offset="1378" parentId="Helper" symbolId="Properties" type="class"/>
+        <dataEntry label="globals/Helper/Properties/&lt;statics&gt;" offset="1426" parentId="Properties" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Helper/StringUtil" offset="1457" parentId="Helper" symbolId="StringUtil" type="class"/>
+        <dataEntry label="globals/Helper/StringUtil/&lt;statics&gt;" offset="1505" parentId="StringUtil" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Widgets/Steps" offset="1536" parentId="Widgets" symbolId="Steps" type="class"/>
+        <dataEntry label="globals/Widgets/Rect" offset="1634" parentId="Widgets" symbolId="Rect" type="class"/>
+        <dataEntry label="globals/Widgets/Heartrate" offset="1714" parentId="Widgets" symbolId="Heartrate" type="class"/>
+        <dataEntry label="globals/Widgets/Battery" offset="1812" parentId="Widgets" symbolId="Battery" type="class"/>
+        <dataEntry label="globals/Widgets/Clock" offset="1892" parentId="Widgets" symbolId="Clock" type="class"/>
+        <dataEntry label="globals/Widgets/WidgetBase" offset="1972" parentId="Widgets" symbolId="WidgetBase" type="class"/>
+        <dataEntry label="globals/Widgets/Date" offset="2034" parentId="Widgets" symbolId="Date" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="2096" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="2149" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="2184" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="2246" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Themes/ThemeSettingsBase" offset="2506" parentId="Themes" symbolId="ThemeSettingsBase" type="class"/>
+        <dataEntry label="globals/Themes/ThemesLoader" offset="2631" parentId="Themes" symbolId="ThemesLoader" type="class"/>
+        <dataEntry label="globals/Themes/ThemesLoader/&lt;statics&gt;" offset="2679" parentId="ThemesLoader" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Themes/Settings" offset="2710" parentId="Themes" symbolId="Settings" type="module"/>
+        <dataEntry label="globals/Themes/Settings/Fire" offset="2799" parentId="Settings" symbolId="Fire" type="class"/>
+        <dataEntry label="globals/Themes/Settings/DarkBlue" offset="2843" parentId="Settings" symbolId="DarkBlue" type="class"/>
+        <dataEntry label="globals/Themes/Settings/BSoD" offset="2887" parentId="Settings" symbolId="BSoD" type="class"/>
+        <dataEntry label="globals/Themes/Settings/BaW" offset="2931" parentId="Settings" symbolId="BaW" type="class"/>
+        <dataEntry label="globals/Themes/Settings/WaB" offset="2975" parentId="Settings" symbolId="WaB" type="class"/>
+        <dataEntry label="globals/Themes/Settings/Custom" offset="3019" parentId="Settings" symbolId="Custom" type="class"/>
+        <dataEntry label="globals/Themes/Settings/Custom/&lt;statics&gt;" offset="3067" parentId="Custom" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Themes/Settings/Steffen" offset="3098" parentId="Settings" symbolId="Steffen" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="DrawableContainers">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Helper">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Widgets">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435673" name="Log" startPc="268435487">
+            <param id="obj"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435693" name="&lt;init&gt;" parent="Rez" startPc="268435674">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435705" name="&lt;init&gt;" parent="WFApp" startPc="268435694">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Themes">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435717" name="&lt;init&gt;" parent="WFView" startPc="268435706">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435729" name="&lt;init&gt;" parent="WFBackground" startPc="268435718">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="WidgetFactory">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/DrawableContainers/WidgetFactory">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435741" name="&lt;init&gt;" parent="WidgetContainer" startPc="268435730">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="ExtText">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Helper/ExtText">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="ExtTextPart">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Helper/Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Properties">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Helper/Properties">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="StringUtil">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Helper/StringUtil">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435753" name="&lt;init&gt;" parent="Steps" startPc="268435742">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435765" name="&lt;init&gt;" parent="Rect" startPc="268435754">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435777" name="&lt;init&gt;" parent="Heartrate" startPc="268435766">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435789" name="&lt;init&gt;" parent="Battery" startPc="268435778">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435801" name="&lt;init&gt;" parent="Clock" startPc="268435790">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="WidgetBase">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435813" name="&lt;init&gt;" parent="Date" startPc="268435802">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435864" name="onStart" parent="WFApp" startPc="268435814">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435927" name="onSettingsChanged" parent="WFApp" startPc="268435865">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435980" name="getInitialView" parent="WFApp" startPc="268435928">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436021" name="initialize" parent="WFApp" startPc="268435981">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="ThemeSettingsBase">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="ThemesLoader">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Themes/ThemesLoader">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Settings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436113" name="&lt;globals/WFView/&lt;&gt;readDrawables&gt;" parent="WFView" startPc="268436022">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436193" name="onSettingsChanged" parent="WFView" startPc="268436114">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436229" name="onLayout" parent="WFView" startPc="268436194">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436321" name="onHide" parent="WFView" startPc="268436230">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="WFView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436460" name="Init" parent="WFBackground" startPc="268436322">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436486" name="initialize" parent="WFBackground" startPc="268436461">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436558" name="draw" parent="WFBackground" startPc="268436487">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436621" name="onSettingsChanged" parent="WidgetFactory" startPc="268436559">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436670" name="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetLeft&gt;" parent="WidgetFactory" startPc="268436622">
+            <param id="container_params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436849" name="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetCenter&gt;" parent="WidgetFactory" startPc="268436671">
+            <param id="container_params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436898" name="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetBottom&gt;" parent="WidgetFactory" startPc="268436850">
+            <param id="container_params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436947" name="&lt;globals/DrawableContainers/WidgetFactory/&lt;statics&gt;/&lt;&gt;GetRight&gt;" parent="WidgetFactory" startPc="268436899">
+            <param id="container_params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437246" name="GetWidget" parent="WidgetFactory" startPc="268436948">
+            <param id="pos"/>
+            <param id="container_params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="WidgetFactory">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437361" name="Init" parent="WidgetContainer" startPc="268437247">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437387" name="initialize" parent="WidgetContainer" startPc="268437362">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437417" name="draw" parent="WidgetContainer" startPc="268437388">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437602" name="calcDimensions" parent="ExtText" startPc="268437418">
+            <param id="texts"/>
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437632" name="initialize" parent="ExtText" startPc="268437603">
+            <param id="posx"/>
+            <param id="posy"/>
+            <param id="just"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437940" name="draw" parent="ExtText" startPc="268437633">
+            <param id="texts"/>
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437970" name="initialize" parent="ExtTextPart" startPc="268437941">
+            <param id="text"/>
+            <param id="color"/>
+            <param id="font"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438125" name="Load" parent="Fonts" startPc="268437971">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438205" name="Get" parent="Properties" startPc="268438126">
+            <param id="key"/>
+            <param id="def_val"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Properties">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438298" name="stringReplace" parent="StringUtil" startPc="268438206">
+            <param id="str"/>
+            <param id="oldString"/>
+            <param id="newString"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="StringUtil">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438309" name="onSettingsChanged" parent="Steps" startPc="268438299">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438399" name="&lt;globals/Widgets/Steps/&lt;&gt;calcWidth&gt;" parent="Steps" startPc="268438310">
+            <param id="dc"/>
+            <param id="steps"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438460" name="initialize" parent="Steps" startPc="268438400">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438892" name="draw" parent="Steps" startPc="268438461">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438903" name="onHide" parent="Steps" startPc="268438893">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439048" name="initialize" parent="Rect" startPc="268438904">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439149" name="draw" parent="Rect" startPc="268439049">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439160" name="onSettingsChanged" parent="Heartrate" startPc="268439150">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439250" name="&lt;globals/Widgets/Heartrate/&lt;&gt;calcWidth&gt;" parent="Heartrate" startPc="268439161">
+            <param id="dc"/>
+            <param id="heartrate"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439311" name="initialize" parent="Heartrate" startPc="268439251">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439624" name="draw" parent="Heartrate" startPc="268439312">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439635" name="onHide" parent="Heartrate" startPc="268439625">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439838" name="initialize" parent="Battery" startPc="268439636">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440456" name="draw" parent="Battery" startPc="268439839">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440576" name="initialize" parent="Clock" startPc="268440457">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441053" name="draw" parent="Clock" startPc="268440577">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441140" name="initialize" parent="WidgetBase" startPc="268441054">
+            <param id="container_params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441391" name="initialize" parent="Date" startPc="268441141">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442141" name="draw" parent="Date" startPc="268441392">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442830" name="WatchFace" parent="Layouts" startPc="268442142">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="ThemeSettingsBase">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443194" name="loadTheme" parent="ThemesLoader" startPc="268442831">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="ThemesLoader">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443206" name="&lt;init&gt;" parent="Fire" startPc="268443195">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443218" name="&lt;init&gt;" parent="DarkBlue" startPc="268443207">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443230" name="&lt;init&gt;" parent="BSoD" startPc="268443219">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443242" name="&lt;init&gt;" parent="BaW" startPc="268443231">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443254" name="&lt;init&gt;" parent="WaB" startPc="268443243">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443266" name="&lt;init&gt;" parent="Custom" startPc="268443255">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Themes/Settings/Custom">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443278" name="&lt;init&gt;" parent="Steffen" startPc="268443267">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443383" name="initialize" parent="Fire" startPc="268443279">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443480" name="initialize" parent="DarkBlue" startPc="268443384">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443565" name="initialize" parent="BSoD" startPc="268443481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443647" name="initialize" parent="BaW" startPc="268443566">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443729" name="initialize" parent="WaB" startPc="268443648">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443841" name="&lt;globals/Themes/Settings/Custom/&lt;statics&gt;/&lt;&gt;GetColorFromProperties&gt;" parent="Custom" startPc="268443730">
+            <param id="key"/>
+            <param id="fallback"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444073" name="initialize" parent="Custom" startPc="268443842">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444159" name="initialize" parent="Steffen" startPc="268444074">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

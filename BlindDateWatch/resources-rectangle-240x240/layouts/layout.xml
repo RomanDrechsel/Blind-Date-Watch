@@ -25,31 +25,31 @@
         <param name="height">2</param>
     </drawable>
 
-    <drawable class="DrawableContainers.WidgetContainer" id="Heartrate">
+    <drawable class="DrawableContainers.WidgetContainer" id="WLeft">
         <param name="locX">15</param>
         <param name="locY">159</param>
     </drawable>
 
-    <drawable class="DrawableContainers.WidgetContainer" id="Rect3">
-        <param name="locX">115</param>
+    <drawable class="DrawableContainers.WidgetContainer" id="WCenter">
+        <param name="locX">120</param>
         <param name="locY">159</param>
         <param name="width">2</param>
         <param name="height">30</param>
     </drawable>
 
-    <drawable class="DrawableContainers.WidgetContainer" id="Steps">
+    <drawable class="DrawableContainers.WidgetContainer" id="WRight">
         <param name="locX">125</param>
         <param name="locY">159</param>
     </drawable>
 
-    <drawable class="DrawableContainers.WidgetContainer" id="Rect4">
+    <drawable class="DrawableContainers.WidgetContainer" id="Rect3">
         <param name="locX">45</param>
         <param name="locY">197</param>
         <param name="width">150</param>
         <param name="height">2</param>
     </drawable>
 
-    <drawable class="DrawableContainers.WidgetContainer" id="Battery">
+    <drawable class="DrawableContainers.WidgetContainer" id="WBottom">
         <param name="locX">120</param>
         <param name="locY">199</param>
     </drawable>

@@ -80,6 +80,18 @@
     <setting propertyKey="@Properties.TimeZero" title="@Strings.TimeZero">
         <settingConfig type="boolean" required="true" />
     </setting>
+
+    <!-- display heartrate -->
+    <setting propertyKey="@Properties.ShowHeartrate" title="@Strings.SHr">
+        <settingConfig type="boolean" required="true" />
+    </setting>
+
+    <!-- display steps -->
+    <setting propertyKey="@Properties.ShowSteps" title="@Strings.SSt">
+        <settingConfig type="boolean" required="true" />
+    </setting>
+
+
     <!-- display battery level as -->
         <setting propertyKey="@Properties.Bat" title="@Strings.SBat">
             <settingConfig type="list" required="true">

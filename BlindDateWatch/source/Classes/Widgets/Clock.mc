@@ -51,5 +51,9 @@ module Widgets {
             self._texts[2].Text = m;
             self._textContainer.draw(self._texts, dc);
         }
+
+        public function onHide() {
+            self._texts = null;
+        }
     }
 }

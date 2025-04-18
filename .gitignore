@@ -3,3 +3,4 @@ build/
 *.code-workspace
 *.iq
 __pycache__
+**/.vscode/.history/

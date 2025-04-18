@@ -5,6 +5,7 @@ module Themes {
     module Settings {
         class BSoD extends ThemeSettingsBase {
             function initialize() {
+                ThemeSettingsBase.initialize();
                 self.ColorBackground = 0x0827f5;
                 self.ColorDate = 0xffffff;
                 self.ColorClockHour = 0xffffff;

@@ -5,6 +5,7 @@ module Themes {
     module Settings {
         class DarkBlue extends ThemeSettingsBase {
             function initialize() {
+                ThemeSettingsBase.initialize();
                 self.ColorBackground = 0x000000;
                 self.ImageBackground = 1;
                 self.ColorDate = 0x0071a2;

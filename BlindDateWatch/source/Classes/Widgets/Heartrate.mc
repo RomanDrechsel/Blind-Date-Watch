@@ -49,7 +49,7 @@ module Widgets {
             self._width = null;
         }
 
-        private function calcWidth(dc as Dc, heartrate as String) as Number {
+        private function calcWidth(dc as Dc, heartrate as String) as Void {
             self._width = dc.getTextWidthInPixels(heartrate, Helper.Fonts.Text);
             if (Helper.Fonts.Icons != null) {
                 self._width += self._padding + dc.getTextWidthInPixels("0", Helper.Fonts.Icons);

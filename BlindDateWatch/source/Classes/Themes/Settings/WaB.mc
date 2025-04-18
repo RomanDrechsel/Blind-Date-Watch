@@ -5,6 +5,7 @@ module Themes {
     module Settings {
         class WaB extends ThemeSettingsBase {
             function initialize() {
+                ThemeSettingsBase.initialize();
                 self.ColorBackground = 0xffffff;
                 self.ColorDate = 0x000000;
                 self.ColorClockHour = 0x000000;

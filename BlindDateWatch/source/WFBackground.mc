@@ -31,4 +31,12 @@ class WFBackground extends WatchUi.Drawable {
             }
         }
     }
+
+    public function onShow() as Void {
+        self.Init();
+    }
+
+    public function onHide() as Void {
+        self._image = null;
+    }
 }

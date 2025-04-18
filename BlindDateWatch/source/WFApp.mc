@@ -12,11 +12,11 @@ class WFApp extends Application.AppBase {
         IsSmallDisplay = System.getDeviceSettings().screenWidth < 320;
     }
 
-    function getInitialView() as Array<Views or InputDelegates>? {
+    function getInitialView() as [WatchUi.Views] or [WatchUi.Views, WatchUi.InputDelegates] {
         if (self.WatchfaceView == null) {
             self.WatchfaceView = new WFView();
         }
-        return [self.WatchfaceView] as Array<Views or InputDelegates>;
+        return [self.WatchfaceView] as [WatchUi.Views];
     }
 
     function onStart(state as Dictionary?) as Void {

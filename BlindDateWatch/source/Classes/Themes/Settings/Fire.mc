@@ -5,6 +5,7 @@ module Themes {
     module Settings {
         class Fire extends ThemeSettingsBase {
             function initialize() {
+                ThemeSettingsBase.initialize();
                 self.ColorBackground = 0x590202;
                 self.ImageBackground = 2;
                 self.ColorDate = 0xc8ffff;

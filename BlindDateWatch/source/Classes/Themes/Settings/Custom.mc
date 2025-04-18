@@ -5,6 +5,7 @@ module Themes {
     module Settings {
         class Custom extends ThemeSettingsBase {
             public function initialize() {
+                ThemeSettingsBase.initialize();
                 self.ColorBackground = self.GetColorFromProperties("ColorBG", "#000000");
                 self.ImageBackground = Helper.Properties.Get("ImageBG", 0) as Number;
                 self.ColorDate = self.GetColorFromProperties("ColorDate", "#0071a2");

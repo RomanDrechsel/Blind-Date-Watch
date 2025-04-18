@@ -1,4 +1,5 @@
 import Toybox.Lang;
+import Toybox.WatchUi;
 
 module Widgets {
     class WidgetBase {

@@ -57,7 +57,7 @@ module Widgets {
             self._width = null;
         }
 
-        private function calcWidth(dc as Dc, steps as String) as Number {
+        private function calcWidth(dc as Dc, steps as String) as Void {
             self._width = dc.getTextWidthInPixels(steps, Helper.Fonts.Text);
             if (Helper.Fonts.Icons != null) {
                 self._width += self._padding + dc.getTextWidthInPixels("1", Helper.Fonts.Icons);

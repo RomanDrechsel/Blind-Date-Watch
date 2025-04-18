@@ -17,12 +17,12 @@ module Helper {
 
         function draw(texts as Array<ExtTextPart>, dc as Graphics.Dc) as Number {
             if (texts.size() == 0) {
-                return;
+                return 0;
             }
 
             var dim = self.calcDimensions(texts, dc);
             if (dim[0] <= 0 || dim[1] <= 0) {
-                return;
+                return 0;
             }
 
             var posx = self.AnchorX as Number;
